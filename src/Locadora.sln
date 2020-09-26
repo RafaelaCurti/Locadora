@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{047D5608-F466-4143-B4D2-FE1FCB339A2F}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.xml = ..\build.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{437928BE-93AC-4B08-AA12-6A6925838FBE}"
+	ProjectSection(SolutionItems) = preProject
+		..\cfg\Development\Application.config = ..\cfg\Development\Application.config
+		..\cfg\Development\Log4net.config = ..\cfg\Development\Log4net.config
+		..\cfg\Development\NHibernate.config = ..\cfg\Development\NHibernate.config
+		..\cfg\Development\Remoting.config = ..\cfg\Development\Remoting.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{511DC40E-00F1-4028-A728-7A6C6468D2F4}"
+	ProjectSection(SolutionItems) = preProject
+		..\cfg\Test\Application.config = ..\cfg\Test\Application.config
+		..\cfg\Test\Log4net.config = ..\cfg\Test\Log4net.config
+		..\cfg\Test\NHibernate.config = ..\cfg\Test\NHibernate.config
+		..\cfg\Test\Remoting.config = ..\cfg\Test\Remoting.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homolog1and1", "Homolog1and1", "{4A467593-D842-4C5B-B0CB-EEBF5A454092}"
+	ProjectSection(SolutionItems) = preProject
+		..\cfg\Development\Application.config = ..\cfg\Development\Application.config
+		..\cfg\Development\Log4net.config = ..\cfg\Development\Log4net.config
+		..\cfg\Development\NHibernate.config = ..\cfg\Development\NHibernate.config
+		..\cfg\Development\Remoting.config = ..\cfg\Development\Remoting.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{48D3123B-0725-4C12-93F6-54123FA59E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{979DA157-6C40-4B5F-9B15-72296EC9FE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelServer", "ModelServer\ModelServer.csproj", "{03C2108D-6536-45C6-B1C3-5D506B4A4CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F091CA1A-9E22-4AEC-9156-D37DB7DE001C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{3006618B-33DE-4C1C-8E5F-9D248EDE5A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48D3123B-0725-4C12-93F6-54123FA59E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D3123B-0725-4C12-93F6-54123FA59E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D3123B-0725-4C12-93F6-54123FA59E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D3123B-0725-4C12-93F6-54123FA59E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979DA157-6C40-4B5F-9B15-72296EC9FE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979DA157-6C40-4B5F-9B15-72296EC9FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979DA157-6C40-4B5F-9B15-72296EC9FE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979DA157-6C40-4B5F-9B15-72296EC9FE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C2108D-6536-45C6-B1C3-5D506B4A4CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C2108D-6536-45C6-B1C3-5D506B4A4CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C2108D-6536-45C6-B1C3-5D506B4A4CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C2108D-6536-45C6-B1C3-5D506B4A4CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F091CA1A-9E22-4AEC-9156-D37DB7DE001C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F091CA1A-9E22-4AEC-9156-D37DB7DE001C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F091CA1A-9E22-4AEC-9156-D37DB7DE001C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F091CA1A-9E22-4AEC-9156-D37DB7DE001C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3006618B-33DE-4C1C-8E5F-9D248EDE5A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3006618B-33DE-4C1C-8E5F-9D248EDE5A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3006618B-33DE-4C1C-8E5F-9D248EDE5A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3006618B-33DE-4C1C-8E5F-9D248EDE5A23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{437928BE-93AC-4B08-AA12-6A6925838FBE} = {047D5608-F466-4143-B4D2-FE1FCB339A2F}
+		{511DC40E-00F1-4028-A728-7A6C6468D2F4} = {047D5608-F466-4143-B4D2-FE1FCB339A2F}
+		{4A467593-D842-4C5B-B0CB-EEBF5A454092} = {047D5608-F466-4143-B4D2-FE1FCB339A2F}
+		{3006618B-33DE-4C1C-8E5F-9D248EDE5A23} = {047D5608-F466-4143-B4D2-FE1FCB339A2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1625DF15-FE75-45FF-9B6B-F73D74A3AA0A}
+	EndGlobalSection
+EndGlobal

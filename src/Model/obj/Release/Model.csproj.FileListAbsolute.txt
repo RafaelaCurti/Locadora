@@ -1,0 +1,9 @@
+C:\Projetos\locadora\build\server\Locadora.Model.dll
+C:\Projetos\locadora\build\server\Locadora.Model.pdb
+C:\Projetos\locadora\src\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+C:\Projetos\locadora\src\Model\obj\Release\Locadora.ValidationMessages.resources
+C:\Projetos\locadora\src\Model\obj\Release\Model.csproj.GenerateResource.Cache
+C:\Projetos\locadora\src\Model\obj\Release\Locadora.Model.dll
+C:\Projetos\locadora\src\Model\obj\Release\Locadora.Model.pdb
+C:\Projetos\locadora\build\web-src\bin\Locadora.Model.dll
+C:\Projetos\locadora\build\web-src\bin\Locadora.Model.pdb

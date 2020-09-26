@@ -1,0 +1,14 @@
+﻿@{Layout = "~/Views/Shared/_Layout.cshtml";}
+@model ${classname}
+
+@H.PageTitle("Details", "Extended information about ${classname}.")
+
+<fieldset>
+    <p>
+        @* @this.Literal(x => x.Name).Label("Name:") *@
+    </p>
+    <p class="buttons">
+        @Html.ActionLink("back", "Index")
+        @Html.ActionLink("edit", "Edit", new { id = Model.Id })
+    </p>
+</fieldset>

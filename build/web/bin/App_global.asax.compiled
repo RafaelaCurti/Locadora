@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/locadora/global.asax" hash="7e52f7b3" filehash="216299a28aa8" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/locadora/global.asax" />
+    </filedeps>
+</preserve>

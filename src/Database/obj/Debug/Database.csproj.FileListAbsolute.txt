@@ -1,0 +1,7 @@
+C:\Projetos\locadora\bin\misc\Locadora.Database.dll
+C:\Projetos\locadora\bin\misc\Locadora.Database.pdb
+C:\Projetos\locadora\src\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Projetos\locadora\src\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Projetos\locadora\src\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Projetos\locadora\src\Database\obj\Debug\Locadora.Database.dll
+C:\Projetos\locadora\src\Database\obj\Debug\Locadora.Database.pdb

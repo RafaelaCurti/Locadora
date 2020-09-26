@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Locadora.Domain">
+  <class name="Locadora.Domain.TIten, Locadora.Model" table="t_itens" schema="dbo" >
+        <id name="Id" column="id">
+      <generator class="native" />
+    </id>
+         
+    <property name="Value">
+      <column name="value" length="8" sql-type="float" />
+    </property>
+    <property name="Quantity">
+      <column name="quantity" length="4" sql-type="int" />
+    </property>
+
+    <many-to-one name="Movie">
+      <column name="id_movie"/>
+    </many-to-one>
+    <many-to-one name="Reservation">
+      <column name="id_reservation"/>
+    </many-to-one>
+
+  </class>
+</hibernate-mapping>

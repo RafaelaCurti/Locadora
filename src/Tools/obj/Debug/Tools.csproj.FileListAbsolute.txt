@@ -1,0 +1,11 @@
+C:\Projetos\locadora\bin\server\Locadora.Tools.exe.config
+C:\Projetos\locadora\bin\server\Locadora.Tools.exe
+C:\Projetos\locadora\bin\server\Locadora.Tools.pdb
+C:\Projetos\locadora\src\Tools\obj\Debug\Tools.csprojAssemblyReference.cache
+C:\Projetos\locadora\src\Tools\obj\Debug\Locadora.Tools.Database.Scripts.resources
+C:\Projetos\locadora\src\Tools\obj\Debug\Locadora.Tools.Templates.Templates.resources
+C:\Projetos\locadora\src\Tools\obj\Debug\Tools.csproj.GenerateResource.cache
+C:\Projetos\locadora\src\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Projetos\locadora\src\Tools\obj\Debug\Tools.csproj.CopyComplete
+C:\Projetos\locadora\src\Tools\obj\Debug\Locadora.Tools.exe
+C:\Projetos\locadora\src\Tools\obj\Debug\Locadora.Tools.pdb

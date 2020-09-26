@@ -1,0 +1,6 @@
+C:\Projetos\locadora\build\web-src\bin\Locadora.Web.dll.config
+C:\Projetos\locadora\build\web-src\bin\Locadora.Web.dll
+C:\Projetos\locadora\build\web-src\bin\Locadora.Web.pdb
+C:\Projetos\locadora\src\Web\obj\Release\Web.csprojResolveAssemblyReference.cache
+C:\Projetos\locadora\src\Web\obj\Release\Locadora.Web.dll
+C:\Projetos\locadora\src\Web\obj\Release\Locadora.Web.pdb

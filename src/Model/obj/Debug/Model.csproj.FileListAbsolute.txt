@@ -1,0 +1,9 @@
+C:\Projetos\locadora\bin\misc\Locadora.Model.dll
+C:\Projetos\locadora\bin\misc\Locadora.Model.pdb
+C:\Projetos\locadora\src\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Projetos\locadora\src\Model\obj\Debug\Locadora.ValidationMessages.resources
+C:\Projetos\locadora\src\Model\obj\Debug\Model.csproj.GenerateResource.cache
+C:\Projetos\locadora\src\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Projetos\locadora\src\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Projetos\locadora\src\Model\obj\Debug\Locadora.Model.dll
+C:\Projetos\locadora\src\Model\obj\Debug\Locadora.Model.pdb

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Locadora.Domain">
+  <class name="Locadora.Domain.TMovie, Locadora.Model" table="t_movies" schema="dbo" >
+        <id name="Id" column="id">
+      <generator class="native" />
+    </id>
+         
+    <property name="Code">
+      <column name="code" length="255" sql-type="nvarchar" />
+    </property>
+    <property name="Name">
+      <column name="name" length="255" sql-type="nvarchar" />
+    </property>
+    <property name="Duration">
+      <column name="duration" length="4" sql-type="int" />
+    </property>
+    <property name="EnumFormatMovie">
+      <column name="enum_format_movie" length="4" sql-type="int" />
+    </property>
+    <property name="EnumTypeMovie">
+      <column name="enum_type_movie" length="4" sql-type="int" />
+    </property>
+    <property name="Stock">
+      <column name="stock" length="4" sql-type="int" />
+    </property>
+    <property name="Date">
+      <column name="date" length="8" sql-type="datetime" />
+    </property>
+    <property name="IsActive">
+      <column name="is_active" length="1" sql-type="bit" />
+    </property>
+
+
+    <set name="TItens" inverse="true">
+      <key>
+        <column name="id_movie" />
+      </key>
+      <one-to-many class="TIten" />
+    </set>
+    <set name="TMovieCategories" inverse="true">
+      <key>
+        <column name="id_movie" />
+      </key>
+      <one-to-many class="TMovieCategory" />
+    </set>
+  </class>
+</hibernate-mapping>

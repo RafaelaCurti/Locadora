@@ -1,0 +1,5 @@
+﻿@{Layout = "~/Views/Shared/_Layout.cshtml";}
+@model ${classname}
+
+@H.PageTitle("Edit ${classname}", "Fill the data and click 'send'.")
+@Html.Partial("_Form")

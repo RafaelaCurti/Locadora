@@ -1,0 +1,7 @@
+C:\Projetos\locadora\bin\tests\Locadora.Tests.dll
+C:\Projetos\locadora\bin\tests\Locadora.Tests.pdb
+C:\Projetos\locadora\src\Tests\obj\Debug\Tests.csprojAssemblyReference.cache
+C:\Projetos\locadora\src\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Projetos\locadora\src\Tests\obj\Debug\Tests.csproj.CopyComplete
+C:\Projetos\locadora\src\Tests\obj\Debug\Locadora.Tests.dll
+C:\Projetos\locadora\src\Tests\obj\Debug\Locadora.Tests.pdb

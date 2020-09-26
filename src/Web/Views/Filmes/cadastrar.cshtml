@@ -1,0 +1,10 @@
+﻿@inherits ModelWebViewPage<TMovie>
+@{
+    ViewBag.Title = "Filmes - Cadastrar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>
+    Filmes - Cadastrar
+</h2>
+
+@Html.Partial("_form", Model)

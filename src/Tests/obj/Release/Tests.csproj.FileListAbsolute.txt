@@ -1,0 +1,5 @@
+C:\Projetos\locadora\build\server\Locadora.Tests.dll
+C:\Projetos\locadora\build\server\Locadora.Tests.pdb
+C:\Projetos\locadora\src\Tests\obj\Release\Tests.csprojResolveAssemblyReference.cache
+C:\Projetos\locadora\src\Tests\obj\Release\Locadora.Tests.dll
+C:\Projetos\locadora\src\Tests\obj\Release\Locadora.Tests.pdb

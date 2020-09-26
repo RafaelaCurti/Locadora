@@ -1,0 +1,9 @@
+C:\Projetos\locadora\build\server\Locadora.ModelServer.exe.config
+C:\Projetos\locadora\build\server\Locadora.ModelServer.exe
+C:\Projetos\locadora\build\server\Locadora.ModelServer.pdb
+C:\Projetos\locadora\src\ModelServer\obj\Release\ModelServer.csprojResolveAssemblyReference.cache
+C:\Projetos\locadora\src\ModelServer\obj\Release\Locadora.ModelServer.exe
+C:\Projetos\locadora\src\ModelServer\obj\Release\Locadora.ModelServer.pdb
+C:\Projetos\locadora\build\web-src\bin\Locadora.ModelServer.exe.config
+C:\Projetos\locadora\build\web-src\bin\Locadora.ModelServer.exe
+C:\Projetos\locadora\build\web-src\bin\Locadora.ModelServer.pdb

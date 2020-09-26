@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Locadora.Domain">
+  <class name="Locadora.Domain.TCategory, Locadora.Model" table="t_categories" schema="dbo" >
+        <id name="Id" column="id">
+      <generator class="native" />
+    </id>
+         
+    <property name="Name">
+      <column name="name" length="255" sql-type="nvarchar" />
+    </property>
+
+
+    <set name="TMovieCategories" inverse="true">
+      <key>
+        <column name="id_category" />
+      </key>
+      <one-to-many class="TMovieCategory" />
+    </set>
+    <set name="TPreferences" inverse="true">
+      <key>
+        <column name="id_category" />
+      </key>
+      <one-to-many class="TPreference" />
+    </set>
+  </class>
+</hibernate-mapping>

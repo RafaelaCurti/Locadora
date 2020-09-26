@@ -1,0 +1,9 @@
+C:\Projetos\locadora\build\server\Locadora.Tools.exe.config
+C:\Projetos\locadora\build\server\Locadora.Tools.exe
+C:\Projetos\locadora\build\server\Locadora.Tools.pdb
+C:\Projetos\locadora\src\Tools\obj\Release\Tools.csprojResolveAssemblyReference.cache
+C:\Projetos\locadora\src\Tools\obj\Release\Locadora.Tools.Database.Scripts.resources
+C:\Projetos\locadora\src\Tools\obj\Release\Locadora.Tools.Templates.Templates.resources
+C:\Projetos\locadora\src\Tools\obj\Release\Tools.csproj.GenerateResource.Cache
+C:\Projetos\locadora\src\Tools\obj\Release\Locadora.Tools.exe
+C:\Projetos\locadora\src\Tools\obj\Release\Locadora.Tools.pdb
