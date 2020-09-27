@@ -17,7 +17,7 @@ namespace Locadora.Domain
         public virtual TCategory Category { get; set; } 
         public virtual TClient Client { get; set; }
         public virtual String Name { get; set; }
-        public virtual String Preference { get; set; }
+        //public virtual TPreference Preference { get; set; }
 
 
         #region ' Generated Helpers '
