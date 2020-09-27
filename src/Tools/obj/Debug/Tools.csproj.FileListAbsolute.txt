@@ -9,3 +9,14 @@ C:\Projetos\locadora\src\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
 C:\Projetos\locadora\src\Tools\obj\Debug\Tools.csproj.CopyComplete
 C:\Projetos\locadora\src\Tools\obj\Debug\Locadora.Tools.exe
 C:\Projetos\locadora\src\Tools\obj\Debug\Locadora.Tools.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\server\Locadora.Tools.exe.config
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\server\Locadora.Tools.exe
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\server\Locadora.Tools.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Tools.csprojAssemblyReference.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Locadora.Tools.Database.Scripts.resources
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Locadora.Tools.Templates.Templates.resources
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Tools.csproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Tools.csproj.CopyComplete
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Locadora.Tools.exe
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Tools\obj\Debug\Locadora.Tools.pdb

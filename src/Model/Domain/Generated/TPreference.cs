@@ -64,7 +64,7 @@ namespace Locadora.Domain
         {  
             this.Id = Id;
         }
-     
+
         #endregion
 
     }

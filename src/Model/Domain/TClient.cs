@@ -9,6 +9,7 @@ namespace Locadora.Domain
         public virtual String PasswordString { get; set; }
         public virtual ICollection<TMovieCategory> TMovieCategories { get; set; }
         public virtual List<TCategory> Category { get; set; }
-        public virtual int[] Categories { get; set; }
+        public virtual int[] Preferences { get; set; }
+       
     }
 }

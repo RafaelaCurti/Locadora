@@ -23,7 +23,7 @@ namespace Locadora.Web.Controllers
             var cliente = new TClient();
             ViewBag.MostraSenha = true;
             ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
-            ViewBag.Category = TPreference.ListAll().ToSelectList(x => x.Id, x => x.Name);
+            ViewBag.Preference = TMovieCategory.ListAll().ToSelectList(x => x.Category.Id, x => x.Category.Name);
             return View(cliente);
         }
 
@@ -33,8 +33,8 @@ namespace Locadora.Web.Controllers
             try
             {
                 model.Password = TClient.HashPassword(model.PasswordString);
-                ViewBag.TPreferences.SaveCategories(model);
                 model.Save();
+                TPreference.SavePreferences(model);
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
@@ -70,8 +70,14 @@ namespace Locadora.Web.Controllers
                 ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
                 return HandleViewException(model, ex);
             }
-        }
 
+
+        }
+        public virtual ActionResult ListarPreferencia(int id)
+        {
+            var preference = TCategory.Load(id);
+            return PartialView("_listar-preference", preference);
+        }
         public virtual ActionResult Excluir(int id)
         {
             var cliente = TClient.Load(id);

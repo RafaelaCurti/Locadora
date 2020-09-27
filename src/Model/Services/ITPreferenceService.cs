@@ -7,5 +7,6 @@ namespace Locadora.Services
 {
     public partial interface ITPreferenceService : IEntityService<TPreference>, IService
     {
+        void SavePreferences(TClient model);
     }
 }

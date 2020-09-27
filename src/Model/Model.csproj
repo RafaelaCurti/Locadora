@@ -108,6 +108,7 @@
     <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ISystemService.cs" />
+    <Compile Include="Services\ITPreferenceService.cs" />
     <Compile Include="ValidationMessages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -132,7 +133,6 @@
     <Compile Include="Services\ITItenService.cs" />
     <Compile Include="Validators\TItenValidator.cs" />
     <Compile Include="Domain\Generated\TPreference.cs" />
-    <Compile Include="Services\ITPreferenceService.cs" />
     <Compile Include="Validators\TPreferenceValidator.cs" />
     <Compile Include="Domain\Generated\TReservation.cs" />
     <Compile Include="Services\ITReservationService.cs" />

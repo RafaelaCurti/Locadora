@@ -282,6 +282,7 @@
     <Content Include="Views\Clientes\_excluir.cshtml" />
     <Content Include="Views\Generos\_excluir.cshtml" />
     <Content Include="Views\Generos\editar.cshtml" />
+    <Content Include="Views\Clientes\_listar-preference.cshtml" />
     <None Include="Views\Shared\_Confirm.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>

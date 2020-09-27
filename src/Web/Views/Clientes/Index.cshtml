@@ -57,6 +57,12 @@
                             <td>
                                 @item.Login
                             </td>
+                            <td>
+                                @foreach (var genero in item.TPreferences)
+                                {
+                                    <span>- @genero.Category.Name</span>
+                                }
+                            </td>
                             <td class="text-center">
                                 <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Editar"
                                    href="@Url.Action(MVC.Clientes.Editar(item.Id))">

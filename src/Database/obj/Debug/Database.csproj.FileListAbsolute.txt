@@ -5,3 +5,10 @@ C:\Projetos\locadora\src\Database\obj\Debug\Database.csproj.CoreCompileInputs.ca
 C:\Projetos\locadora\src\Database\obj\Debug\Database.csproj.CopyComplete
 C:\Projetos\locadora\src\Database\obj\Debug\Locadora.Database.dll
 C:\Projetos\locadora\src\Database\obj\Debug\Locadora.Database.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\misc\Locadora.Database.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\misc\Locadora.Database.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Database\obj\Debug\Database.csprojAssemblyReference.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Database\obj\Debug\Locadora.Database.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Database\obj\Debug\Locadora.Database.pdb

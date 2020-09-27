@@ -7,7 +7,7 @@ using Locadora.Domain;
 
 namespace Locadora.Services
 {
-    public partial class TPreferenceService : EntityService<TPreference>, ITPreferenceService
+    public partial class TPreferenceService : EntityService<TPreference>
     {
     }
 }

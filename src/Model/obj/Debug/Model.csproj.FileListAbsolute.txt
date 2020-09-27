@@ -7,3 +7,12 @@ C:\Projetos\locadora\src\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Projetos\locadora\src\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Projetos\locadora\src\Model\obj\Debug\Locadora.Model.dll
 C:\Projetos\locadora\src\Model\obj\Debug\Locadora.Model.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Locadora.ValidationMessages.resources
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Model.csproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Locadora.Model.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Locadora.Model.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\misc\Locadora.Model.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\misc\Locadora.Model.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Model\obj\Debug\Model.csproj.CopyComplete

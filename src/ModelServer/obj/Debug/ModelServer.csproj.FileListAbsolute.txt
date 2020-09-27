@@ -6,3 +6,11 @@ C:\Projetos\locadora\src\ModelServer\obj\Debug\ModelServer.csproj.CoreCompileInp
 C:\Projetos\locadora\src\ModelServer\obj\Debug\ModelServer.csproj.CopyComplete
 C:\Projetos\locadora\src\ModelServer\obj\Debug\Locadora.ModelServer.exe
 C:\Projetos\locadora\src\ModelServer\obj\Debug\Locadora.ModelServer.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\ModelServer\obj\Debug\ModelServer.csprojAssemblyReference.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\ModelServer\obj\Debug\ModelServer.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\ModelServer\obj\Debug\Locadora.ModelServer.exe
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\ModelServer\obj\Debug\Locadora.ModelServer.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\server\Locadora.ModelServer.exe.config
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\server\Locadora.ModelServer.exe
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\bin\server\Locadora.ModelServer.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\ModelServer\obj\Debug\ModelServer.csproj.CopyComplete
