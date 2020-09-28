@@ -23,7 +23,7 @@ namespace Locadora.Web.Controllers
             var cliente = new TClient();
             ViewBag.MostraSenha = true;
             ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
-            ViewBag.Preference = TMovieCategory.ListAll().ToSelectList(x => x.Category.Id, x => x.Category.Name);
+            ViewBag.Genero = TMovieCategory.ListAll().ToSelectList(x => x.Category.Id, x => x.Category.Name);
             return View(cliente);
         }
 
@@ -50,7 +50,7 @@ namespace Locadora.Web.Controllers
             var cliente = TClient.Load(id);
             ViewBag.MostraSenha = false;
             ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
-            ViewBag.TPreferences.SaveCategories(cliente);
+            ViewBag.Genero = TMovieCategory.ListAll().ToSelectList(x => x.Category.Id, x => x.Category.Name);
             return View(cliente);
         }
 
@@ -59,9 +59,8 @@ namespace Locadora.Web.Controllers
         {
             try
             {
-                model.Update();
                 model.Edit();
-                ViewBag.TPreferences.SaveCategories(model);
+                TPreference.SavePreferences(model);
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
@@ -70,13 +69,11 @@ namespace Locadora.Web.Controllers
                 ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
                 return HandleViewException(model, ex);
             }
-
-
         }
         public virtual ActionResult ListarPreferencia(int id)
         {
             var preference = TCategory.Load(id);
-            return PartialView("_listar-preference", preference);
+            return PartialView("_listar-preferencias", preference);
         }
         public virtual ActionResult Excluir(int id)
         {
@@ -87,6 +84,7 @@ namespace Locadora.Web.Controllers
         [HttpPost]
         public virtual ActionResult Excluir(int id, object diff)
         {
+            TPreference.Delete(x => x.Client.Id == id);
             TClient.Delete(id);
             return RedirectToAction("Index");
         }

@@ -157,14 +157,14 @@ namespace Locadora.Web.Controllers
             {
                 public readonly string _excluir = "_excluir";
                 public readonly string _form = "_form";
-                public readonly string _listar_preference = "_listar-preference";
+                public readonly string _listar_preferencias = "_listar-preferencias";
                 public readonly string cadastrar = "cadastrar";
                 public readonly string editar = "editar";
                 public readonly string Index = "Index";
             }
             public readonly string _excluir = "~/Views/Clientes/_excluir.cshtml";
             public readonly string _form = "~/Views/Clientes/_form.cshtml";
-            public readonly string _listar_preference = "~/Views/Clientes/_listar-preference.cshtml";
+            public readonly string _listar_preferencias = "~/Views/Clientes/_listar-preferencias.cshtml";
             public readonly string cadastrar = "~/Views/Clientes/cadastrar.cshtml";
             public readonly string editar = "~/Views/Clientes/editar.cshtml";
             public readonly string Index = "~/Views/Clientes/Index.cshtml";

@@ -39,14 +39,13 @@
         }
 
         <div class="col-lg-12">
-            @this.Label(x => x.Preference).Class("control-label").Value("Gêneros:")
-            @this.AutoSelect(x => x.Preference).Class("form-control").FirstOption("", "Selecione uma opção")
-            @Html.ValidationMessageFor(x => x.Preference)
+            @this.Label("Genero").Class("control-label").Value("Gêneros:")
+            @this.AutoSelect("Genero").Class("form-control").FirstOption("", "Selecione uma opção")
         </div>
         <div class="col-lg-12 preference">
             @foreach (var preference in Model.TPreferences)
             {
-                @Html.Partial("_listar-preference", preference.Category)
+                @Html.Partial("_listar-preferencias", preference.Category)
             }
         </div>
         <div class="col-md-12 text-center" style="margin-top: 15px;">
@@ -64,18 +63,18 @@
     $(function () {
         $("form").validate();
 
-        $("select#Preference").change(function () {
+        $("select#Genero").change(function () {
             var id = $(this).val();
             $.post("@Url.Action("ListarPreferencia")", { id: id }, function (data) {
                 $("div.preference").append(data);
-                $("select#Preference option[value = " + id + "]").remove();
+                $("select#Genero option[value = " + id + "]").remove();
             });
         });
 
         $("a.excluir-preference").livequery("click", function () {
             var id = $(this).parents("div.item-preference").find("input.id-preference").val();
             $(this).parents("div.item-preference").remove();
-            $("select#Preference").append("<option value=" + id + ">" + $(this).data("nome") + "</option>");
+            $("select#Genero").append("<option value=" + id + ">" + $(this).data("nome") + "</option>");
         });
 
     });

@@ -12,13 +12,16 @@ namespace Locadora.Services
         public void SaveCategories(TMovie model)
         {
             TMovieCategory.Delete(x => x.Movie.Id == model.Id);
-            for (int i = 0; i < model.Categories.Length; i++)
+            if (model.Categories != null)
             {
-                new TMovieCategory()
+                for (int i = 0; i < model.Categories.Length; i++)
                 {
-                    Movie = model,
-                    Category = TCategory.Load(model.Categories[i])
-                }.Save();
+                    new TMovieCategory()
+                    {
+                        Movie = model,
+                        Category = TCategory.Load(model.Categories[i])
+                    }.Save();
+                }
             }
         }
     }

@@ -130,10 +130,11 @@ namespace Links
             public const string UrlPath = "~/Content/bootstrap";
             public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
             public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
-            public static readonly string bootstrap_responsive_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/bootstrap-responsive.min.css") ? Url("bootstrap-responsive.min.css") : Url("bootstrap-responsive.css");
-            public static readonly string bootstrap_responsive_min_css = Url("bootstrap-responsive.min.css");
-            public static readonly string bootstrap_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/bootstrap.min.css") ? Url("bootstrap.min.css") : Url("bootstrap.css");
+            public static readonly string bootstrap_responsive2_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/bootstrap-responsive2.min.css") ? Url("bootstrap-responsive2.min.css") : Url("bootstrap-responsive2.css");
+            public static readonly string bootstrap_theme_min_css = Url("bootstrap-theme.min.css");
             public static readonly string bootstrap_min_css = Url("bootstrap.min.css");
+            public static readonly string bootstrap2_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/bootstrap2.min.css") ? Url("bootstrap2.min.css") : Url("bootstrap2.css");
+            public static readonly string bootstrap2_min_css = Url("bootstrap2.min.css");
         }
     
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -142,6 +143,18 @@ namespace Links
             public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
             public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
             public static readonly string style_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/style.min.css") ? Url("style.min.css") : Url("style.css");
+        }
+    
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public static class fonts {
+            public const string UrlPath = "~/Content/fonts";
+            public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
+            public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
+            public static readonly string glyphicons_halflings_regular_eot = Url("glyphicons-halflings-regular.eot");
+            public static readonly string glyphicons_halflings_regular_svg = Url("glyphicons-halflings-regular.svg");
+            public static readonly string glyphicons_halflings_regular_ttf = Url("glyphicons-halflings-regular.ttf");
+            public static readonly string glyphicons_halflings_regular_woff = Url("glyphicons-halflings-regular.woff");
+            public static readonly string glyphicons_halflings_regular_woff2 = Url("glyphicons-halflings-regular.woff2");
         }
     
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -198,10 +211,11 @@ namespace Links
             {
                 public static class Assets
                 {
-                    public static readonly string bootstrap_responsive_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap-responsive.css");
-                    public static readonly string bootstrap_responsive_min_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap-responsive.min.css");
-                    public static readonly string bootstrap_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap.css");
+                    public static readonly string bootstrap_responsive2_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap-responsive2.css");
+                    public static readonly string bootstrap_theme_min_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap-theme.min.css");
                     public static readonly string bootstrap_min_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap.min.css");
+                    public static readonly string bootstrap2_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap2.css");
+                    public static readonly string bootstrap2_min_css = T4MVCHelpers.ProcessAssetPath("~/Content/bootstrap/bootstrap2.min.css");
                 }
             }
             public static partial class css 
@@ -209,6 +223,12 @@ namespace Links
                 public static class Assets
                 {
                     public static readonly string style_css = T4MVCHelpers.ProcessAssetPath("~/Content/css/style.css");
+                }
+            }
+            public static partial class fonts 
+            {
+                public static class Assets
+                {
                 }
             }
             public static partial class img 

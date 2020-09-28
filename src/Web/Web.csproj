@@ -212,11 +212,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap\bootstrap-responsive.css" />
-    <Content Include="Content\bootstrap\bootstrap-responsive.min.css" />
-    <Content Include="Content\bootstrap\bootstrap.css" />
+    <Content Include="Content\bootstrap\bootstrap-responsive2.css" />
+    <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\bootstrap2.css" />
+    <Content Include="Content\bootstrap\bootstrap2.min.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
     <Content Include="Scripts\bootstrap\alert.js" />
@@ -242,6 +244,10 @@
     <Content Include="Scripts\messages_pt_br.js" />
     <Content Include="Scripts\modernizr-2.5.3-respond-1.1.0.min.js" />
     <Content Include="Scripts\plugins.js" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="T4MVC.tt.settings.xml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -282,7 +288,7 @@
     <Content Include="Views\Clientes\_excluir.cshtml" />
     <Content Include="Views\Generos\_excluir.cshtml" />
     <Content Include="Views\Generos\editar.cshtml" />
-    <Content Include="Views\Clientes\_listar-preference.cshtml" />
+    <Content Include="Views\Clientes\_listar-preferencias.cshtml" />
     <None Include="Views\Shared\_Confirm.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>

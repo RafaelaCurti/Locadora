@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Simple.Entities;
 using Locadora.Domain;
+using System.Diagnostics.Tracing;
 
 namespace Locadora.Services
 {
@@ -11,15 +12,17 @@ namespace Locadora.Services
     {
         public void SavePreferences(TClient model)
         {
-            TPreference.Delete(x => x.Id == model.Id);
-
-            for (int i = 0; i < model.Preference.Length; i++)
+            TPreference.Delete(x => x.Client.Id == model.Id);
+            if (model.Preference != null)
             {
-                new TPreference()
+                for (int i = 0; i < model.Preference.Length; i++)
                 {
-                    Client = model,
-                    Category = TCategory.Load(model.Preference[i])
-                }.Save();
+                    new TPreference()
+                    {
+                        Client = model,
+                        Category = TCategory.Load(model.Preference[i])
+                    }.Save();
+                }
             }
         }
     }

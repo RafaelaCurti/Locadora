@@ -22,7 +22,6 @@ namespace Locadora.Domain
 
         public virtual ICollection<TPreference> TPreferences { get; set; } 
         public virtual ICollection<TReservation> TReservations { get; set; }
-        public virtual int[] Preference { get; set; }
 
         #region ' Generated Helpers '
         static TClient()

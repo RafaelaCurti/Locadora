@@ -16,6 +16,18 @@ namespace Locadora.Web.Controllers
         {
             var filmes = TMovie.ListAll().ToList();
             return View(filmes);
+            //var filmes2 = TMovieCategory.List(x => x.Category.Id == 5).Select(x => x.Movie);
+            //TClient.List(x => x.Name == "Pedro");
+            //TClient.List(x => x.Name.StartsWith("m"));
+            //TClient.List(x => x.Name.EndsWith("l"));
+            //TClient.List(x => x.Name.Contains("silva"));
+            //TReservation.List(x => x.Client.Name.StartsWith("p"));
+            //TUser.Delete(x => x.Name.EndsWith("u"));
+            //TClient.Delete(x => x.Name.StartsWith("pedro") || x.Name.EndsWith("silva"));
+            //TClient.List(x => Name.StartsWith("Maria") && Name.EndsWith("João"));
+            //TReservation.Delete(x => x.Client.Id == cliente.Id);
+            //TPreference.Delete(x => x.Client.Name.Contains("João"));
+            //TMovie.List(x => x.IsActive && x.Stock > 0);
         }
 
         public virtual ActionResult Cadastrar()
