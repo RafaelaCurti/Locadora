@@ -27,7 +27,7 @@ namespace Locadora.Web.Controllers
             //TClient.List(x => Name.StartsWith("Maria") && Name.EndsWith("João"));
             //TReservation.Delete(x => x.Client.Id == cliente.Id);
             //TPreference.Delete(x => x.Client.Name.Contains("João"));
-            //TMovie.List(x => x.IsActive && x.Stock > 0);
+            //TMovie.List(x => x.IsActive != false && x.Stock > 0);
         }
 
         public virtual ActionResult Cadastrar()

@@ -17,7 +17,8 @@ namespace Locadora.Domain
         public virtual String Name { get; set; } 
         public virtual Int32? Duration { get; set; } 
         public virtual FormatMovie EnumFormatMovie { get; set; } 
-        public virtual TypeMovie EnumTypeMovie { get; set; } 
+        public virtual TypeMovie? EnumTypeMovie { get; set; } 
+        //Coloquei ? para deixar ele como nullabel(aceitar nulo)
         public virtual Int32 Stock { get; set; } 
         public virtual DateTime Date { get; set; } 
         public virtual Boolean IsActive { get; set; } 

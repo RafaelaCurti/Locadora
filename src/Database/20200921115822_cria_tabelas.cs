@@ -59,9 +59,6 @@ namespace Locadora.Database
                 t.AddInt32("id_reservation").NotNullable().AutoForeignKey("t_reservations");
                 t.AddInt32("enum_status_sales").NotNullable().Default(0);
             });
-
-
-
         }
 
 
@@ -73,8 +70,6 @@ namespace Locadora.Database
             schema.RemoveTable("t_preferences");
             schema.RemoveTable("t_client");
             schema.RemoveTable("t_users");
-
-
         }
     }
 
