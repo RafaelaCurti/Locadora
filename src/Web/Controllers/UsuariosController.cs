@@ -1,5 +1,6 @@
 ﻿using Locadora.Domain;
 using Locadora.Helpers;
+using Locadora.Web.Areas.Controllers;
 using Simple.Validation;
 using Simple.Web.Mvc;
 using System;
@@ -10,7 +11,7 @@ using System.Web.Mvc;
 
 namespace Locadora.Web.Controllers
 {
-    public partial class UsuariosController : Controller
+    public partial class UsuariosController : BaseController
     {
         public virtual ActionResult Index()
         {
@@ -33,6 +34,7 @@ namespace Locadora.Web.Controllers
             {
                 model.Password = TUser.HashPassword(model.PasswordString);
                 model.Save();
+                TempData["Alerta"] = new Alert("success", "Seu usuário foi cadastrado com sucessor");
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
@@ -57,6 +59,7 @@ namespace Locadora.Web.Controllers
             try
             {
                 model.Edit();
+                TempData["Alerta"] = new Alert("success", "Seu usuário foi editado com sucesso");
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
@@ -77,14 +80,6 @@ namespace Locadora.Web.Controllers
         {
             TUser.Delete(id);
             return RedirectToAction("Index");
-        }
-
-        protected ActionResult HandleViewException<T>(T model, SimpleValidationException ex)
-        {
-            ModelState.Clear();
-            foreach (var item in ex.Errors)
-                ModelState.AddModelError(item.PropertyName, item.Message);
-            return View(model);
         }
     }
 }

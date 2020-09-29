@@ -1,5 +1,6 @@
 ﻿using Locadora.Domain;
 using Locadora.Helpers;
+using Locadora.Web.Areas.Controllers;
 using Simple.Validation;
 using Simple.Web.Mvc;
 using System;
@@ -10,7 +11,7 @@ using System.Web.Mvc;
 
 namespace Locadora.Web.Controllers
 {
-    public partial class ClientesController : Controller
+    public partial class ClientesController : BaseController
     {
         public virtual ActionResult Index()
         {
@@ -33,8 +34,10 @@ namespace Locadora.Web.Controllers
             try
             {
                 model.Password = TClient.HashPassword(model.PasswordString);
+                TempData["Alert"] = new Alert("success", "Seu cliente foi cadastrado com sucesso");
                 model.Save();
                 TPreference.SavePreferences(model);
+
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
@@ -61,13 +64,14 @@ namespace Locadora.Web.Controllers
             {
                 model.Edit();
                 TPreference.SavePreferences(model);
+                TempData["Alerta"] = new Alert("success", "Seu cliente foi ceditado com sucesso");
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
             {
                 ViewBag.MostraSenha = false;
                 ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
-                return HandleViewException(model, ex);
+                return HandleViewException (model, ex);
             }
         }
         public virtual ActionResult ListarPreferencia(int id)
@@ -87,14 +91,7 @@ namespace Locadora.Web.Controllers
             TPreference.Delete(x => x.Client.Id == id);
             TClient.Delete(id);
             return RedirectToAction("Index");
-        }
 
-        protected ActionResult HandleViewException<T>(T model, SimpleValidationException ex)
-        {
-            ModelState.Clear();
-            foreach (var item in ex.Errors)
-                ModelState.AddModelError(item.PropertyName, item.Message);
-            return View(model);
         }
     }
 }

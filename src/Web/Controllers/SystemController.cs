@@ -23,9 +23,6 @@ namespace Locadora.Web.Controllers
         {
             TempDataProvider = new NullTempDataProvider();
         }
-
-        //
-        // GET: /System/
         public virtual ActionResult Index()
         {
             var runner = new TaskRunner();
@@ -35,7 +32,6 @@ namespace Locadora.Web.Controllers
 
             return View(runner.Results);
         }
-
         public virtual ActionResult Error(Exception exception)
         {
             ViewData["code"] = exception.GetType().Name;

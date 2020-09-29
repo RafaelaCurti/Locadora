@@ -1,0 +1,11 @@
+﻿@{
+    Alert alerta = ViewBag.Alerta;
+}
+@if (alerta != null && (alerta.Type == "success" || alerta.Type == "error"))
+{
+    <script type="text/javascript" async="async">
+        $(function () {
+            addAlertToPage("@(Html.Raw(alerta.Message))", "@(alerta.Type)");
+        });
+    </script>
+}

@@ -9,15 +9,5 @@ namespace Locadora.Web.Controllers
 {
     public partial class MailController : MailerBase
     {
-        //
-        // GET: /Mail/
-
-        //public EmailResult Contato(Contato model)
-        //{
-        //    To.Add("email@email.com");
-        //    From = "email@email.com";
-        //    Subject = "Assunto";
-        //    return Email("Contato", model);
-        //}
     }
 }

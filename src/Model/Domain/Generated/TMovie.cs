@@ -5,6 +5,7 @@ using System.Text;
 using Simple.Reflection;
 using Simple.Entities;
 using Locadora.Services;
+using System.Data.SqlTypes;
 
 namespace Locadora.Domain
 {

@@ -171,9 +171,13 @@
     <Compile Include="..\GlobalInfo.cs">
       <Link>Properties\GlobalInfo.cs</Link>
     </Compile>
+    <Compile Include="BaseController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
     <Compile Include="ClientesController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\FilmesController .cs" />
     <Compile Include="Controllers\GenerosController.cs" />
@@ -225,7 +229,9 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
+    <Content Include="Scripts\add-alert-to-page.js" />
     <Content Include="Scripts\bootstrap\alert.js" />
+    <Content Include="Scripts\bootstrap\alert1.js" />
     <Content Include="Scripts\bootstrap\bootstrap.js" />
     <Content Include="Scripts\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap\button.js" />
@@ -298,6 +304,7 @@
     <Content Include="Views\Generos\_excluir.cshtml" />
     <Content Include="Views\Generos\editar.cshtml" />
     <Content Include="Views\Clientes\_listar-preferencias.cshtml" />
+    <Content Include="Views\Shared\_alerta.cshtml" />
     <None Include="Views\Shared\_Confirm.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>

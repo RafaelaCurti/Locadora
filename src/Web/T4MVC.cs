@@ -27,6 +27,7 @@ using T4MVC;
 [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
 public static partial class MVC
 {
+    public static Locadora.Web.Areas.Controllers.BaseController Base = new Locadora.Web.Areas.Controllers.T4MVC_BaseController();
     public static Locadora.Web.Controllers.ClientesController Clientes = new Locadora.Web.Controllers.T4MVC_ClientesController();
     public static Locadora.Web.Controllers.FilmesController Filmes = new Locadora.Web.Controllers.T4MVC_FilmesController();
     public static Locadora.Web.Controllers.GenerosController Generos = new Locadora.Web.Controllers.T4MVC_GenerosController();
@@ -91,12 +92,14 @@ namespace Links
         public const string UrlPath = "~/Scripts";
         public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
         public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
+        public static readonly string add_alert_to_page_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/add-alert-to-page.min.js") ? Url("add-alert-to-page.min.js") : Url("add-alert-to-page.js");
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public static class bootstrap {
             public const string UrlPath = "~/Scripts/bootstrap";
             public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
             public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
             public static readonly string alert_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/alert.min.js") ? Url("alert.min.js") : Url("alert.js");
+            public static readonly string alert1_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/alert1.min.js") ? Url("alert1.min.js") : Url("alert1.js");
             public static readonly string bootstrap_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/bootstrap.min.js") ? Url("bootstrap.min.js") : Url("bootstrap.js");
             public static readonly string bootstrap_min_js = Url("bootstrap.min.js");
             public static readonly string button_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/button.min.js") ? Url("button.min.js") : Url("button.js");
@@ -119,6 +122,7 @@ namespace Links
         public static readonly string messages_pt_br_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/messages_pt_br.min.js") ? Url("messages_pt_br.min.js") : Url("messages_pt_br.js");
         public static readonly string modernizr_2_5_3_respond_1_1_0_min_js = Url("modernizr-2.5.3-respond-1.1.0.min.js");
         public static readonly string plugins_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/plugins.min.js") ? Url("plugins.min.js") : Url("plugins.js");
+        public static readonly string toastr_js = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/toastr.min.js") ? Url("toastr.min.js") : Url("toastr.js");
     }
 
     [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -180,6 +184,7 @@ namespace Links
                 public static class Assets
                 {
                     public static readonly string alert_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/bootstrap/alert.js"); 
+                    public static readonly string alert1_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/bootstrap/alert1.js"); 
                     public static readonly string bootstrap_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/bootstrap/bootstrap.js"); 
                     public static readonly string bootstrap_min_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/bootstrap/bootstrap.min.js"); 
                     public static readonly string button_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/bootstrap/button.js"); 
@@ -197,6 +202,7 @@ namespace Links
             }
             public static class Assets
             {
+                public static readonly string add_alert_to_page_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/add-alert-to-page.js"); 
                 public static readonly string jquery_1_7_2_min_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/jquery-1.7.2.min.js"); 
                 public static readonly string jquery_livequery_min_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/jquery.livequery.min.js"); 
                 public static readonly string jquery_validate_min_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/jquery.validate.min.js"); 
@@ -204,6 +210,7 @@ namespace Links
                 public static readonly string messages_pt_br_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/messages_pt_br.js"); 
                 public static readonly string modernizr_2_5_3_respond_1_1_0_min_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/modernizr-2.5.3-respond-1.1.0.min.js"); 
                 public static readonly string plugins_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/plugins.js"); 
+                public static readonly string toastr_js = T4MVCHelpers.ProcessAssetPath("~/Scripts/toastr.js"); 
             }
         }
         public static partial class Content 

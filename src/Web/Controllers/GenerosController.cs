@@ -1,5 +1,6 @@
 ﻿using Locadora.Domain;
 using Locadora.Helpers;
+using Locadora.Web.Areas.Controllers;
 using Simple.Validation;
 using Simple.Web.Mvc;
 using System;
@@ -10,7 +11,7 @@ using System.Web.Mvc;
 
 namespace Locadora.Web.Controllers
 {
-    public partial class GenerosController : Controller
+    public partial class GenerosController : BaseController
     {
         public virtual ActionResult Index()
         {
@@ -30,6 +31,7 @@ namespace Locadora.Web.Controllers
             try
             {
                 model.Save();
+                TempData["Alerta"] = new Alert("success", "Seu gênero foi cadastrado com sucesso");
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
@@ -49,10 +51,11 @@ namespace Locadora.Web.Controllers
             try
             {
                 model.Update();
+                TempData["Alerta"] = new Alert("success", "Seu gênero foi editado com sucesso");
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex) 
-            { 
+            {
                 return HandleViewException(model, ex);
             }
         }
@@ -68,14 +71,6 @@ namespace Locadora.Web.Controllers
         {
             TCategory.Delete(id);
             return RedirectToAction("Index");
-        }
-
-        protected ActionResult HandleViewException<T>(T model, SimpleValidationException ex)
-        {
-            ModelState.Clear();
-            foreach (var item in ex.Errors)
-                ModelState.AddModelError(item.PropertyName, item.Message);
-            return View(model);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Locadora.Domain;
 using Locadora.Helpers;
+using Locadora.Web.Areas.Controllers;
 using Simple.Validation;
 using Simple.Web.Mvc;
 using System;
@@ -10,7 +11,7 @@ using System.Web.Mvc;
 
 namespace Locadora.Web.Controllers
 {
-    public partial class FilmesController : Controller
+    public partial class FilmesController : BaseController
     {
         public virtual ActionResult Index()
         {
@@ -46,6 +47,7 @@ namespace Locadora.Web.Controllers
             {
                 model.Date = DateTime.Now.GetCurrent();
                 model.Save();
+                TempData["Alert"] = new Alert("sucess", "Seu filme foi cadastrado com sucesso");
                 TMovieCategory.SaveCategories(model);
                 return RedirectToAction("Index");
             }
@@ -72,6 +74,7 @@ namespace Locadora.Web.Controllers
         {
             model.Update();
             TMovieCategory.SaveCategories(model);
+            TempData["Alerta"] = new Alert("sucess", "Seu Filme foi editado com sucesso");
             return RedirectToAction("Index");
         }
 
@@ -93,14 +96,6 @@ namespace Locadora.Web.Controllers
             TMovieCategory.Delete(x => x.Movie.Id == id);
             TMovie.Delete(id);
             return RedirectToAction("Index");
-        }
-
-        protected ActionResult HandleViewException<T>(T model, SimpleValidationException ex)
-        {
-            ModelState.Clear();
-            foreach (var item in ex.Errors)
-                ModelState.AddModelError(item.PropertyName, item.Message);
-            return View(model);
         }
     }
 }
