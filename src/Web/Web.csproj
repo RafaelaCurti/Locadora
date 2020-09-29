@@ -226,6 +226,7 @@
     <Content Include="Content\bootstrap\bootstrap2.css" />
     <Content Include="Content\bootstrap\bootstrap2.min.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\toastr.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
@@ -259,6 +260,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="T4MVC.tt.settings.xml" />
+    <Content Include="Scripts\toastr.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

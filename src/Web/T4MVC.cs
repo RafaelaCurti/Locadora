@@ -148,6 +148,7 @@ namespace Links
             public static string Url() { return T4MVCHelpers.ProcessVirtualPath(UrlPath); }
             public static string Url(string fileName) { return T4MVCHelpers.ProcessVirtualPath(UrlPath + "/" + fileName); }
             public static readonly string style_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/style.min.css") ? Url("style.min.css") : Url("style.css");
+            public static readonly string toastr_css = T4MVCHelpers.IsProduction() && T4Extensions.FileExists(UrlPath + "/toastr.min.css") ? Url("toastr.min.css") : Url("toastr.css");
         }
     
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -231,6 +232,7 @@ namespace Links
                 public static class Assets
                 {
                     public static readonly string style_css = T4MVCHelpers.ProcessAssetPath("~/Content/css/style.css");
+                    public static readonly string toastr_css = T4MVCHelpers.ProcessAssetPath("~/Content/css/toastr.css");
                 }
             }
             public static partial class fonts 
