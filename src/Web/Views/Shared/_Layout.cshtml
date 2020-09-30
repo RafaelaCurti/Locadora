@@ -22,6 +22,7 @@
     @H.Stylesheet("bootstrap/bootstrap-responsive2.min.css")
     @H.Stylesheet("css/style.css")
     @H.Script("jquery-1.7.2.min.js")
+    @H.Stylesheet("css/toastr.css")
     @H.Script("modernizr-2.5.3-respond-1.1.0.min.js")
     @RenderSection("header", required: false)
 </head>
@@ -50,16 +51,21 @@
     </div>
     <hr>
     <div id="modal"></div>
+    @Html.Partial("_alerta");
     <footer>
         <p>
             &copy; Company 2012
         </p>
     </footer>
+
     @H.Script("bootstrap/bootstrap.min.js")
     @H.Script("jquery.livequery.min.js")
+    @H.Script("toastr.js")
     @H.Script("master.js")
     @H.Script("jquery.validate.min.js")
     @H.Script("messages_pt_br.js")
+
+
     <script type="text/javascript">
         var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
         (function (d, t) {

@@ -96,6 +96,7 @@
     <Compile Include="Domain\Alert.cs" />
     <Compile Include="Domain\ApplicationConfig.cs" />
     <Compile Include="Domain\EnumHelper.cs" />
+    <Compile Include="Domain\Login.cs" />
     <Compile Include="Domain\TClient.cs" />
     <Compile Include="Domain\TMovie.cs" />
     <Compile Include="Domain\ProfileClient.cs" />

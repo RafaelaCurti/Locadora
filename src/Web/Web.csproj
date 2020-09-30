@@ -220,7 +220,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap\bootstrap-responsive2.css" />
+    <Content Include="Content\bootstrap\bootstrap-responsive2.min.css" />
     <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
     <Content Include="Content\bootstrap\bootstrap2.css" />
@@ -273,6 +273,7 @@
     <Content Include="Views\Usuarios\cadastrar.cshtml" />
     <Content Include="Views\Usuarios\editar.cshtml" />
     <Content Include="Views\Usuarios\_form.cshtml" />
+    <Content Include="Views\Usuarios\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

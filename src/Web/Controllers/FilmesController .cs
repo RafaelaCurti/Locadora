@@ -47,7 +47,7 @@ namespace Locadora.Web.Controllers
             {
                 model.Date = DateTime.Now.GetCurrent();
                 model.Save();
-                TempData["Alert"] = new Alert("sucess", "Seu filme foi cadastrado com sucesso");
+                TempData["Alert"] = new Alert("success", "Seu filme foi cadastrado com sucesso");
                 TMovieCategory.SaveCategories(model);
                 return RedirectToAction("Index");
             }
@@ -74,7 +74,7 @@ namespace Locadora.Web.Controllers
         {
             model.Update();
             TMovieCategory.SaveCategories(model);
-            TempData["Alerta"] = new Alert("sucess", "Seu Filme foi editado com sucesso");
+            TempData["Alerta"] = new Alert("success", "Seu Filme foi editado com sucesso");
             return RedirectToAction("Index");
         }
 
@@ -95,6 +95,7 @@ namespace Locadora.Web.Controllers
         {
             TMovieCategory.Delete(x => x.Movie.Id == id);
             TMovie.Delete(id);
+            //TempData["Alerta"] = new Alert("success", "Filme foi excluído com sucesso");
             return RedirectToAction("Index");
         }
     }

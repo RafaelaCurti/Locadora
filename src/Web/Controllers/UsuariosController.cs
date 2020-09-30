@@ -81,5 +81,28 @@ namespace Locadora.Web.Controllers
             TUser.Delete(id);
             return RedirectToAction("Index");
         }
+
+
+        public virtual ActionResult Login()
+        {
+            //var usuarios = TUser.Load(id);
+            return View();
+        }
+
+        [HttpPost]
+        public virtual ActionResult Login(string user, string password)
+        {
+            try
+            {
+                // código para verificar se o usuário existe e se a senha está correta!
+                return RedirectToAction("Index", "Home");
+            }
+            catch (Exception)
+            {
+                // caso dê um erro fazer o que estiver aqui!
+                return RedirectToAction("Login");
+                throw;
+            }
+        }
     }
 }
