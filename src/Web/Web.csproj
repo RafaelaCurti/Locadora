@@ -178,6 +178,7 @@
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ReservasController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\FilmesController .cs" />
     <Compile Include="Controllers\GenerosController.cs" />
@@ -204,6 +205,9 @@
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservasController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
     <Compile Include="SharedController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
@@ -308,6 +312,13 @@
     <Content Include="Views\Generos\editar.cshtml" />
     <Content Include="Views\Clientes\_listar-preferencias.cshtml" />
     <Content Include="Views\Shared\_alerta.cshtml" />
+    <Content Include="Views\Reservas\_excluir.cshtml" />
+    <Content Include="Views\Reservas\_form.cshtml" />
+    <Content Include="Views\Reservas\cadastrar.cshtml" />
+    <Content Include="Views\Reservas\editar.cshtml" />
+    <Content Include="Views\Reservas\Index.cshtml" />
+    <Content Include="Views\Reservas\_listar-cliente.cshtml" />
+    <Content Include="Views\Reservas\_listar-filme.cshtml" />
     <None Include="Views\Shared\_Confirm.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>

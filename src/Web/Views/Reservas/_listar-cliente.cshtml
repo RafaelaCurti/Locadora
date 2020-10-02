@@ -1,0 +1,7 @@
+﻿@model TClient
+<div class="col-lg-12 item-genero">
+    <input type="hidden" name="Client" class="id-cliente" value="@Model.Id" />
+    <p>
+        <strong>@Model.Name</strong> - <a class="excluir-cliente" data-nome="@Model.Name" style="cursor: pointer">Excluir</a>
+    </p>
+</div>

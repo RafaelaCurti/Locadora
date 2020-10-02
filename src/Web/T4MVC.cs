@@ -33,6 +33,7 @@ public static partial class MVC
     public static Locadora.Web.Controllers.GenerosController Generos = new Locadora.Web.Controllers.T4MVC_GenerosController();
     public static Locadora.Web.Controllers.HomeController Home = new Locadora.Web.Controllers.T4MVC_HomeController();
     public static Locadora.Web.Controllers.MailController Mail = new Locadora.Web.Controllers.T4MVC_MailController();
+    public static Locadora.Web.Controllers.ReservasController Reservas = new Locadora.Web.Controllers.T4MVC_ReservasController();
     public static Locadora.Web.Controllers.SystemController System = new Locadora.Web.Controllers.T4MVC_SystemController();
     public static Locadora.Web.Controllers.UsuariosController Usuarios = new Locadora.Web.Controllers.T4MVC_UsuariosController();
     public static T4MVC.SharedController Shared = new T4MVC.SharedController();

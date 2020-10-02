@@ -14,7 +14,8 @@
         </a>
     </div>
 </div>
-<div class="row">
+<div>
+    class="row">
     <div class="col-md-12">
         <div class="col-md-12">
             @if (Model.Count > 0)
@@ -60,102 +61,104 @@
                 </div>
             }
         </div>
-       @*Modificado*@
+        @*Modificado*@
         @*antes
-        <table class="table table-bordered table-hover tablesorter">
-                <thead>
-                    <tr>
-                        <th class="header">
-                            Código
-                        </th>
-                        <th class="header">
-                            Nome
-                        </th>
-                        <th class="header">
-                            Gêneros
-                        </th>
-                        <th class="header">
-                            Duração
-                        </th>
-                        <th class="header">
-                            Formato
-                        </th>
-                        <th class="header">
-                            Tipo
-                        </th>
-                        <th class="header">
-                            Ativo
-                        </th>
-                        <th class="header">
-                            Criado em
-                        </th>
-                        <th class="header">
-                            Estoque
-                        </th>
-                        <th class="header text-center">
-                            Ação
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @if (Model.Count > 0)
-                    {
-                        foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>
-                                    @item.Code
-                                </td>
-                                <td>
-                                    @item.Name
-                                </td>
-                                <td>
-                                    @foreach (var genero in item.TMovieCategories)
+                    <table class="table table-bordered table-hover tablesorter">
+                            <thead>
+                                <tr>
+                                    <th class="header">
+                                        Código
+                                    </th>
+                                    <th class="header">
+                                        Nome
+                                    </th>
+                                    <th class="header">
+                                        Gêneros
+                                    </th>
+                                    <th class="header">
+                                        Duração
+                                    </th>
+                                    <th class="header">
+                                        Formato
+                                    </th>
+                                    <th class="header">
+                                        Tipo
+                                    </th>
+                                    <th class="header">
+                                        Ativo
+                                    </th>
+                                    <th class="header">
+                                        Criado em
+                                    </th>
+                                    <th class="header">
+                                        Estoque
+                                    </th>
+                                    <th class="header text-center">
+                                        Ação
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Count > 0)
+                                {
+                                    foreach (var item in Model)
                                     {
-                                        <span>- @genero.Category.Name</span>
+                                        <tr>
+                                            <td>
+                                                @item.Code
+                                            </td>
+                                            <td>
+                                                @item.Name
+                                            </td>
+                                            <td>
+                                                @foreach (var genero in item.TMovieCategories)
+                                                {
+                                                    <span>- @genero.Category.Name</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                @item.Duration
+                                            </td>
+                                            <td>
+                                                @item.EnumFormatMovie.Description()
+                                            </td>
+                                            <td>
+                                                @item.EnumTypeMovie.Description()
+                                            </td>
+                                            <td>
+                                                @(item.IsActive ? "Sim" : "Não")
+                                            </td>
+                                            <td>
+                                                @item.Date.DayMonthAndYear()
+                                            </td>
+                                            <td>
+                                                @item.Stock
+                                            </td>
+                                            <td class="text-center">
+                                                <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Editar"
+                                                   href="@Url.Action(MVC.Filmes.Editar(item.Id))">
+                                                    <i class="fas fa-pencil"></i> Editar
+                                                </a>
+                                                <button type="button" class="btn btn-danger btn-xs ajax-modal" data-toggle="tooltip" title="Excluir"
+                                                        href="@Url.Action(MVC.Filmes.Excluir(item.Id))">
+                                                    <i class="fas fa-trash"></i> Excluir
+                                                </button>
+                                            </td>
+                                        </tr>
                                     }
-                                </td>
-                                <td>
-                                    @item.Duration
-                                </td>
-                                <td>
-                                    @item.EnumFormatMovie.Description()
-                                </td>
-                                <td>
-                                    @item.EnumTypeMovie.Description()
-                                </td>
-                                <td>
-                                    @(item.IsActive ? "Sim" : "Não")
-                                </td>
-                                <td>
-                                    @item.Date.DayMonthAndYear()
-                                </td>
-                                <td>
-                                    @item.Stock
-                                </td>
-                                <td class="text-center">
-                                    <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Editar"
-                                       href="@Url.Action(MVC.Filmes.Editar(item.Id))">
-                                        <i class="fas fa-pencil"></i> Editar
-                                    </a>
-                                    <button type="button" class="btn btn-danger btn-xs ajax-modal" data-toggle="tooltip" title="Excluir"
-                                            href="@Url.Action(MVC.Filmes.Excluir(item.Id))">
-                                        <i class="fas fa-trash"></i> Excluir
-                                    </button>
-                                </td>
-                            </tr>
-                        }
-                    }
-                    else
-                    {
-                        <tr>
-                            <td colspan="15" class="text-center">
-                                <strong>Nenhum registro encontrado</strong>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="15" class="text-center">
+                                            <strong>Nenhum registro encontrado</strong>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                </div>
+            </div>*@
     </div>
-</div>*@
+</div>
 

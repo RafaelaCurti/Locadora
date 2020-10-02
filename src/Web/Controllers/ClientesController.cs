@@ -71,7 +71,7 @@ namespace Locadora.Web.Controllers
             {
                 ViewBag.MostraSenha = false;
                 ViewBag.EnumProfileClient = EnumHelper.ListAll<ProfileClient>().ToSelectList(x => x, x => x.Description());
-                return HandleViewException (model, ex);
+                return HandleViewException(model, ex);
             }
         }
         public virtual ActionResult ListarPreferencia(int id)

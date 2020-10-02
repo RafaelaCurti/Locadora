@@ -13,7 +13,6 @@ namespace Locadora.Domain
     public partial class TMovie : Entity<TMovie, ITMovieService>
     {
         public virtual Int32 Id { get; set; } 
-
         public virtual String Code { get; set; } 
         public virtual String Name { get; set; } 
         public virtual Int32? Duration { get; set; } 
@@ -72,7 +71,7 @@ namespace Locadora.Domain
             cloned.TMovieCategories = null;
             return cloned;
         }
-
+       
         public TMovie(Int32 Id) : this()
         {  
             this.Id = Id;

@@ -1,0 +1,55 @@
+﻿@inherits ModelWebViewPage<TReservation>
+<div class="row">
+    @using (Html.BeginForm())
+    {
+        <div class="col-lg-12">
+            @this.Label(x => x.Client).Class("control-label").Value("Clientes:")
+            @this.AutoSelect(x=> x.Client).Class("form-control").FirstOption("", "Selecione uma opção")
+        </div>
+        <div class="col-lg-12">
+            @this.Label(x => x.Iten).Class("control-label").Value("Filme:")
+            @this.AutoSelect(x => x.Iten).Class("form-control").FirstOption("", "Selecione uma opção")
+        </div>
+        <div class="col-lg-12 preference">
+        </div>
+        <div class="col-lg-12">
+            @this.Label(x => x.Withdraw).Class("control-label").Value("Retirar:")
+            @this.DatePicker(x => x.Withdraw).Class("required form-control")
+            @Html.ValidationMessageFor(x => x.Withdraw)
+        </div>
+        <div class="col-lg-12">
+            @this.Label(x => x.Devolution).Class("control-label").Value("Devolução:")
+            @this.DatePicker(x => x.Devolution).Class("required form-control")
+            @Html.ValidationMessageFor(x => x.Devolution)
+        </div>
+        <div class="col-md-12 text-center" style="margin-top: 15px;">
+            <button type="button" class="btn btn-info btn-lg" onclick="location.href='@Url.Action(MVC.Reservas.Index())'">
+                <i class="fas fa-times"></i> Voltar
+            </button>
+            <button type="submit" class="btn btn-primary btn-lg">
+                <i class="fas fa-check"></i> Salvar
+            </button>
+        </div>
+    }
+</div>
+<script type="text/javascript">
+        $(function () {
+            $("form").validate();
+
+            $("select#Genero").change(function () {
+                var id = $(this).val();
+                $.post("@Url.Action("ListarPreferencia")", { id: id }, function (data) {
+                    $("div.preference").append(data);
+                    $("select#Genero option[value = " + id + "]").remove();
+                });
+            });
+
+            $("a.excluir-preference").livequery("click", function () {
+                var id = $(this).parents("div.item-preference").find("input.id-preference").val();
+                $(this).parents("div.item-preference").remove();
+                $("select#Genero").append("<option value=" + id + ">" + $(this).data("nome") + "</option>");
+            });
+
+        });
+</script>
+

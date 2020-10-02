@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Locadora.Domain
 {
-    public class Login
+    public partial class Login
     {
         public virtual String Username { get; set; }
         public virtual String Password { get; set; }

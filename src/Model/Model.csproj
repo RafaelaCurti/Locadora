@@ -98,6 +98,7 @@
     <Compile Include="Domain\EnumHelper.cs" />
     <Compile Include="Domain\Login.cs" />
     <Compile Include="Domain\TClient.cs" />
+    <Compile Include="Domain\TReservation.cs" />
     <Compile Include="Domain\TMovie.cs" />
     <Compile Include="Domain\ProfileClient.cs" />
     <Compile Include="Domain\ProfileUsers.cs" />
