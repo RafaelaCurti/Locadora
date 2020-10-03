@@ -25,13 +25,13 @@ using System.Web.Routing;
 using T4MVC;
 namespace Locadora.Web.Controllers
 {
-    public partial class ReservasController
+    public partial class ItensController
     {
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public ReservasController() { }
+        public ItensController() { }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        protected ReservasController(Dummy d) { }
+        protected ItensController(Dummy d) { }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         protected RedirectToRouteResult RedirectToAction(ActionResult result)
@@ -85,13 +85,13 @@ namespace Locadora.Web.Controllers
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public ReservasController Actions { get { return MVC.Reservas; } }
+        public ItensController Actions { get { return MVC.Itens; } }
         [GeneratedCode("T4MVC", "2.0")]
         public readonly string Area = "";
         [GeneratedCode("T4MVC", "2.0")]
-        public readonly string Name = "Reservas";
+        public readonly string Name = "Itens";
         [GeneratedCode("T4MVC", "2.0")]
-        public const string NameConst = "Reservas";
+        public const string NameConst = "Itens";
         [GeneratedCode("T4MVC", "2.0")]
         static readonly ActionNamesClass s_actions = new ActionNamesClass();
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -173,28 +173,26 @@ namespace Locadora.Web.Controllers
             {
                 public readonly string _excluir = "_excluir";
                 public readonly string _form = "_form";
-                public readonly string _listar_cliente = "_listar-cliente";
-                public readonly string _listar_filmes = "_listar-filmes";
+                public readonly string _listar_filme = "_listar-filme";
                 public readonly string _listar_reserva = "_listar-reserva";
                 public readonly string cadastrar = "cadastrar";
                 public readonly string editar = "editar";
                 public readonly string Index = "Index";
             }
-            public readonly string _excluir = "~/Views/Reservas/_excluir.cshtml";
-            public readonly string _form = "~/Views/Reservas/_form.cshtml";
-            public readonly string _listar_cliente = "~/Views/Reservas/_listar-cliente.cshtml";
-            public readonly string _listar_filmes = "~/Views/Reservas/_listar-filmes.cshtml";
-            public readonly string _listar_reserva = "~/Views/Reservas/_listar-reserva.cshtml";
-            public readonly string cadastrar = "~/Views/Reservas/cadastrar.cshtml";
-            public readonly string editar = "~/Views/Reservas/editar.cshtml";
-            public readonly string Index = "~/Views/Reservas/Index.cshtml";
+            public readonly string _excluir = "~/Views/Itens/_excluir.cshtml";
+            public readonly string _form = "~/Views/Itens/_form.cshtml";
+            public readonly string _listar_filme = "~/Views/Itens/_listar-filme.cshtml";
+            public readonly string _listar_reserva = "~/Views/Itens/_listar-reserva.cshtml";
+            public readonly string cadastrar = "~/Views/Itens/cadastrar.cshtml";
+            public readonly string editar = "~/Views/Itens/editar.cshtml";
+            public readonly string Index = "~/Views/Itens/Index.cshtml";
         }
     }
 
     [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-    public partial class T4MVC_ReservasController : Locadora.Web.Controllers.ReservasController
+    public partial class T4MVC_ItensController : Locadora.Web.Controllers.ItensController
     {
-        public T4MVC_ReservasController() : base(Dummy.Instance) { }
+        public T4MVC_ItensController() : base(Dummy.Instance) { }
 
         [NonAction]
         partial void IndexOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
@@ -219,10 +217,10 @@ namespace Locadora.Web.Controllers
         }
 
         [NonAction]
-        partial void CadastrarOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, Locadora.Domain.TReservation model);
+        partial void CadastrarOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, Locadora.Domain.TIten model);
 
         [NonAction]
-        public override System.Web.Mvc.ActionResult Cadastrar(Locadora.Domain.TReservation model)
+        public override System.Web.Mvc.ActionResult Cadastrar(Locadora.Domain.TIten model)
         {
             var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Cadastrar);
             ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "model", model);
@@ -243,10 +241,10 @@ namespace Locadora.Web.Controllers
         }
 
         [NonAction]
-        partial void EditarOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, Locadora.Domain.TReservation model);
+        partial void EditarOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, Locadora.Domain.TIten model);
 
         [NonAction]
-        public override System.Web.Mvc.ActionResult Editar(Locadora.Domain.TReservation model)
+        public override System.Web.Mvc.ActionResult Editar(Locadora.Domain.TIten model)
         {
             var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Editar);
             ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "model", model);

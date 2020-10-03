@@ -7,5 +7,10 @@ namespace Locadora.Domain
 {
     public partial class TIten
     {
+        public static void SaveIten(TReservation model)
+        {
+            Service.SaveIten(model);
+        }
+
     }
 }

@@ -4,13 +4,19 @@
     {
         <div class="col-lg-12">
             @this.Label(x => x.Client).Class("control-label").Value("Clientes:")
-            @this.AutoSelect(x=> x.Client).Class("form-control").FirstOption("", "Selecione uma opção")
+            @this.AutoSelect(x => x.Client).Class("form-control").FirstOption("", "Selecione uma opção")
         </div>
         <div class="col-lg-12">
             @this.Label(x => x.Iten).Class("control-label").Value("Filme:")
             @this.AutoSelect(x => x.Iten).Class("form-control").FirstOption("", "Selecione uma opção")
         </div>
-        <div class="col-lg-12 preference">
+        <div class="col-lg-12">
+            @foreach (var iten in Model.TItens)
+            {
+                @Html.Partial("_listar-filmes", iten.Movie)
+            }
+        </div>
+        <div class="col-lg-12 item">
         </div>
         <div class="col-lg-12">
             @this.Label(x => x.Withdraw).Class("control-label").Value("Retirar:")
@@ -33,23 +39,23 @@
     }
 </div>
 <script type="text/javascript">
-        $(function () {
-            $("form").validate();
+    $(function () {
+        $("form").validate();
 
-            $("select#Genero").change(function () {
-                var id = $(this).val();
-                $.post("@Url.Action("ListarPreferencia")", { id: id }, function (data) {
-                    $("div.preference").append(data);
-                    $("select#Genero option[value = " + id + "]").remove();
-                });
+        $("select#Iten").change(function () {
+            var id = $(this).val();
+            $.post("@Url.Action("ListarFilmes")", { id: id }, function (data) {
+                $("div.item").append(data);
+                $("select#Iten option[value = " + id + "]").remove();
             });
-
-            $("a.excluir-preference").livequery("click", function () {
-                var id = $(this).parents("div.item-preference").find("input.id-preference").val();
-                $(this).parents("div.item-preference").remove();
-                $("select#Genero").append("<option value=" + id + ">" + $(this).data("nome") + "</option>");
-            });
-
         });
+
+        $("a.excluir-filmes").livequery("click", function () {
+            var id = $(this).parents("div.item-item").find("input.id-item").val();
+            $(this).parents("div.item-item").remove();
+            $("select#Iten").append("<option value=" + id + ">" + $(this).data("nome") + "</option>");
+        });
+
+    });
 </script>
 

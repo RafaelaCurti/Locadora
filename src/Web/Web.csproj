@@ -178,6 +178,7 @@
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ItensController .cs" />
     <Compile Include="Controllers\ReservasController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\FilmesController .cs" />
@@ -199,6 +200,9 @@
     <Compile Include="Helpers\RouteExtensions.cs" />
     <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="HomeController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ItensController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="MailController.generated.cs">
@@ -317,8 +321,16 @@
     <Content Include="Views\Reservas\cadastrar.cshtml" />
     <Content Include="Views\Reservas\editar.cshtml" />
     <Content Include="Views\Reservas\Index.cshtml" />
+    <Content Include="Views\Reservas\_listar-reserva.cshtml" />
+    <Content Include="Views\Reservas\_listar-filmes.cshtml" />
     <Content Include="Views\Reservas\_listar-cliente.cshtml" />
-    <Content Include="Views\Reservas\_listar-filme.cshtml" />
+    <Content Include="Views\Itens\cadastrar.cshtml" />
+    <Content Include="Views\Itens\editar.cshtml" />
+    <Content Include="Views\Itens\Index.cshtml" />
+    <Content Include="Views\Itens\_excluir.cshtml" />
+    <Content Include="Views\Itens\_form.cshtml" />
+    <Content Include="Views\Itens\_listar-filme.cshtml" />
+    <Content Include="Views\Itens\_listar-reserva.cshtml" />
     <None Include="Views\Shared\_Confirm.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>

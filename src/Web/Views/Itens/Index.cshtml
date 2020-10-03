@@ -1,4 +1,4 @@
-﻿@model List<TReservation>
+﻿@model List<TIten>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,7 +9,7 @@
 <div class="row" style="margin: 30px 0; text-align: right">
     <div class="col-lg-12 text-right">
         <a class="btn btn-primary btn-lg" data-toggle="tooltip" title="Cadastrar"
-           href="@Url.Action(MVC.Reservas.Cadastrar())">
+           href="@Url.Action(MVC.Itens.Cadastrar())">
             <i class="fas fa-plus"></i> Cadastrar
         </a>
     </div>
@@ -20,16 +20,16 @@
             <thead>
                 <tr>
                     <th class="header">
-                        ID Cliente
+                        Número da Reserva
                     </th>
                     <th class="header">
                         Filmes
                     </th>
                     <th class="header">
-                        Data de Retirada
+                        Valor
                     </th>
                     <th class="header">
-                        Data prevista para a Devolução
+                        Quantidade
                     </th>
                     <th class="header">
                         Ação
@@ -43,27 +43,24 @@
                     {
                         <tr>
                             <td>
-                                @item.Client.Name
+                                @item.Reservation.Id
                             </td>
                             <td>
-                                @foreach (var iten in item.TItens)
-                                {
-                                    <span>- @iten.Movie.Name</span>
-                                }
+                                @item.Movie.Id
                             </td>
                             <td>
-                                @item.Withdraw
+                                @item.Value
                             </td>
                             <td>
-                                @item.Devolution
+                                @item.Quantity
                             </td>
                             <td class="text-center">
                                 <a class="btn btn-primary btn-xs" data-toggle="tooltip" title="Editar"
-                                   href="@Url.Action(MVC.Reservas.Editar(item.Id))">
+                                   href="@Url.Action(MVC.Itens.Editar(item.Id))">
                                     <i class="fas fa-pencil"></i> Editar
                                 </a>
                                 <button type="button" class="btn btn-danger btn-xs ajax-modal" data-toggle="tooltip" title="Excluir"
-                                        href="@Url.Action(MVC.Reservas.Excluir(item.Id))">
+                                        href="@Url.Action(MVC.Itens.Excluir(item.Id))">
                                     <i class="fas fa-trash"></i> Excluir
                                 </button>
                             </td>

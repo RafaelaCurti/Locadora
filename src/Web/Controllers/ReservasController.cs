@@ -24,9 +24,7 @@ namespace Locadora.Web.Controllers
             var reserva = new TReservation();
             ViewBag.Client = TClient.ListAll().ToSelectList(x => x.Id, x => x.Name);
             ViewBag.Iten = TMovie.ListAll().ToSelectList(x => x.Id, x => x.Name);
-            ViewBag.Sale = TSale.ListAll().ToSelectList(x => x.Id, x => x.EnumStatusSale);
-            //ViewBag.Movie = TMovie.ListAll().ToSelectList(x => x.Id, x => x.Name);
-            return View();
+            return View(reserva);
         }
 
         [HttpPost]
@@ -34,25 +32,24 @@ namespace Locadora.Web.Controllers
         {
             try
             {
-                TempData["Alert"] = new Alert("success", "Sua reserva foi cadastrada com sucesso");
                 model.Save();
+                TempData["Alert"] = new Alert("success", "Sua reserva foi cadastrada com sucesso");
+                TIten.SaveIten(model);
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
-            {
-                ViewBag.Client = TClient.ListAll().ToSelectList(x => x.Id, x => x.Name);
-                ViewBag.Itens = TIten.ListAll().ToSelectList(x => x.Id, x => x.Movie);
+            { 
                 return HandleViewException(model, ex);
             }
         }
 
         public virtual ActionResult Editar(int id)
         {
-            var reserva = new TReservation();
+            var reserva = TReservation.Load(id);
             ViewBag.Client = TClient.ListAll().ToSelectList(x => x.Id, x => x.Name);
             ViewBag.Iten = TMovie.ListAll().ToSelectList(x => x.Id, x => x.Name);
             ViewBag.Sale = TSale.ListAll().ToSelectList(x => x.Id, x => x.EnumStatusSale);
-            return View();
+            return View(reserva);
         }
 
         [HttpPost]
@@ -60,14 +57,13 @@ namespace Locadora.Web.Controllers
         {
             try
             {
+                model.Update();
+                TIten.SaveIten(model);
                 TempData["Alert"] = new Alert("success", "Sua reserva foi editada com sucesso");
-                model.Save();
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
             {
-                ViewBag.Client = TClient.ListAll().ToSelectList(x => x.Id, x => x.Name);
-                ViewBag.Itens = TIten.ListAll().ToSelectList(x => x.Id, x => x.Movie);
                 return HandleViewException(model, ex);
             }
         }
@@ -80,7 +76,7 @@ namespace Locadora.Web.Controllers
         public virtual ActionResult ListarFilmes(int id)
         {
             var filme = TMovie.Load(id);
-            return PartialView("_listar-filme", filme);
+            return PartialView("_listar-filmes", filme);
         }
 
         public virtual ActionResult Excluir(int id)

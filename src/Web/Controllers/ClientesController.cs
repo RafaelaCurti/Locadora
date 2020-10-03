@@ -37,7 +37,6 @@ namespace Locadora.Web.Controllers
                 TempData["Alert"] = new Alert("success", "Seu cliente foi cadastrado com sucesso");
                 model.Save();
                 TPreference.SavePreferences(model);
-
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
