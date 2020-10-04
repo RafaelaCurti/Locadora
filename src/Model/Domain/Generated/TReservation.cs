@@ -19,7 +19,7 @@ namespace Locadora.Domain
         public virtual TClient Client { get; set; }
 
         public virtual ICollection<TIten> TItens { get; set; }
-        public virtual List<TIten> Itens { get; set; }
+        //public virtual List<TIten> Itens { get; set; }
         public virtual int[] Itensdareserva { get; set; }
         public virtual ICollection<TSale> TSales { get; set; }
 
