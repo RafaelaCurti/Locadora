@@ -20,7 +20,7 @@
         </div>
         <div class="col-lg-12">
             @this.Label(x => x.Withdraw).Class("control-label").Value("Retirar:")
-            @this.DatePicker(x => x.Withdraw).Class("required form-control").Value(DateTime.Now)
+            @this.DatePicker(x => x.Withdraw).Class("required form-control").Value(Model.Id == 0 ? DateTime.Now : Model.Withdraw)
             @Html.ValidationMessageFor(x => x.Withdraw)
         </div>
         <div class="col-lg-12">

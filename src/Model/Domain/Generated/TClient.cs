@@ -20,8 +20,9 @@ namespace Locadora.Domain
         public virtual Byte[] Password { get; set; } 
         public virtual ProfileClient EnumProfileClient { get; set; } 
 
+
         public virtual ICollection<TPreference> TPreferences { get; set; } 
-        public virtual ICollection<TReservation> TReservations { get; set; }
+        public virtual ICollection<TReservation> TReservations { get; set; } 
 
         #region ' Generated Helpers '
         static TClient()

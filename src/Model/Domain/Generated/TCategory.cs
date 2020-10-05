@@ -15,6 +15,7 @@ namespace Locadora.Domain
 
         public virtual String Name { get; set; } 
 
+
         public virtual ICollection<TMovieCategory> TMovieCategories { get; set; } 
         public virtual ICollection<TPreference> TPreferences { get; set; } 
 

@@ -14,6 +14,9 @@
     <property name="EnumProfileUser">
       <column name="enum_profile_user" length="4" sql-type="int" />
     </property>
+    <property name="Login">
+      <column name="login" length="255" sql-type="nvarchar" />
+    </property>
 
 
   </class>

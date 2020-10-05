@@ -11,11 +11,12 @@ namespace Locadora.Domain
     [Serializable]
     public partial class TUser : Entity<TUser, ITUserService>
     {
-        public virtual Int32 Id { get; set; }
-        public virtual Byte[] Password { get; set; }
-        public virtual String Name { get; set; }
-        public virtual String PasswordString { get; set; }
+        public virtual Int32 Id { get; set; } 
+
+        public virtual String Name { get; set; } 
+        public virtual Byte[] Password { get; set; } 
         public virtual ProfileUser EnumProfileUser { get; set; } 
+        public virtual String Login { get; set; } 
 
 
 

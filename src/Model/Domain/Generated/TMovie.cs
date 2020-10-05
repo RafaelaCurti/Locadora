@@ -5,7 +5,6 @@ using System.Text;
 using Simple.Reflection;
 using Simple.Entities;
 using Locadora.Services;
-using System.Data.SqlTypes;
 
 namespace Locadora.Domain
 {
@@ -13,12 +12,12 @@ namespace Locadora.Domain
     public partial class TMovie : Entity<TMovie, ITMovieService>
     {
         public virtual Int32 Id { get; set; } 
+
         public virtual String Code { get; set; } 
         public virtual String Name { get; set; } 
         public virtual Int32? Duration { get; set; } 
         public virtual FormatMovie EnumFormatMovie { get; set; } 
-        public virtual TypeMovie? EnumTypeMovie { get; set; } 
-        //Coloquei ? para deixar ele como nullabel(aceitar nulo)
+        public virtual TypeMovie EnumTypeMovie { get; set; } 
         public virtual Int32 Stock { get; set; } 
         public virtual DateTime Date { get; set; } 
         public virtual Boolean IsActive { get; set; } 
@@ -71,7 +70,7 @@ namespace Locadora.Domain
             cloned.TMovieCategories = null;
             return cloned;
         }
-       
+
         public TMovie(Int32 Id) : this()
         {  
             this.Id = Id;

@@ -12,6 +12,7 @@ namespace Locadora.Domain
         {
 			return Service.HashPassword(password);
 		}
+
         public virtual void Edit() 
         {
 			Service.Edit(this);
