@@ -14,7 +14,8 @@ namespace Locadora.Domain
         public virtual Int32 Id { get; set; } 
 
         public virtual String Name { get; set; } 
-        public virtual Byte[] Password { get; set; } 
+        public virtual Byte[] Password { get; set; }
+        public virtual Byte[] PasswordString { get; set; }
         public virtual ProfileUser EnumProfileUser { get; set; } 
         public virtual String Login { get; set; } 
 
@@ -39,7 +40,12 @@ namespace Locadora.Domain
         {
             return !(obj1 == obj2);
         }
-        
+
+        public static byte[] HashPassword(byte[] passwordString)
+        {
+            throw new NotImplementedException();
+        }
+
         public override bool Equals(object obj)
         {
             return base.Equals(obj);
