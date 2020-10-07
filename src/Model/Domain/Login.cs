@@ -21,6 +21,7 @@ namespace Locadora.Domain
         public virtual Int32 ClientId { get; set; }
         public virtual Boolean RequiresCaptcha { get; set; }
         public virtual Boolean IsCaptchaValid { get; set; }
+        public Subdomain SudDomain { get; set; }
 
         public Login()
         {

@@ -59,6 +59,18 @@ namespace Locadora.Web.Controllers
             return RedirectToActionPermanent(taskResult.Result);
         }
 
+        [NonAction]
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public virtual System.Web.Mvc.ActionResult Login()
+        {
+            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Login);
+        }
+        [NonAction]
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public virtual System.Web.Mvc.ActionResult TesteLinguagem()
+        {
+            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.TesteLinguagem);
+        }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public HomeController Actions { get { return MVC.Home; } }
@@ -76,17 +88,44 @@ namespace Locadora.Web.Controllers
         public class ActionNamesClass
         {
             public readonly string Index = "Index";
-            public readonly string Realizar = "Realizar";
+            public readonly string Login = "Login";
+            public readonly string Logout = "Logout";
+            public readonly string Erro404 = "erro-404";
+            public readonly string AcessoNegado = "acesso-negado";
+            public readonly string TesteLinguagem = "teste-linguagem";
+            public readonly string ImportarArquivo = "importar-arquivo";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public class ActionNameConstants
         {
             public const string Index = "Index";
-            public const string Realizar = "Realizar";
+            public const string Login = "Login";
+            public const string Logout = "Logout";
+            public const string Erro404 = "erro-404";
+            public const string AcessoNegado = "acesso-negado";
+            public const string TesteLinguagem = "teste-linguagem";
+            public const string ImportarArquivo = "importar-arquivo";
         }
 
 
+        static readonly ActionParamsClass_Login s_params_Login = new ActionParamsClass_Login();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionParamsClass_Login LoginParams { get { return s_params_Login; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionParamsClass_Login
+        {
+            public readonly string returnUrl = "returnUrl";
+            public readonly string model = "model";
+        }
+        static readonly ActionParamsClass_TesteLinguagem s_params_TesteLinguagem = new ActionParamsClass_TesteLinguagem();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionParamsClass_TesteLinguagem TesteLinguagemParams { get { return s_params_TesteLinguagem; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionParamsClass_TesteLinguagem
+        {
+            public readonly string Linguagem = "Linguagem";
+        }
         static readonly ViewsClass s_views = new ViewsClass();
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public ViewsClass Views { get { return s_views; } }
@@ -98,10 +137,10 @@ namespace Locadora.Web.Controllers
             public class _ViewNamesClass
             {
                 public readonly string Index = "Index";
-                public readonly string Realizar = "Realizar";
+                public readonly string Login = "Login";
             }
             public readonly string Index = "~/Views/Home/Index.cshtml";
-            public readonly string Realizar = "~/Views/Home/Realizar.cshtml";
+            public readonly string Login = "~/Views/Home/Login.cshtml";
         }
     }
 
@@ -122,13 +161,82 @@ namespace Locadora.Web.Controllers
         }
 
         [NonAction]
-        partial void RealizarOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+        partial void LoginOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, string returnUrl);
 
         [NonAction]
-        public override System.Web.Mvc.ActionResult Realizar()
+        public override System.Web.Mvc.ActionResult Login(string returnUrl)
         {
-            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Realizar);
-            RealizarOverride(callInfo);
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Login);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "returnUrl", returnUrl);
+            LoginOverride(callInfo, returnUrl);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void LoginOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, Locadora.Domain.Login model);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult Login(Locadora.Domain.Login model)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Login);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "model", model);
+            LoginOverride(callInfo, model);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void LogoutOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult Logout()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Logout);
+            LogoutOverride(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void Erro404Override(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult Erro404()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Erro404);
+            Erro404Override(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void AcessoNegadoOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult AcessoNegado()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.AcessoNegado);
+            AcessoNegadoOverride(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void TesteLinguagemOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, string Linguagem);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult TesteLinguagem(string Linguagem)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.TesteLinguagem);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "Linguagem", Linguagem);
+            TesteLinguagemOverride(callInfo, Linguagem);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void ImportarArquivoOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult ImportarArquivo()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.ImportarArquivo);
+            ImportarArquivoOverride(callInfo);
             return callInfo;
         }
 

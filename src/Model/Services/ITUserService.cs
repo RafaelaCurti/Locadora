@@ -10,5 +10,6 @@ namespace Locadora.Services
     {
         Byte[] HashPassword(String password);
         void Edit(TUser model);
+        //TUser FindByUsername(String username);
     }
 }

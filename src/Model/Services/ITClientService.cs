@@ -10,5 +10,7 @@ namespace Locadora.Services
     {
         Byte[] HashPassword(String password);
         void Edit(TClient model);
+        TClient Authenticate(Login login);
+        TClient FindByEmail(String email);
     }
 }

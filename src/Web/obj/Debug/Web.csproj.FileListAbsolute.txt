@@ -130,3 +130,11 @@ C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Web.csproj.C
 C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Web.csproj.CopyComplete
 C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Locadora.Web.dll
 C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Locadora.Web.pdb
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Locadora.Web.Resources.idioma.resources
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Locadora.Web.Resources.idioma.en.resources
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Locadora.Web.Resources.idioma.es.resources
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\Web.csproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\bin\en\Locadora.Web.resources.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\bin\es\Locadora.Web.resources.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\en\Locadora.Web.resources.dll
+C:\Users\mathe\Source\Repos\RafaelaCurti\Locadora\src\Web\obj\Debug\es\Locadora.Web.resources.dll

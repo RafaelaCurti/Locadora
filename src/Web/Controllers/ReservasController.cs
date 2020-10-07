@@ -31,14 +31,14 @@ namespace Locadora.Web.Controllers
         public virtual ActionResult Cadastrar(TReservation model)
         {
             try
-            { 
+            {
                 TempData["Alert"] = new Alert("success", "Sua reserva foi cadastrada com sucesso");
                 model.Save();
                 TIten.SaveIten(model);
                 return RedirectToAction("Index");
             }
             catch (SimpleValidationException ex)
-            { 
+            {
                 return HandleViewException(model, ex);
             }
         }

@@ -92,6 +92,15 @@
     <Compile Include="..\GlobalInfo.cs">
       <Link>Properties\GlobalInfo.cs</Link>
     </Compile>
+    <Compile Include="Domain\Service.cs" />
+    <Compile Include="Domain\Subdomain.cs" />
+    <Compile Include="Domain\TUser.contracts .cs" />
+    <Compile Include="Domain\TParemeter.contracts.cs" />
+    <Compile Include="Domain\TParameter.cs" />
+    <Compile Include="Domain\UserSecurity.cs" />
+    <Compile Include="Domain\TPreference.contracts.cs" />
+    <Compile Include="Domain\TUser.cs" />
+    <Compile Include="SecurityContext.cs" />
     <Compile Include="Configurator.cs" />
     <Compile Include="Domain\Alert.cs" />
     <Compile Include="Domain\ApplicationConfig.cs" />
@@ -112,6 +121,7 @@
     <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ISystemService.cs" />
+    <Compile Include="Services\ITParameterService.cs" />
     <Compile Include="Services\ITPreferenceService.cs" />
     <Compile Include="ValidationMessages.Designer.cs">
       <AutoGen>True</AutoGen>

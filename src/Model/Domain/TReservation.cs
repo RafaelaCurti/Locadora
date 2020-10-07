@@ -19,6 +19,17 @@ namespace Locadora.Domain
         public virtual Int32 IdClient { get; set; }
         public virtual List<TMovie> Iten { get; set; }
         public virtual StatusSale Sales { get; set; }
+        public virtual int[] itensdareserva { get; set; }
+
+        //    public virtual object[] GetItensdareserva()
+        //    {
+        //        return itensdareserva;
+        //    }
+
+        //    public virtual void SetItensdareserva(object[] value)
+        //    {
+        //        itensdareserva = value;
+        //    }
     }
 
 }

@@ -1,0 +1,2874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnAdicionar" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="BtnAdicionarCodigo" xml:space="preserve">
+    <value>Adicionar por código</value>
+  </data>
+  <data name="BtnAdicionarNovoEndereco" xml:space="preserve">
+    <value>Adicionar novo endereço</value>
+  </data>
+  <data name="BtnAdquirirKit" xml:space="preserve">
+    <value>Adquirir um Kit</value>
+  </data>
+  <data name="BtnAnterior" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="BtnAtualizar" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="BtnCadastreAgora" xml:space="preserve">
+    <value>Cadastre-se agora</value>
+  </data>
+  <data name="BtnCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="BtnComprarKit" xml:space="preserve">
+    <value>Comprar um kit</value>
+  </data>
+  <data name="BtnConcluir" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="BtnConfirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="BtnContinuar" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="BtnDetalhes" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="BtnEnviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="BtnEnviarEmail" xml:space="preserve">
+    <value>Enviar e-mail</value>
+  </data>
+  <data name="BtnEscolherMaisProdutos" xml:space="preserve">
+    <value>Escolher mais produtos</value>
+  </data>
+  <data name="BtnExcluirConta" xml:space="preserve">
+    <value>Excluir conta</value>
+  </data>
+  <data name="BtnExportar" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="BtnFechar" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="BtnFinalizar" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="BtnFinalizarPedido" xml:space="preserve">
+    <value>Finalizar pedido</value>
+  </data>
+  <data name="BtnGerarCodigo" xml:space="preserve">
+    <value>Gerar código</value>
+  </data>
+  <data name="BtnImprimir" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="BtnImprimirBoleto" xml:space="preserve">
+    <value>Imprimir boleto</value>
+  </data>
+  <data name="BtnIniciarCadastro" xml:space="preserve">
+    <value>Iniciar cadastro</value>
+  </data>
+  <data name="BtnIrParaEscritorio" xml:space="preserve">
+    <value>Ir para o escritório</value>
+  </data>
+  <data name="BtnMaisProdutos" xml:space="preserve">
+    <value>Mais produtos</value>
+  </data>
+  <data name="BtnNoCarrinho" xml:space="preserve">
+    <value>no carrinho</value>
+  </data>
+  <data name="BtnPagar" xml:space="preserve">
+    <value>Pagar</value>
+  </data>
+  <data name="BtnPagarPedidoKit" xml:space="preserve">
+    <value>Pagar o pedido de kit</value>
+  </data>
+  <data name="BtnProcurar" xml:space="preserve">
+    <value>Procurar</value>
+  </data>
+  <data name="BtnProximo" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="BtnSalvar" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="BtnUtilizar" xml:space="preserve">
+    <value>Utilizar</value>
+  </data>
+  <data name="BtnVoltar" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="BtnVoltarHome" xml:space="preserve">
+    <value>Voltar para a Home</value>
+  </data>
+  <data name="Cadastro" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="Celular" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="DicaDocumento" xml:space="preserve">
+    <value>Um número de Seguro Social válido é necessário para todos os cidadãos, residentes ou outras pessoas nos EUA.</value>
+  </data>
+  <data name="DicaLogin" xml:space="preserve">
+    <value>Crie aqui seu Nome de Usuário (Ex. joaopaulo)</value>
+  </data>
+  <data name="DicaTreinador" xml:space="preserve">
+    <value>Login da pessoa qualificada que te fez a apresentação.</value>
+  </data>
+  <data name="EmailAgoraOficial" xml:space="preserve">
+    <value>agora é oficial: Você é Maravilhas da Terra!</value>
+  </data>
+  <data name="EmailChamadoAberto" xml:space="preserve">
+    <value>Novo chamado aberto</value>
+  </data>
+  <data name="EmailChamadoExcluido" xml:space="preserve">
+    <value>excluído</value>
+  </data>
+  <data name="EmailChamadoFechado" xml:space="preserve">
+    <value>fechado</value>
+  </data>
+  <data name="EmailChamadoNaoResolvido" xml:space="preserve">
+    <value>não resolvido</value>
+  </data>
+  <data name="EmailChamadoNovaMensagem" xml:space="preserve">
+    <value>Nova mensagem</value>
+  </data>
+  <data name="EmailChamadoResolvido" xml:space="preserve">
+    <value>resolvido</value>
+  </data>
+  <data name="EmailConfirmacaoConta" xml:space="preserve">
+    <value>Confirmação da conta</value>
+  </data>
+  <data name="EmailFaltaPoucoProprioNegocio" xml:space="preserve">
+    <value>falta pouco para você ter seu próprio negócio Maravilhas da Terra!</value>
+  </data>
+  <data name="EmailNovoPedidoFranquiaCD" xml:space="preserve">
+    <value>Novo pedido na sua franquia/CD</value>
+  </data>
+  <data name="EmailPagamentoConfirmado" xml:space="preserve">
+    <value>Pagamento confirmado</value>
+  </data>
+  <data name="EmailPedidoCancelado" xml:space="preserve">
+    <value>Pedido cancelado</value>
+  </data>
+  <data name="EmailPedidoEfetuado" xml:space="preserve">
+    <value>Pedido efetuado com sucesso</value>
+  </data>
+  <data name="EmailPedidoEnviado" xml:space="preserve">
+    <value>Pedido enviado</value>
+  </data>
+  <data name="EmailPedidoRetirado" xml:space="preserve">
+    <value>Pedido retirado</value>
+  </data>
+  <data name="EmailRecebemosSeuCadastro" xml:space="preserve">
+    <value>recebemos seu cadastro na Maravilhas da Terra</value>
+  </data>
+  <data name="EmailRecebemosSeuPedido" xml:space="preserve">
+    <value>Recebemos seu pedido</value>
+  </data>
+  <data name="EmailRecuperacaoAssinaturaDigital" xml:space="preserve">
+    <value>Recuperação de assinatura digital</value>
+  </data>
+  <data name="EmailRecuperacaoSenha" xml:space="preserve">
+    <value>Recuperação de senha</value>
+  </data>
+  <data name="EmailSaqueSolicitado" xml:space="preserve">
+    <value>Saque solicitado</value>
+  </data>
+  <data name="EmailTransferenciaRealizada" xml:space="preserve">
+    <value>Transferência realizada</value>
+  </data>
+  <data name="EmailTransferenciaRecebida" xml:space="preserve">
+    <value>Transferência recebida</value>
+  </data>
+  <data name="EmailValidacaoDocumento" xml:space="preserve">
+    <value>Validação de documento</value>
+  </data>
+  <data name="Erro" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="EstadoCasado" xml:space="preserve">
+    <value>Casado (a)</value>
+  </data>
+  <data name="EstadoDivorciado" xml:space="preserve">
+    <value>Divorciado (a)</value>
+  </data>
+  <data name="EstadoNaoInformado" xml:space="preserve">
+    <value>Não Informado</value>
+  </data>
+  <data name="EstadoSeparadoJudicialmente" xml:space="preserve">
+    <value>Separado(a) judicialmente</value>
+  </data>
+  <data name="EstadoSolteiro" xml:space="preserve">
+    <value>Solteiro (a)</value>
+  </data>
+  <data name="EstadoViuvo" xml:space="preserve">
+    <value>Viúvo (a)</value>
+  </data>
+  <data name="Frete" xml:space="preserve">
+    <value>Frete</value>
+  </data>
+  <data name="LblAcao" xml:space="preserve">
+    <value>Ação</value>
+  </data>
+  <data name="LblAcessar" xml:space="preserve">
+    <value>Acessar</value>
+  </data>
+  <data name="LblAcumulado" xml:space="preserve">
+    <value>Acumulado</value>
+  </data>
+  <data name="LblAdesao" xml:space="preserve">
+    <value>Adesão</value>
+  </data>
+  <data name="LblAdesaoMes" xml:space="preserve">
+    <value>Adesão neste mês</value>
+  </data>
+  <data name="LblAdicionarCarrinho" xml:space="preserve">
+    <value>Adicionar no carrinho</value>
+  </data>
+  <data name="LblAdicionarProdutosPorCodigo" xml:space="preserve">
+    <value>Adicionar produtos por código</value>
+  </data>
+  <data name="LblAguardandoSeparacao" xml:space="preserve">
+    <value>Aguardando separação</value>
+  </data>
+  <data name="LblAindaNaoCadastrou" xml:space="preserve">
+    <value>Ainda não se cadastrou?</value>
+  </data>
+  <data name="LblAlterar" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="LblAlterarEmail" xml:space="preserve">
+    <value>Alterar e-mail</value>
+  </data>
+  <data name="LblAlterarEndereco" xml:space="preserve">
+    <value>Alterar endereço</value>
+  </data>
+  <data name="LblAlterarFoto" xml:space="preserve">
+    <value>Alterar foto</value>
+  </data>
+  <data name="LblAlterarSenha" xml:space="preserve">
+    <value>Alterar senha</value>
+  </data>
+  <data name="LblAnterior" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="LblApelido" xml:space="preserve">
+    <value>Apelido</value>
+  </data>
+  <data name="LblAplicarCupom" xml:space="preserve">
+    <value>Aplicar cupom</value>
+  </data>
+  <data name="LblAposConfirmacaoPagamento" xml:space="preserve">
+    <value>após a confirmação do pagamento</value>
+  </data>
+  <data name="LblAssinaturaDigitalAtual" xml:space="preserve">
+    <value>Assinatura digital atual</value>
+  </data>
+  <data name="LblAssunto" xml:space="preserve">
+    <value>Assunto</value>
+  </data>
+  <data name="LblAtivacao" xml:space="preserve">
+    <value>Ativação</value>
+  </data>
+  <data name="LblAtivacaoComSaldo" xml:space="preserve">
+    <value>Ativação com saldo</value>
+  </data>
+  <data name="LblAtivacaoPainel" xml:space="preserve">
+    <value>Ativação painel</value>
+  </data>
+  <data name="LblAtivarComLicenca" xml:space="preserve">
+    <value>Ativar com licença</value>
+  </data>
+  <data name="LblAtivo" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="LblAtivoMes" xml:space="preserve">
+    <value>Ativo no mês</value>
+  </data>
+  <data name="LblAtivos" xml:space="preserve">
+    <value>Ativos</value>
+  </data>
+  <data name="LblAtualizacaoNumeroCelular" xml:space="preserve">
+    <value>Atualização do número do celular</value>
+  </data>
+  <data name="LblAtualizando" xml:space="preserve">
+    <value>Atualizando</value>
+  </data>
+  <data name="LblAtualizarDadosCadastrais" xml:space="preserve">
+    <value>Atualizar dados cadastrais</value>
+  </data>
+  <data name="LblAutomatico" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="LblAutor" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="LblAutorizacaoParaRetirada" xml:space="preserve">
+    <value>autorização para retirada de pedido por terceiros no CD.</value>
+  </data>
+  <data name="LblBairro" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="LblBandeira" xml:space="preserve">
+    <value>Bandeira</value>
+  </data>
+  <data name="LblBemVindo" xml:space="preserve">
+    <value>Bem-vindo</value>
+  </data>
+  <data name="LblBloqueado" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="LblBoletoBancario" xml:space="preserve">
+    <value>Boleto bancário</value>
+  </data>
+  <data name="LblBonus" xml:space="preserve">
+    <value>Bônus</value>
+  </data>
+  <data name="LblBronze" xml:space="preserve">
+    <value>Bronze</value>
+  </data>
+  <data name="LblBusca" xml:space="preserve">
+    <value>Busca</value>
+  </data>
+  <data name="LblBuscarPor" xml:space="preserve">
+    <value>Buscar por</value>
+  </data>
+  <data name="LblCadastrarNovoEndereco" xml:space="preserve">
+    <value>Cadastrar novo endereço</value>
+  </data>
+  <data name="LblCadastreEnderecoValido" xml:space="preserve">
+    <value>Cadastre um endereço válido.</value>
+  </data>
+  <data name="LblCadastroDocumento" xml:space="preserve">
+    <value>Informe seu CPF, por favor</value>
+  </data>
+  <data name="LblCadastroEfetuadoAtivadoLicenca" xml:space="preserve">
+    <value>Cadastro efetuado e ativado com licença</value>
+  </data>
+  <data name="LblCancelados" xml:space="preserve">
+    <value>Cancelados</value>
+  </data>
+  <data name="LblCancelarPedido" xml:space="preserve">
+    <value>Cancelar pedido</value>
+  </data>
+  <data name="LblCancelarPedidoKit" xml:space="preserve">
+    <value>Cancelar pedido de kit</value>
+  </data>
+  <data name="LblCarregarFoto" xml:space="preserve">
+    <value>Carregar foto</value>
+  </data>
+  <data name="LblCartaoCredito" xml:space="preserve">
+    <value>Cartão de crédito</value>
+  </data>
+  <data name="LblCartaoDebito" xml:space="preserve">
+    <value>Cartão de débito</value>
+  </data>
+  <data name="LblCartoesCredito" xml:space="preserve">
+    <value>Cartões de crédito</value>
+  </data>
+  <data name="LblCasoNaoTenhaCadastro" xml:space="preserve">
+    <value>Caso ainda não tenha efetuado o cadastro, você pode realizar clicando</value>
+  </data>
+  <data name="LblCategoria" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="LblCDFranquia" xml:space="preserve">
+    <value>CD/Franquia</value>
+  </data>
+  <data name="LblCelular" xml:space="preserve">
+    <value>Qual o celular que podemos falar com você?</value>
+  </data>
+  <data name="LblCep" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="LblChamado" xml:space="preserve">
+    <value>Chamado</value>
+  </data>
+  <data name="LblCiclo" xml:space="preserve">
+    <value>Ciclo</value>
+  </data>
+  <data name="LblCidade" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="LblClicandoAqui" xml:space="preserve">
+    <value>clicando aqui</value>
+  </data>
+  <data name="LblCliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="LblCliqueAqui" xml:space="preserve">
+    <value>clique aqui</value>
+  </data>
+  <data name="LblCliqueAquiParaInseriLa" xml:space="preserve">
+    <value>Clique aqui para inseri-la.</value>
+  </data>
+  <data name="LblCliqueParaVisualizarAssinatura" xml:space="preserve">
+    <value>Clique para visualizar a assinatura digital</value>
+  </data>
+  <data name="LblCliqueParaVisualizarSenha" xml:space="preserve">
+    <value>Clique para visualizar a senha</value>
+  </data>
+  <data name="LblCodigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="LblCodigoAutorizacao" xml:space="preserve">
+    <value>Código autorização</value>
+  </data>
+  <data name="LblCodigoBarras" xml:space="preserve">
+    <value>Código de barras</value>
+  </data>
+  <data name="LblCodigoInterno" xml:space="preserve">
+    <value>Código interno</value>
+  </data>
+  <data name="LblCodigoLicenca" xml:space="preserve">
+    <value>Código da licença</value>
+  </data>
+  <data name="LblCodigoPedido" xml:space="preserve">
+    <value>Código do pedido</value>
+  </data>
+  <data name="LblCodigoProduto" xml:space="preserve">
+    <value>Código do produto</value>
+  </data>
+  <data name="LblCodigoRastreio" xml:space="preserve">
+    <value>Código rastreio</value>
+  </data>
+  <data name="LblCodigoSeguranca" xml:space="preserve">
+    <value>Código de segurança</value>
+  </data>
+  <data name="LblCodigoTransacao" xml:space="preserve">
+    <value>Código da transação</value>
+  </data>
+  <data name="LblComFreteGratis" xml:space="preserve">
+    <value>com frete grátis</value>
+  </data>
+  <data name="LblComJuros" xml:space="preserve">
+    <value>com juros</value>
+  </data>
+  <data name="LblComplemento" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="LblCompleta" xml:space="preserve">
+    <value>Completa</value>
+  </data>
+  <data name="LblComprarKit" xml:space="preserve">
+    <value>Para finalizar seu cadastro e se tornar um consultor Maravilhas da Terra, é preciso adquirir um dos nossos kits:</value>
+  </data>
+  <data name="LblComprarKitOuVoucher" xml:space="preserve">
+    <value>Para finalizar seu cadastro e se tornar um consultor Maravilhas da Terra, é preciso adquirir um dos nossos kits ou inserir uma licença:</value>
+  </data>
+  <data name="LblConcordoTermosUso" xml:space="preserve">
+    <value>Concordo com os Termos de Uso.</value>
+  </data>
+  <data name="LblConfirmacao" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="LblConfirmaEmail" xml:space="preserve">
+    <value>Confirme seu e-mail</value>
+  </data>
+  <data name="LblConfirmaKit" xml:space="preserve">
+    <value>Deseja realmente aderir ao</value>
+  </data>
+  <data name="LblConfirmarEntrega" xml:space="preserve">
+    <value>Confirmar entrega</value>
+  </data>
+  <data name="LblConfirmarNovaSenha" xml:space="preserve">
+    <value>Confirmar nova senha</value>
+  </data>
+  <data name="LblConfirmarPagamentoPorSaldo" xml:space="preserve">
+    <value>Confirmar pagamento por saldo</value>
+  </data>
+  <data name="LblConfirmaSenha" xml:space="preserve">
+    <value>Confirme sua senha</value>
+  </data>
+  <data name="LblConfirmeDadosConta" xml:space="preserve">
+    <value>Confirme os dados da sua conta.</value>
+  </data>
+  <data name="LblConfirmeTipoImpressao" xml:space="preserve">
+    <value>Confirme o tipo de impressão</value>
+  </data>
+  <data name="LblConsultor" xml:space="preserve">
+    <value>Consultor</value>
+  </data>
+  <data name="LblConsultores" xml:space="preserve">
+    <value>Consultores</value>
+  </data>
+  <data name="LblConsumidor" xml:space="preserve">
+    <value>Consumidor</value>
+  </data>
+  <data name="LblConta" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="LblContaBonus" xml:space="preserve">
+    <value>Conta Bônus</value>
+  </data>
+  <data name="LblContaCreditoAtivacao" xml:space="preserve">
+    <value>Crédito para ativação (sem pontuação)</value>
+  </data>
+  <data name="LblContaCreditoCompra" xml:space="preserve">
+    <value>Crédito para compra</value>
+  </data>
+  <data name="LblContas" xml:space="preserve">
+    <value>Contas</value>
+  </data>
+  <data name="LblContatos" xml:space="preserve">
+    <value>Contatos</value>
+  </data>
+  <data name="LblContem" xml:space="preserve">
+    <value>Contém</value>
+  </data>
+  <data name="LblCopiarLink" xml:space="preserve">
+    <value>Copiar link</value>
+  </data>
+  <data name="LblCredito" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="LblCreditoConta" xml:space="preserve">
+    <value>Crédito em conta</value>
+  </data>
+  <data name="LblCreditoDebito" xml:space="preserve">
+    <value>Crédito/Débito</value>
+  </data>
+  <data name="LblCriadaEm" xml:space="preserve">
+    <value>Criada em</value>
+  </data>
+  <data name="LblCriadoEm" xml:space="preserve">
+    <value>Criado em</value>
+  </data>
+  <data name="LblCriarNovoEndereco" xml:space="preserve">
+    <value>Criar novo endereço</value>
+  </data>
+  <data name="LblCupomPromocional" xml:space="preserve">
+    <value>Cupom promocional</value>
+  </data>
+  <data name="LblCupomUtilizado" xml:space="preserve">
+    <value>Cupom utilizado</value>
+  </data>
+  <data name="LblDadosCartaoCredito" xml:space="preserve">
+    <value>Dados do cartão de crédito</value>
+  </data>
+  <data name="LblDadosCliente" xml:space="preserve">
+    <value>Dados do cliente</value>
+  </data>
+  <data name="LblDadosPedido" xml:space="preserve">
+    <value>Dados do pedido</value>
+  </data>
+  <data name="LblData" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="LblDataAbertura" xml:space="preserve">
+    <value>Data de abertura</value>
+  </data>
+  <data name="LblDataAdesao" xml:space="preserve">
+    <value>Data de adesão</value>
+  </data>
+  <data name="LblDataAtivacao" xml:space="preserve">
+    <value>Data de ativação</value>
+  </data>
+  <data name="LblDataCadastro" xml:space="preserve">
+    <value>Data de cadastro</value>
+  </data>
+  <data name="LblDataEntrega" xml:space="preserve">
+    <value>Data de entrega</value>
+  </data>
+  <data name="LblDataEnvio" xml:space="preserve">
+    <value>Data de envio</value>
+  </data>
+  <data name="LblDataFinal" xml:space="preserve">
+    <value>Data final</value>
+  </data>
+  <data name="LblDataInicial" xml:space="preserve">
+    <value>Data inicial</value>
+  </data>
+  <data name="LblDataNascimento" xml:space="preserve">
+    <value>Data de nascimento</value>
+  </data>
+  <data name="LblDataPagamento" xml:space="preserve">
+    <value>Data do pagamento</value>
+  </data>
+  <data name="LblDataPedido" xml:space="preserve">
+    <value>Data do pedido</value>
+  </data>
+  <data name="LblDataPrevisaoEntrega" xml:space="preserve">
+    <value>Data de previsão de entrega</value>
+  </data>
+  <data name="LblDataRetirada" xml:space="preserve">
+    <value>Data da retirada</value>
+  </data>
+  <data name="LblDe" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="LblDebito" xml:space="preserve">
+    <value>Débito</value>
+  </data>
+  <data name="LblDebitoConta" xml:space="preserve">
+    <value>Débito em conta</value>
+  </data>
+  <data name="LblDebitoOnline" xml:space="preserve">
+    <value>Débito online</value>
+  </data>
+  <data name="LblDepositoConta" xml:space="preserve">
+    <value>Depósito em conta</value>
+  </data>
+  <data name="LblDescerAteUltimoNivel" xml:space="preserve">
+    <value>Descer até o último nível</value>
+  </data>
+  <data name="LblDesconto" xml:space="preserve">
+    <value>Desconto</value>
+  </data>
+  <data name="LblDescricao" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="LblDestaque" xml:space="preserve">
+    <value>Destaque</value>
+  </data>
+  <data name="LblDetalhesProduto" xml:space="preserve">
+    <value>Detalhes do produto</value>
+  </data>
+  <data name="LblDiamante" xml:space="preserve">
+    <value>Diamante</value>
+  </data>
+  <data name="LblDinheiro" xml:space="preserve">
+    <value>Dinheiro</value>
+  </data>
+  <data name="LblDoacaoMdtSocial" xml:space="preserve">
+    <value>Doação MDT Social</value>
+  </data>
+  <data name="LblDocumento" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="LblDocumentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="LblDocumentoTitularCartao" xml:space="preserve">
+    <value>CPF do titular do cartão</value>
+  </data>
+  <data name="LblDownloadNFe" xml:space="preserve">
+    <value>Download NFe</value>
+  </data>
+  <data name="LblDuvida" xml:space="preserve">
+    <value>Dúvida</value>
+  </data>
+  <data name="LblE" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="LblEAtualmenteEsta" xml:space="preserve">
+    <value>e atualmente está</value>
+  </data>
+  <data name="LblEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="LblEducacional" xml:space="preserve">
+    <value>Educacional</value>
+  </data>
+  <data name="LblElite" xml:space="preserve">
+    <value>Elite</value>
+  </data>
+  <data name="LblEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="LblEmSeparacao" xml:space="preserve">
+    <value>Em separação</value>
+  </data>
+  <data name="LblEmTransito" xml:space="preserve">
+    <value>Em trânsito</value>
+  </data>
+  <data name="LblEndereco" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="LblEnderecoEntrega" xml:space="preserve">
+    <value>Endereço de entrega</value>
+  </data>
+  <data name="LblEnderecoFaturamentoCartao" xml:space="preserve">
+    <value>Endereço de faturamento do cartão</value>
+  </data>
+  <data name="LblEnderecos" xml:space="preserve">
+    <value>Endereços</value>
+  </data>
+  <data name="LblEntrarContato" xml:space="preserve">
+    <value>Entrar em contato</value>
+  </data>
+  <data name="LblEntreEmailRecuperarSenha" xml:space="preserve">
+    <value>Entre com seu e-mail para recuperar sua senha:</value>
+  </data>
+  <data name="LblEntregaOnline" xml:space="preserve">
+    <value>Entrega online</value>
+  </data>
+  <data name="LblEntregueDestinatario" xml:space="preserve">
+    <value>Entregue ao destinatário</value>
+  </data>
+  <data name="LblEscolhaFormaEntrega" xml:space="preserve">
+    <value>Escolha a forma de entrega do seu pedido</value>
+  </data>
+  <data name="LblEscolhaFormaEntregaEv" xml:space="preserve">
+    <value>Escolha a forma de entrega</value>
+  </data>
+  <data name="LblEscolhaFormaPagamento" xml:space="preserve">
+    <value>Escolha a forma de pagamento</value>
+  </data>
+  <data name="LblEscolhaUmProduto" xml:space="preserve">
+    <value>Escolha um produto</value>
+  </data>
+  <data name="LblEscolherFrete" xml:space="preserve">
+    <value>Escolha o tipo do frete</value>
+  </data>
+  <data name="LblEscolherKit" xml:space="preserve">
+    <value>Escolher Kit</value>
+  </data>
+  <data name="LblEscolherKits" xml:space="preserve">
+    <value>Escolher Kits</value>
+  </data>
+  <data name="LblEscolherProdutos" xml:space="preserve">
+    <value>Escolher Produtos</value>
+  </data>
+  <data name="LblEscrevaTextoAqui" xml:space="preserve">
+    <value>Escreva o texto aqui</value>
+  </data>
+  <data name="LblEscrevaTituloAqui" xml:space="preserve">
+    <value>Escreva o título aqui</value>
+  </data>
+  <data name="LblEsmeralda" xml:space="preserve">
+    <value>Esmeralda</value>
+  </data>
+  <data name="LblEspanhol" xml:space="preserve">
+    <value>Espanhol</value>
+  </data>
+  <data name="LblEsqueciMinhaAssinaturaDigital" xml:space="preserve">
+    <value>Esqueci minha assinatura digital</value>
+  </data>
+  <data name="LblEsqueciMinhaSenha" xml:space="preserve">
+    <value>Esqueci minha senha</value>
+  </data>
+  <data name="LblEstado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="LblEstadoCivil" xml:space="preserve">
+    <value>Estado Civil</value>
+  </data>
+  <data name="LblEstornoPedidoCancelado" xml:space="preserve">
+    <value>Estorno de pedido cancelado</value>
+  </data>
+  <data name="LblEuDeclaroMeuNumeroAtualizado" xml:space="preserve">
+    <value>Eu declaro que meu número de celular está atualizado.</value>
+  </data>
+  <data name="LblEuDeclaroMeusNumerosAtualizados" xml:space="preserve">
+    <value>Eu declaro que meus números de celular estão atualizados.</value>
+  </data>
+  <data name="LblExcluir" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="LblExcluirEndereco" xml:space="preserve">
+    <value>Excluir endereço</value>
+  </data>
+  <data name="LblExpiraEm" xml:space="preserve">
+    <value>Expira em</value>
+  </data>
+  <data name="LblFezPedidoKit" xml:space="preserve">
+    <value>Fez pedido kit</value>
+  </data>
+  <data name="LblFicouAlgumaDuvida" xml:space="preserve">
+    <value>Ficou alguma dúvida?</value>
+  </data>
+  <data name="LblFiltroPorEstado" xml:space="preserve">
+    <value>Filtro por Estado</value>
+  </data>
+  <data name="LblFiquePorDentroMDT" xml:space="preserve">
+    <value>Fique por dentro da MDT</value>
+  </data>
+  <data name="LblFoiRealizadoEm" xml:space="preserve">
+    <value>foi realizado em</value>
+  </data>
+  <data name="LblFoiUsado" xml:space="preserve">
+    <value>Foi usado</value>
+  </data>
+  <data name="LblFormaEntrega" xml:space="preserve">
+    <value>Forma de entrega</value>
+  </data>
+  <data name="LblFormaEnvio" xml:space="preserve">
+    <value>Forma de envio</value>
+  </data>
+  <data name="LblFormaPagamento" xml:space="preserve">
+    <value>Forma de pagamento</value>
+  </data>
+  <data name="LblFormasPagamento" xml:space="preserve">
+    <value>Formas de pagamento</value>
+  </data>
+  <data name="LblGraduacao" xml:space="preserve">
+    <value>Graduação</value>
+  </data>
+  <data name="LblGratis" xml:space="preserve">
+    <value>Grátis</value>
+  </data>
+  <data name="LblHistoricoEntrega" xml:space="preserve">
+    <value>Histórico de entrega</value>
+  </data>
+  <data name="LblIcone" xml:space="preserve">
+    <value>Ícone</value>
+  </data>
+  <data name="LblIDNotaFiscal" xml:space="preserve">
+    <value>Id da nota fiscal</value>
+  </data>
+  <data name="LblImposto" xml:space="preserve">
+    <value>Imposto</value>
+  </data>
+  <data name="LblInativos" xml:space="preserve">
+    <value>Inativos</value>
+  </data>
+  <data name="LblInformeCupom" xml:space="preserve">
+    <value>Informe o cupom</value>
+  </data>
+  <data name="LblInformeLogin" xml:space="preserve">
+    <value>Informe seu login</value>
+  </data>
+  <data name="LblInformeSenhaAcesso" xml:space="preserve">
+    <value>Informe sua senha de acesso</value>
+  </data>
+  <data name="LblIngles" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="LblInserirCodigo" xml:space="preserve">
+    <value>Inserir código</value>
+  </data>
+  <data name="LblInsiraAssinaturaDigital" xml:space="preserve">
+    <value>Insira sua assinatura digital</value>
+  </data>
+  <data name="LblIrParaTopo" xml:space="preserve">
+    <value>Ir para o topo</value>
+  </data>
+  <data name="LblJaPossuiCadastro" xml:space="preserve">
+    <value>Já possui cadastro?</value>
+  </data>
+  <data name="LblKitsAdesao" xml:space="preserve">
+    <value>KITS DE ADESÃO</value>
+  </data>
+  <data name="LblLadoDireito" xml:space="preserve">
+    <value>Lado direito</value>
+  </data>
+  <data name="LblLadoEsquerdo" xml:space="preserve">
+    <value>Lado esquerdo</value>
+  </data>
+  <data name="LblLegendas" xml:space="preserve">
+    <value>Legendas</value>
+  </data>
+  <data name="LblLeiaMais" xml:space="preserve">
+    <value>Leia mais</value>
+  </data>
+  <data name="LblLembrarMe" xml:space="preserve">
+    <value>Lembrar-me</value>
+  </data>
+  <data name="LblLembrarMinhaAssinaturaDigital" xml:space="preserve">
+    <value>Lembrar minha assinatura digital</value>
+  </data>
+  <data name="LblLinha" xml:space="preserve">
+    <value>Linha</value>
+  </data>
+  <data name="LblLinkMinhaLojaVirtual" xml:space="preserve">
+    <value>Link da minha loja virtual</value>
+  </data>
+  <data name="LblLinkPatrocinio" xml:space="preserve">
+    <value>Link de patrocínio</value>
+  </data>
+  <data name="LblLinkRastreio" xml:space="preserve">
+    <value>Link de rastreio</value>
+  </data>
+  <data name="LblLocal" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="LblLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LblLoginConsultor" xml:space="preserve">
+    <value>Login do consultor</value>
+  </data>
+  <data name="LblLoginPatrocinador" xml:space="preserve">
+    <value>Login do patrocinador</value>
+  </data>
+  <data name="LblLoginRecebedor" xml:space="preserve">
+    <value>Login do recebedor</value>
+  </data>
+  <data name="LblLoginTreinador" xml:space="preserve">
+    <value>Login do treinador</value>
+  </data>
+  <data name="LblLojaConsultorIndependenteMDT" xml:space="preserve">
+    <value>Loja virtual do Consultor Independente Maravilhas da Terra</value>
+  </data>
+  <data name="LblLojaExclusiva" xml:space="preserve">
+    <value>Esta loja é exclusiva do consultor</value>
+  </data>
+  <data name="LblMaquina" xml:space="preserve">
+    <value>Máquina</value>
+  </data>
+  <data name="LblMarcadores" xml:space="preserve">
+    <value>Marcadores</value>
+  </data>
+  <data name="LblMatriz" xml:space="preserve">
+    <value>Matriz</value>
+  </data>
+  <data name="LblMeioPagamento" xml:space="preserve">
+    <value>Meio de pagamento</value>
+  </data>
+  <data name="LblMensagem" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="LblMesAno" xml:space="preserve">
+    <value>Mês/Ano</value>
+  </data>
+  <data name="LblMesAnoFinal" xml:space="preserve">
+    <value>Mês/Ano final</value>
+  </data>
+  <data name="LblMesAnoInicial" xml:space="preserve">
+    <value>Mês/Ano inicial</value>
+  </data>
+  <data name="LblMesAnterior" xml:space="preserve">
+    <value>Mês anterior</value>
+  </data>
+  <data name="LblMicrocredito" xml:space="preserve">
+    <value>Microcrédito</value>
+  </data>
+  <data name="LblMostrarCancelados" xml:space="preserve">
+    <value>Mostrar cancelados</value>
+  </data>
+  <data name="LblMotivo" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="LblMsgCadastrarNovoEndereco" xml:space="preserve">
+    <value>Cadastrar um novo endereço com o CEP &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="LblMudancasStatusPagamento" xml:space="preserve">
+    <value>Mudanças de status de pagamento</value>
+  </data>
+  <data name="LblNaoAtivoMes" xml:space="preserve">
+    <value>Não ativo no mês</value>
+  </data>
+  <data name="LblNaoContem" xml:space="preserve">
+    <value>Não Contém</value>
+  </data>
+  <data name="LblNaoExibirPopup" xml:space="preserve">
+    <value>Não exibir mais este pop-up</value>
+  </data>
+  <data name="LblNaoTenhoPatrocinador" xml:space="preserve">
+    <value>Não tenho um patrocinador</value>
+  </data>
+  <data name="LblNecessarioConfirmacao" xml:space="preserve">
+    <value>Necessário confirmação</value>
+  </data>
+  <data name="LblNesteLink" xml:space="preserve">
+    <value>neste link</value>
+  </data>
+  <data name="LblNivel" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="LblNome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="LblNomeConsultor" xml:space="preserve">
+    <value>Nome do consultor</value>
+  </data>
+  <data name="LblNomeTitularCartao" xml:space="preserve">
+    <value>Nome do titular do cartão</value>
+  </data>
+  <data name="LblNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="LblNovaSenha" xml:space="preserve">
+    <value>Nova senha</value>
+  </data>
+  <data name="LblNovo" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="LblNovos" xml:space="preserve">
+    <value>Novos</value>
+  </data>
+  <data name="LblNParcelas" xml:space="preserve">
+    <value>Nº de parcelas</value>
+  </data>
+  <data name="LblNumero" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="LblNumeroCartao" xml:space="preserve">
+    <value>Número do cartão</value>
+  </data>
+  <data name="LblNumeroNotaFiscal" xml:space="preserve">
+    <value>Número da nota fiscal</value>
+  </data>
+  <data name="LblObservacoes" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="LblOpcoesFreteDisponiveis" xml:space="preserve">
+    <value>Opções de frete disponíveis</value>
+  </data>
+  <data name="LblOperadora" xml:space="preserve">
+    <value>Operadora</value>
+  </data>
+  <data name="LblOrdenarPor" xml:space="preserve">
+    <value>Ordenar por</value>
+  </data>
+  <data name="LblOrigemPedido" xml:space="preserve">
+    <value>Origem do pedido</value>
+  </data>
+  <data name="LblOuro" xml:space="preserve">
+    <value>Ouro</value>
+  </data>
+  <data name="LblOutrasCategorias" xml:space="preserve">
+    <value>Outras categorias</value>
+  </data>
+  <data name="LblPagamento" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="LblPagamentoNaoAutorizado" xml:space="preserve">
+    <value>Pagamento não autorizado</value>
+  </data>
+  <data name="LblPagamentoParcial" xml:space="preserve">
+    <value>Pagamento parcial</value>
+  </data>
+  <data name="LblPais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="LblPalestrante" xml:space="preserve">
+    <value>Palestrante</value>
+  </data>
+  <data name="LblParaConsultor" xml:space="preserve">
+    <value>para o consultor</value>
+  </data>
+  <data name="LblPatrocinador" xml:space="preserve">
+    <value>Patrocinador</value>
+  </data>
+  <data name="LblPatrocinadorInformado" xml:space="preserve">
+    <value>Login de quem te indicou o negócio</value>
+  </data>
+  <data name="LblPedidoAtivacao" xml:space="preserve">
+    <value>Pedido de ativação</value>
+  </data>
+  <data name="LblPedidoAutorizado" xml:space="preserve">
+    <value>Pedido autorizado</value>
+  </data>
+  <data name="LblPedidoDeComboLivre" xml:space="preserve">
+    <value>Pedido de combo livre</value>
+  </data>
+  <data name="LblPedidoDeKit" xml:space="preserve">
+    <value>Pedido de kit</value>
+  </data>
+  <data name="LblPedidoDeProdutos" xml:space="preserve">
+    <value>Pedido de produtos</value>
+  </data>
+  <data name="LblPedidoDeReposicao" xml:space="preserve">
+    <value>Pedido de reposição</value>
+  </data>
+  <data name="LblPedidoFinalizado" xml:space="preserve">
+    <value>Pedido finalizado</value>
+  </data>
+  <data name="LblPedidoNaoEfetuado" xml:space="preserve">
+    <value>Pedido não efetuado</value>
+  </data>
+  <data name="LblPedidoPeloAplicativo" xml:space="preserve">
+    <value>Pedido pelo aplicativo</value>
+  </data>
+  <data name="LblPerfil" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="LblPeriodo" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="LblPessoaFisica" xml:space="preserve">
+    <value>Pessoa Física</value>
+  </data>
+  <data name="LblPessoaJuridica" xml:space="preserve">
+    <value>Pessoa Jurídica</value>
+  </data>
+  <data name="LblPontoReferencia" xml:space="preserve">
+    <value>Ponto de referência</value>
+  </data>
+  <data name="LblPontos" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="LblPontosQualificaveis" xml:space="preserve">
+    <value>Pontos qualificáveis</value>
+  </data>
+  <data name="LblPor" xml:space="preserve">
+    <value>por</value>
+  </data>
+  <data name="LblPortugues" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="LblPosicao" xml:space="preserve">
+    <value>Posição</value>
+  </data>
+  <data name="LblPosicionamento" xml:space="preserve">
+    <value>Posicionamento</value>
+  </data>
+  <data name="LblPrata" xml:space="preserve">
+    <value>Prata</value>
+  </data>
+  <data name="LblPrazoEntrega" xml:space="preserve">
+    <value>Prazo de entrega</value>
+  </data>
+  <data name="LblPreco" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="LblPrecoMaximo" xml:space="preserve">
+    <value>Preço máximo</value>
+  </data>
+  <data name="LblPrecoMinimo" xml:space="preserve">
+    <value>Preço mínimo</value>
+  </data>
+  <data name="LblPrecos" xml:space="preserve">
+    <value>Preços</value>
+  </data>
+  <data name="LblPreenchaFormularioDuvidas" xml:space="preserve">
+    <value>Preencha o formulário abaixo e envie suas dúvidas:</value>
+  </data>
+  <data name="LblPremiacaoCampanha" xml:space="preserve">
+    <value>Premiação de campanha</value>
+  </data>
+  <data name="LblPrevisaoEntrega" xml:space="preserve">
+    <value>Previsão de entrega</value>
+  </data>
+  <data name="LblPrimeiroNome" xml:space="preserve">
+    <value>Primeiro nome</value>
+  </data>
+  <data name="LblProcederPagamento" xml:space="preserve">
+    <value>Proceder ao pagamento</value>
+  </data>
+  <data name="LblProduto" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="LblProdutoIndisponivel" xml:space="preserve">
+    <value>Produto indisponível</value>
+  </data>
+  <data name="LblProdutos" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="LblProdutosDestaque" xml:space="preserve">
+    <value>Produtos em destaque</value>
+  </data>
+  <data name="LblPromocao" xml:space="preserve">
+    <value>Promoção</value>
+  </data>
+  <data name="LblProximo" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="LblQualificacao" xml:space="preserve">
+    <value>Qualificação</value>
+  </data>
+  <data name="LblQuantidade" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="LblQuantidades" xml:space="preserve">
+    <value>Quantidades</value>
+  </data>
+  <data name="LblQuantNiveis" xml:space="preserve">
+    <value>Quant. de níveis</value>
+  </data>
+  <data name="LblQuantPagina" xml:space="preserve">
+    <value>Quant. por página</value>
+  </data>
+  <data name="LblQueFalamNossosClientes" xml:space="preserve">
+    <value>O que falam nossos clientes?</value>
+  </data>
+  <data name="LblRastreamento" xml:space="preserve">
+    <value>Rastreamento</value>
+  </data>
+  <data name="LblRastrear" xml:space="preserve">
+    <value>Rastrear</value>
+  </data>
+  <data name="LblRazaoSocial" xml:space="preserve">
+    <value>Razão Social</value>
+  </data>
+  <data name="LblRealizarAtivacaoMensal" xml:space="preserve">
+    <value>Realizar ativação mensal</value>
+  </data>
+  <data name="LblRealizarPagamento" xml:space="preserve">
+    <value>Realizar pagamento</value>
+  </data>
+  <data name="LblRealizarPedidoComboLivre" xml:space="preserve">
+    <value>Realizar pedido de combo livre</value>
+  </data>
+  <data name="LblRealizarPedidoProdutos" xml:space="preserve">
+    <value>Realizar pedido de produtos</value>
+  </data>
+  <data name="LblReceberEmAte" xml:space="preserve">
+    <value>Receber em até</value>
+  </data>
+  <data name="LblReduzida" xml:space="preserve">
+    <value>Reduzida</value>
+  </data>
+  <data name="LblReenviarEmail" xml:space="preserve">
+    <value>Reenviar e-mail</value>
+  </data>
+  <data name="LblReenviarSms" xml:space="preserve">
+    <value>Reenviar SMS</value>
+  </data>
+  <data name="LblReferencia" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="LblRemover" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="LblResumoPedido" xml:space="preserve">
+    <value>Resumo do pedido</value>
+  </data>
+  <data name="LblRetiradoPelaTransportadora" xml:space="preserve">
+    <value>Retirado pela transportadora</value>
+  </data>
+  <data name="LblRetirarFranquia" xml:space="preserve">
+    <value>Retirar na franquia/CD</value>
+  </data>
+  <data name="LblRetirarNo" xml:space="preserve">
+    <value>Retirar no(a)</value>
+  </data>
+  <data name="LblRevisaoPedido" xml:space="preserve">
+    <value>Revisão do pedido</value>
+  </data>
+  <data name="LblReviseTodasInformacoes" xml:space="preserve">
+    <value>Revise todas as informações do seu pedido e confirme sua conclusão.</value>
+  </data>
+  <data name="LblRodape" xml:space="preserve">
+    <value>MARKETING MULTINÍVEL. DESENVOLVIMENTO</value>
+  </data>
+  <data name="LblRubi" xml:space="preserve">
+    <value>Rubi</value>
+  </data>
+  <data name="LblSafira" xml:space="preserve">
+    <value>Safira</value>
+  </data>
+  <data name="LblSaldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="LblSaldoDisponivelDe" xml:space="preserve">
+    <value>saldo disponível de</value>
+  </data>
+  <data name="LblSaldoPagseguro" xml:space="preserve">
+    <value>Saldo Pagseguro</value>
+  </data>
+  <data name="LblSalvarEndereco" xml:space="preserve">
+    <value>Salvar endereço</value>
+  </data>
+  <data name="LblSaque" xml:space="preserve">
+    <value>Saque</value>
+  </data>
+  <data name="LblSegundaViaBoleto" xml:space="preserve">
+    <value>2ª Via do Boleto</value>
+  </data>
+  <data name="LblSegundoTitular" xml:space="preserve">
+    <value>2º Titular</value>
+  </data>
+  <data name="LblSelecionarConvite" xml:space="preserve">
+    <value>Selecionar convite</value>
+  </data>
+  <data name="LblSelecionarFrete" xml:space="preserve">
+    <value>Selecionar frete</value>
+  </data>
+  <data name="LblSelecionarOutroEndereco" xml:space="preserve">
+    <value>Selecionar outro endereço salvo</value>
+  </data>
+  <data name="LblSelecioneConta" xml:space="preserve">
+    <value>Selecione a conta</value>
+  </data>
+  <data name="LblSelecioneFranquia" xml:space="preserve">
+    <value>Selecione o CD/Franquia</value>
+  </data>
+  <data name="LblSelecioneFranquiaRetirada" xml:space="preserve">
+    <value>Selecione o CD/Franquia para retirada</value>
+  </data>
+  <data name="LblSelecioneIdioma" xml:space="preserve">
+    <value>Selecione seu idioma:</value>
+  </data>
+  <data name="LblSelecioneKit" xml:space="preserve">
+    <value>Selecione seu kit:</value>
+  </data>
+  <data name="LblSelecioneLocal" xml:space="preserve">
+    <value>Selecione o local</value>
+  </data>
+  <data name="LblSelecionePais" xml:space="preserve">
+    <value>Selecione o seu país:</value>
+  </data>
+  <data name="LblSemEnderecoDefinido" xml:space="preserve">
+    <value>Sem endereço definido</value>
+  </data>
+  <data name="LblSemEntrega" xml:space="preserve">
+    <value>Sem entrega</value>
+  </data>
+  <data name="LblSemFormaPagamento" xml:space="preserve">
+    <value>Sem forma de pagamento</value>
+  </data>
+  <data name="LblSemKitAtivo" xml:space="preserve">
+    <value>Sem Kit ativo</value>
+  </data>
+  <data name="LblSemQualificacao" xml:space="preserve">
+    <value>Sem qualificação</value>
+  </data>
+  <data name="LblSenha" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="LblSenhaAcesso" xml:space="preserve">
+    <value>Senha de acesso</value>
+  </data>
+  <data name="LblSenhaAtual" xml:space="preserve">
+    <value>Senha atual</value>
+  </data>
+  <data name="LblSeparadoEstoque" xml:space="preserve">
+    <value>Separado em estoque</value>
+  </data>
+  <data name="LblSerieNotaFiscal" xml:space="preserve">
+    <value>Série da nota fiscal</value>
+  </data>
+  <data name="LblSituacao" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="LblSocio" xml:space="preserve">
+    <value>Sócio</value>
+  </data>
+  <data name="LblSocios" xml:space="preserve">
+    <value>Sócios</value>
+  </data>
+  <data name="LblSomenteAtivos" xml:space="preserve">
+    <value>Somente os ativos</value>
+  </data>
+  <data name="LblSomenteBloqueados" xml:space="preserve">
+    <value>Somente bloqueados</value>
+  </data>
+  <data name="LblSomenteComAdesao" xml:space="preserve">
+    <value>Somente com adesão</value>
+  </data>
+  <data name="LblSomenteContasAtivas" xml:space="preserve">
+    <value>Somente contas ativas</value>
+  </data>
+  <data name="LblSomenteContasNovas" xml:space="preserve">
+    <value>Somente contas novas</value>
+  </data>
+  <data name="LblSomenteDiretos" xml:space="preserve">
+    <value>Somente diretos</value>
+  </data>
+  <data name="LblSomenteInativos" xml:space="preserve">
+    <value>Somente os inativos</value>
+  </data>
+  <data name="LblSomenteSemAdesao" xml:space="preserve">
+    <value>Somente sem adesão</value>
+  </data>
+  <data name="LblStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="LblSubcategoria" xml:space="preserve">
+    <value>Subcategoria</value>
+  </data>
+  <data name="LblSubirNivel" xml:space="preserve">
+    <value>Subir um nível</value>
+  </data>
+  <data name="LblTelefone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="LblTermosUsoMDTSocial" xml:space="preserve">
+    <value>Termos de uso ao MDT Social</value>
+  </data>
+  <data name="LblTermoUso" xml:space="preserve">
+    <value>Declaro que li e aceito o </value>
+  </data>
+  <data name="LblTipoAcesso" xml:space="preserve">
+    <value>Tipo de acesso</value>
+  </data>
+  <data name="LblTipoContaDestinatario" xml:space="preserve">
+    <value>Tipo da conta do destinatário</value>
+  </data>
+  <data name="LblTipoPedido" xml:space="preserve">
+    <value>Tipo do pedido</value>
+  </data>
+  <data name="LblTitulo" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="LblTodos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="LblTodosSelecionados" xml:space="preserve">
+    <value>Todos Selecionados</value>
+  </data>
+  <data name="LblTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="LblTotalAtivos" xml:space="preserve">
+    <value>Total ativos</value>
+  </data>
+  <data name="LblTotalBonusAcumuladoMes" xml:space="preserve">
+    <value>Total de bônus acumulado no mês</value>
+  </data>
+  <data name="LblTotalCadastros" xml:space="preserve">
+    <value>Total cadastros</value>
+  </data>
+  <data name="LblTotalDePontos" xml:space="preserve">
+    <value>Total de pontos</value>
+  </data>
+  <data name="LblTotalDiretos" xml:space="preserve">
+    <value>Total diretos</value>
+  </data>
+  <data name="LblTotalDosProdutos" xml:space="preserve">
+    <value>Total dos produtos</value>
+  </data>
+  <data name="LblTotalIndicados" xml:space="preserve">
+    <value>Total indicados</value>
+  </data>
+  <data name="LblTotalNovos" xml:space="preserve">
+    <value>Total novos</value>
+  </data>
+  <data name="LblTotalPagar" xml:space="preserve">
+    <value>Total a pagar</value>
+  </data>
+  <data name="LblTotalPedidos" xml:space="preserve">
+    <value>Total de pedidos</value>
+  </data>
+  <data name="LblTotalPontos" xml:space="preserve">
+    <value>Total pontos</value>
+  </data>
+  <data name="LblTotalProdutos" xml:space="preserve">
+    <value>Total produtos</value>
+  </data>
+  <data name="LblTotalRede" xml:space="preserve">
+    <value>Total rede</value>
+  </data>
+  <data name="LblTransportadora" xml:space="preserve">
+    <value>Transportadora</value>
+  </data>
+  <data name="LblTreinador" xml:space="preserve">
+    <value>Treinador</value>
+  </data>
+  <data name="LblUltimaAtualizacao" xml:space="preserve">
+    <value>Última atualização</value>
+  </data>
+  <data name="LblUltimaAtualizacaoRede" xml:space="preserve">
+    <value>Última atualização de rede</value>
+  </data>
+  <data name="LblUltimasNoticias" xml:space="preserve">
+    <value>Últimas notícias</value>
+  </data>
+  <data name="LblUltimoNome" xml:space="preserve">
+    <value>Último nome</value>
+  </data>
+  <data name="LblUltimosDias" xml:space="preserve">
+    <value>Últimos dias</value>
+  </data>
+  <data name="LblUsadoEm" xml:space="preserve">
+    <value>Usado em</value>
+  </data>
+  <data name="LblUsadoPor" xml:space="preserve">
+    <value>Usado por</value>
+  </data>
+  <data name="LblUsarMinhasLicencas" xml:space="preserve">
+    <value>Usar uma das minhas licenças</value>
+  </data>
+  <data name="LblUsarOutroCartao" xml:space="preserve">
+    <value>Usar outro cartão</value>
+  </data>
+  <data name="LblUsuario" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="LblUsuarioResponsavel" xml:space="preserve">
+    <value>Usuário responsável</value>
+  </data>
+  <data name="LblUsuarioResponsavelEntrega" xml:space="preserve">
+    <value>Usuário SGI responsável pela entrega</value>
+  </data>
+  <data name="LblValidade" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="LblValidar" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="LblValor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="LblValorJaPago" xml:space="preserve">
+    <value>Valor já pago</value>
+  </data>
+  <data name="LblValorPedido" xml:space="preserve">
+    <value>Valor do pedido</value>
+  </data>
+  <data name="LblValorProdutos" xml:space="preserve">
+    <value>Valor dos produtos</value>
+  </data>
+  <data name="LblValorRestante" xml:space="preserve">
+    <value>Valor restante</value>
+  </data>
+  <data name="LblValorTotal" xml:space="preserve">
+    <value>Valor total</value>
+  </data>
+  <data name="LblValorTotalPedido" xml:space="preserve">
+    <value>Valor total do pedido</value>
+  </data>
+  <data name="LblValorUnit" xml:space="preserve">
+    <value>Valor unit.</value>
+  </data>
+  <data name="LblVendaIngressoEventos" xml:space="preserve">
+    <value>Venda de ingresso de eventos</value>
+  </data>
+  <data name="LblVendedor" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="LblVendo" xml:space="preserve">
+    <value>Vendo</value>
+  </data>
+  <data name="LblVerProdutos" xml:space="preserve">
+    <value>Ver produtos</value>
+  </data>
+  <data name="LblVisualizacaoArvore" xml:space="preserve">
+    <value>Visualização da árvore</value>
+  </data>
+  <data name="LblVisualizadoEm" xml:space="preserve">
+    <value>Visualizado em</value>
+  </data>
+  <data name="LblVisualizando" xml:space="preserve">
+    <value>Visualizando</value>
+  </data>
+  <data name="LblVisualizar" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="LblVisualizarContasCanceladas" xml:space="preserve">
+    <value>Visualizar contas canceladas</value>
+  </data>
+  <data name="LblVisualizarDados" xml:space="preserve">
+    <value>Visualizar dados</value>
+  </data>
+  <data name="LblVisualizarPedido" xml:space="preserve">
+    <value>Visualizar pedido</value>
+  </data>
+  <data name="LblVisualizarTodasNoticias" xml:space="preserve">
+    <value>Visualizar todas as notícias</value>
+  </data>
+  <data name="LblVoucher" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="LblWhatsapp" xml:space="preserve">
+    <value>Número de WhatsApp</value>
+  </data>
+  <data name="LinkTermoUso" xml:space="preserve">
+    <value>Termos de Uso</value>
+  </data>
+  <data name="MenuAlterarSenha" xml:space="preserve">
+    <value>Alterar senha</value>
+  </data>
+  <data name="MenuAlterarStatusPedido" xml:space="preserve">
+    <value>Alterar status de pedido</value>
+  </data>
+  <data name="MenuAssinaturaDigital" xml:space="preserve">
+    <value>Assinatura digital</value>
+  </data>
+  <data name="MenuAtivacaoAutomatica" xml:space="preserve">
+    <value>Ativação automática</value>
+  </data>
+  <data name="MenuAtivarConsultor" xml:space="preserve">
+    <value>Ativar consultor</value>
+  </data>
+  <data name="MenuAtivarPedido" xml:space="preserve">
+    <value>Ativar pedido</value>
+  </data>
+  <data name="MenuBalancoFinanceiro" xml:space="preserve">
+    <value>Balanço financeiro</value>
+  </data>
+  <data name="MenuBiblioteca" xml:space="preserve">
+    <value>Biblioteca</value>
+  </data>
+  <data name="MenuBoletoGerado" xml:space="preserve">
+    <value>Boleto gerado</value>
+  </data>
+  <data name="MenuBonusMensal" xml:space="preserve">
+    <value>Bônus mensal</value>
+  </data>
+  <data name="MenuCadastrar" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="MenuCadastrarConsultor" xml:space="preserve">
+    <value>Cadastrar consultor</value>
+  </data>
+  <data name="MenuCadastroEfetuado" xml:space="preserve">
+    <value>Cadastro efetuado</value>
+  </data>
+  <data name="MenuCampanhas" xml:space="preserve">
+    <value>Campanhas</value>
+  </data>
+  <data name="MenuCancelarConsultor" xml:space="preserve">
+    <value>Cancelar consultor</value>
+  </data>
+  <data name="MenuCarrinho" xml:space="preserve">
+    <value>Carrinho</value>
+  </data>
+  <data name="MenuCatalogoAtual" xml:space="preserve">
+    <value>Catálogo atual</value>
+  </data>
+  <data name="MenuCategorias" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="MenuCDFranquias" xml:space="preserve">
+    <value>CD/Franquias</value>
+  </data>
+  <data name="MenuCentrosDistribuicao" xml:space="preserve">
+    <value>Centros de distribuição</value>
+  </data>
+  <data name="MenuChamados" xml:space="preserve">
+    <value>Chamados</value>
+  </data>
+  <data name="MenuClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuComboLivre" xml:space="preserve">
+    <value>Combo Livre</value>
+  </data>
+  <data name="MenuConfirmarConsultor" xml:space="preserve">
+    <value>Confirmar consultor</value>
+  </data>
+  <data name="MenuConfirmeAssinaturaDigital" xml:space="preserve">
+    <value>Confirme a nova assinatura digital</value>
+  </data>
+  <data name="MenuContas" xml:space="preserve">
+    <value>Contas</value>
+  </data>
+  <data name="MenuContato" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="MenuDadosBancarios" xml:space="preserve">
+    <value>Dados bancários</value>
+  </data>
+  <data name="MenuDadosMinhaLoja" xml:space="preserve">
+    <value>Dados para minha loja</value>
+  </data>
+  <data name="MenuDadosPessoais" xml:space="preserve">
+    <value>Dados pessoais</value>
+  </data>
+  <data name="MenuDoadores" xml:space="preserve">
+    <value>Doadores</value>
+  </data>
+  <data name="MenuDocumento" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="MenuEntrar" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="MenuEscritorioVirtual" xml:space="preserve">
+    <value>Escritório Virtual</value>
+  </data>
+  <data name="MenuEstornarSaque" xml:space="preserve">
+    <value>Estornar saque</value>
+  </data>
+  <data name="MenuEventos" xml:space="preserve">
+    <value>Eventos</value>
+  </data>
+  <data name="MenuExtrato" xml:space="preserve">
+    <value>Extrato</value>
+  </data>
+  <data name="MenuFinanceiro" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="MenuFluxoCaixa" xml:space="preserve">
+    <value>Fluxo de caixa</value>
+  </data>
+  <data name="MenuFuncoesAdministrativas" xml:space="preserve">
+    <value>Funções Administrativas</value>
+  </data>
+  <data name="MenuGeradorBanner" xml:space="preserve">
+    <value>Gerador de banner</value>
+  </data>
+  <data name="MenuGraficos" xml:space="preserve">
+    <value>Gráficos</value>
+  </data>
+  <data name="MenuIndicados" xml:space="preserve">
+    <value>Indicados</value>
+  </data>
+  <data name="MenuIngressos" xml:space="preserve">
+    <value>Ingressos</value>
+  </data>
+  <data name="MenuInserirTreinador" xml:space="preserve">
+    <value>Inserir treinador</value>
+  </data>
+  <data name="MenuLicencas" xml:space="preserve">
+    <value>Licenças</value>
+  </data>
+  <data name="MenuLinhaAscendente" xml:space="preserve">
+    <value>Linha ascendente</value>
+  </data>
+  <data name="MenuLojaVirtual" xml:space="preserve">
+    <value>Loja virtual</value>
+  </data>
+  <data name="MenuMatrizes" xml:space="preserve">
+    <value>Matrizes</value>
+  </data>
+  <data name="MenuMDTSocial" xml:space="preserve">
+    <value>MDT Social</value>
+  </data>
+  <data name="MenuMeusCartoesCredito" xml:space="preserve">
+    <value>Meus cartões de crédito</value>
+  </data>
+  <data name="MenuMeusCupons" xml:space="preserve">
+    <value>Meus cupons</value>
+  </data>
+  <data name="MenuMeusDados" xml:space="preserve">
+    <value>Meus dados</value>
+  </data>
+  <data name="MenuMeusEnderecos" xml:space="preserve">
+    <value>Meus endereços</value>
+  </data>
+  <data name="MenuMeusFavoritos" xml:space="preserve">
+    <value>Meus favoritos</value>
+  </data>
+  <data name="MenuMeusPedidos" xml:space="preserve">
+    <value>Meus pedidos</value>
+  </data>
+  <data name="MenuMinhaConta" xml:space="preserve">
+    <value>Minha conta</value>
+  </data>
+  <data name="MenuMinhaRede" xml:space="preserve">
+    <value>Minha rede</value>
+  </data>
+  <data name="MenuMinhasLicencas" xml:space="preserve">
+    <value>Minhas licenças</value>
+  </data>
+  <data name="MenuMinhasVendasOnline" xml:space="preserve">
+    <value>Minhas vendas online</value>
+  </data>
+  <data name="MenuNotasFiscais" xml:space="preserve">
+    <value>Notas fiscais</value>
+  </data>
+  <data name="MenuNoticias" xml:space="preserve">
+    <value>Notícias</value>
+  </data>
+  <data name="MenuNotificacoes" xml:space="preserve">
+    <value>Notificações</value>
+  </data>
+  <data name="MenuNovaAssinaturaDigital" xml:space="preserve">
+    <value>Nova assinatura digital</value>
+  </data>
+  <data name="MenuOndeEstamos" xml:space="preserve">
+    <value>Onde nós estamos</value>
+  </data>
+  <data name="MenuPagamentoNaoEfetuado" xml:space="preserve">
+    <value>Pagamento não efetuado</value>
+  </data>
+  <data name="MenuPagamentosPorSaldo" xml:space="preserve">
+    <value>Pagamentos por saldo</value>
+  </data>
+  <data name="MenuPosicionamento" xml:space="preserve">
+    <value>Posicionamento</value>
+  </data>
+  <data name="MenuProspectosTreinador" xml:space="preserve">
+    <value>Prospectos de Treinador</value>
+  </data>
+  <data name="MenuQueroSerDoador" xml:space="preserve">
+    <value>Quero ser um doador</value>
+  </data>
+  <data name="MenuRealizarLancamentoTravelPoints" xml:space="preserve">
+    <value>Realizar lançamento no Travel Points</value>
+  </data>
+  <data name="MenuRealizarPedido" xml:space="preserve">
+    <value>Realizar pedido</value>
+  </data>
+  <data name="MenuReconhecimento" xml:space="preserve">
+    <value>Reconhecimento</value>
+  </data>
+  <data name="MenuRede" xml:space="preserve">
+    <value>Rede</value>
+  </data>
+  <data name="MenuRedeSociais" xml:space="preserve">
+    <value>Rede sociais</value>
+  </data>
+  <data name="MenuRelatorioAtivos" xml:space="preserve">
+    <value>Relatório de ativos</value>
+  </data>
+  <data name="MenuRelatorioCadastrosSemAdesao" xml:space="preserve">
+    <value>Relatório de cadastros sem adesão</value>
+  </data>
+  <data name="MenuRelatorioCancelados" xml:space="preserve">
+    <value>Relatório de cancelados</value>
+  </data>
+  <data name="MenuRelatorioGraduacoes" xml:space="preserve">
+    <value>Relatório de graduações</value>
+  </data>
+  <data name="MenuRelatorioInativos" xml:space="preserve">
+    <value>Relatório de inativos</value>
+  </data>
+  <data name="MenuRelatorioNovos" xml:space="preserve">
+    <value>Relatório de novos</value>
+  </data>
+  <data name="MenuRelatorioPorNiveis" xml:space="preserve">
+    <value>Relatório por níveis</value>
+  </data>
+  <data name="MenuRelatorioQualificacoes" xml:space="preserve">
+    <value>Relatório de qualificações</value>
+  </data>
+  <data name="MenuRelatorioTopCadastro" xml:space="preserve">
+    <value>Relatório Top Cadastro</value>
+  </data>
+  <data name="MenuRelatorioTopTreinador" xml:space="preserve">
+    <value>Relatório Top Treinador</value>
+  </data>
+  <data name="MenuRemoverAssinaturaDigital" xml:space="preserve">
+    <value>Remover assinatura digital</value>
+  </data>
+  <data name="MenuSair" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MenuSecoesUsuario" xml:space="preserve">
+    <value>Seções do usuário</value>
+  </data>
+  <data name="MenuSolicitarSaque" xml:space="preserve">
+    <value>Solicitar saque</value>
+  </data>
+  <data name="MenuTelefones" xml:space="preserve">
+    <value>Telefones</value>
+  </data>
+  <data name="MenuTipoPessoa" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="MenuTopCadastros" xml:space="preserve">
+    <value>Top Cadastros</value>
+  </data>
+  <data name="MenuTransferencia" xml:space="preserve">
+    <value>Transferência</value>
+  </data>
+  <data name="MenuTransferencias" xml:space="preserve">
+    <value>Transferências</value>
+  </data>
+  <data name="MenuTransportadoras" xml:space="preserve">
+    <value>Transportadoras</value>
+  </data>
+  <data name="MenuTreinador" xml:space="preserve">
+    <value>Treinador</value>
+  </data>
+  <data name="MenuUnilevel" xml:space="preserve">
+    <value>Unilevel</value>
+  </data>
+  <data name="MenuUsuarios" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="MenuVendasPorEstado" xml:space="preserve">
+    <value>Vendas por estado</value>
+  </data>
+  <data name="MenuVoceEmIsrael" xml:space="preserve">
+    <value>Você em Israel</value>
+  </data>
+  <data name="MsgAcaoInvalida" xml:space="preserve">
+    <value>Ação inválida</value>
+  </data>
+  <data name="MsgAcaoNaoPermitida" xml:space="preserve">
+    <value>Ação não permitida</value>
+  </data>
+  <data name="MsgAcessoBloqueado" xml:space="preserve">
+    <value>Acesso bloqueado</value>
+  </data>
+  <data name="MsgAcessoCompleto" xml:space="preserve">
+    <value>O acesso completo ao seu escritório virtual está disponível e deve ser realizado utilizando seu &lt;strong&gt;login&lt;/strong&gt; ou &lt;strong&gt;CPF/CNPJ&lt;/strong&gt; e sua senha cadastrada.</value>
+  </data>
+  <data name="MsgAcessoCompletoEv" xml:space="preserve">
+    <value>O acesso ao escritório virtual está disponível e deverá ser realizado utilizando o &lt;strong&gt;login&lt;/strong&gt; ou &lt;strong&gt;CPF/CNPJ&lt;/strong&gt; e a &lt;strong&gt;senha&lt;/strong&gt; cadastrada.</value>
+  </data>
+  <data name="MsgAcessoTemporariamenteBloqueado" xml:space="preserve">
+    <value>O acesso a esta função está temporariamente bloqueado.</value>
+  </data>
+  <data name="MsgAdicionando" xml:space="preserve">
+    <value>Adicionando...</value>
+  </data>
+  <data name="MsgAdquirindoMinimoPontos" xml:space="preserve">
+    <value>adquirindo no mínimo {0} pontos</value>
+  </data>
+  <data name="MsgAguardeConfirmacao" xml:space="preserve">
+    <value>Por favor, aguarde a confirmação do pagamento.</value>
+  </data>
+  <data name="MsgAindaNaoIdentificamosKit" xml:space="preserve">
+    <value>Ainda não identificamos a confirmação do pagamento de um pedido de kit.</value>
+  </data>
+  <data name="MsgAlterarFoto" xml:space="preserve">
+    <value>Selecionar imagem com dimensões superiores a 250px</value>
+  </data>
+  <data name="MsgAposPagamentoConteudoDisponivel" xml:space="preserve">
+    <value>Após o pagamento, o conteúdo será disponibilizado no seu Escritório Virtual.</value>
+  </data>
+  <data name="MsgArquivoExcluido" xml:space="preserve">
+    <value>Arquivo excluído com sucesso</value>
+  </data>
+  <data name="MsgAssinaturaDigitalAlterada" xml:space="preserve">
+    <value>Sua assinatura digital foi alterada com sucesso</value>
+  </data>
+  <data name="MsgAssinaturaDigitalDeveSerDiferente" xml:space="preserve">
+    <value>A assinatura digital deve ser diferente de sua senha de acesso</value>
+  </data>
+  <data name="MsgAssinaturaDigitalIncorreta" xml:space="preserve">
+    <value>Assinatura digital atual incorreta</value>
+  </data>
+  <data name="MsgAtencaoRetirada" xml:space="preserve">
+    <value>Atenção: a retirada de pedido no CD só poderá ser feita pelo próprio consultor ou por terceiros com o devido documento de</value>
+  </data>
+  <data name="MsgAtualizeAquiCelular" xml:space="preserve">
+    <value>ATUALIZE AQUI O SEU MELHOR NÚMERO DE CELULAR!</value>
+  </data>
+  <data name="MsgAtualizeSeguintesDados" xml:space="preserve">
+    <value>Por favor, atualize os seguintes dados:</value>
+  </data>
+  <data name="MsgCadastroAtivado" xml:space="preserve">
+    <value>seu cadastro foi ativado com sucesso.</value>
+  </data>
+  <data name="MsgCadastroAtivadoLicenca" xml:space="preserve">
+    <value>Cadastro ativado com licença</value>
+  </data>
+  <data name="MsgCadastroConcluidoAtivado" xml:space="preserve">
+    <value>O cadastro foi concluído e ativado com sucesso.</value>
+  </data>
+  <data name="MsgCadastroEfetuado" xml:space="preserve">
+    <value>Seu cadastro foi concluído com sucesso.</value>
+  </data>
+  <data name="MsgCadastroEfetuadoEv" xml:space="preserve">
+    <value>O cadastro foi concluído com sucesso.</value>
+  </data>
+  <data name="MsgCadastroEfetuadoSucesso" xml:space="preserve">
+    <value>Cadastro efetuado com sucesso</value>
+  </data>
+  <data name="MsgCadastroNaoEncontrado" xml:space="preserve">
+    <value>Cadastro não encontrado</value>
+  </data>
+  <data name="MsgCancelarDefinitivamentePedido" xml:space="preserve">
+    <value>Deseja realmente cancelar definitivamente o pedido &lt;strong&gt;{0}&lt;/strong&gt;?</value>
+  </data>
+  <data name="MsgCarregando" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
+  <data name="MsgCartaoCreditoExcluido" xml:space="preserve">
+    <value>Cartão de crédito excluído com sucesso</value>
+  </data>
+  <data name="MsgCliqueBotaoEfetuarPagamento" xml:space="preserve">
+    <value>Clique no botão abaixo para efetuar o pagamento do seu pedido. Caso já tenha efetuado, assim que o mesmo for confirmado, o acesso ao escritório será totalmente liberado.</value>
+  </data>
+  <data name="MsgCliqueNaOpcao" xml:space="preserve">
+    <value>e clique na opção</value>
+  </data>
+  <data name="MsgCodigoEnviadoParaEmail" xml:space="preserve">
+    <value>Código foi enviado para o e-mail: &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="MsgCodigoEnviadoParaNumero" xml:space="preserve">
+    <value>Código foi enviado para o número: &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="MsgCodigoInvalido" xml:space="preserve">
+    <value>Código inválido</value>
+  </data>
+  <data name="MsgCodigoRecuperacao" xml:space="preserve">
+    <value>Código para recuperação de {0}</value>
+  </data>
+  <data name="MsgCodigoReenviado" xml:space="preserve">
+    <value>O código foi reenviado com sucesso</value>
+  </data>
+  <data name="MsgCodigoValidado" xml:space="preserve">
+    <value>Código validado com sucesso</value>
+  </data>
+  <data name="MsgConfiguracaoAlterada" xml:space="preserve">
+    <value>Configuração alterada com sucesso</value>
+  </data>
+  <data name="MsgConfirmaCancelarPedido" xml:space="preserve">
+    <value>Deseja cancelar o pedido &lt;strong&gt;{0}&lt;/strong&gt;?</value>
+  </data>
+  <data name="MsgConfirmaCancelarPedidoKit" xml:space="preserve">
+    <value>Deseja cancelar o seu atual pedido de kit?</value>
+  </data>
+  <data name="MsgConfirmacaoAlteracao" xml:space="preserve">
+    <value>Confirmação de alteração</value>
+  </data>
+  <data name="MsgConfirmacaoContaPorEmail" xml:space="preserve">
+    <value>&lt;strong&gt;Para confirmar a conta será necessário clicar no link que enviamos para o e-mail do consultor.&lt;/strong&gt; Após a confirmação, o escritório virtual estará disponível e o acesso deverá ser realizado utilizando o &lt;strong&gt;login&lt;/strong&gt; ou &lt;strong&gt;CPF/CNPJ&lt;/strong&gt; e a &lt;strong&gt;senha&lt;/strong&gt; cadastrada.</value>
+  </data>
+  <data name="MsgConfirmacaoEfetuada" xml:space="preserve">
+    <value>Confirmação efetuada com sucesso</value>
+  </data>
+  <data name="MsgConfirmacaoExcluirCartaoCredito" xml:space="preserve">
+    <value>Deseja realmente excluir o cartão de crédito &lt;strong&gt;{0}&lt;/strong&gt;?</value>
+  </data>
+  <data name="MsgConfirmacaoExcluirConta" xml:space="preserve">
+    <value>Deseja realmente excluir a sua conta?</value>
+  </data>
+  <data name="MsgConfirmaConta" xml:space="preserve">
+    <value>&lt;strong&gt;Para confirmar sua conta será necessário clicar no link que enviamos para o seu e-mail.&lt;/strong&gt; Após a confirmação, o escritório virtual estará disponível e o acesso deverá ser realizado utilizando o &lt;strong&gt;login&lt;/strong&gt; ou &lt;strong&gt;CPF/CNPJ&lt;/strong&gt; e a &lt;strong&gt;senha&lt;/strong&gt; cadastrada. Não esqueça de verificar sua caixa de spam caso não tenha recebido o e-mail.</value>
+  </data>
+  <data name="MsgConfirmaExcluirEndereco" xml:space="preserve">
+    <value>Deseja realmente excluir este endereço?</value>
+  </data>
+  <data name="MsgConfirmaFormaEntregaEv" xml:space="preserve">
+    <value>Confirme a forma de entrega do seu pedido.</value>
+  </data>
+  <data name="MsgConfirmarAtivacaoPedido" xml:space="preserve">
+    <value>Deseja confirmar a ativação do pedido</value>
+  </data>
+  <data name="MsgConfirmarDesligarAutomatico" xml:space="preserve">
+    <value>Você tem certeza que quer desligar o modo automático para que os consultores que você indique continuem caindo na equipe Educacional?</value>
+  </data>
+  <data name="MsgConfirmarNovaSenha" xml:space="preserve">
+    <value>Informe sua nova senha nos campos abaixo.</value>
+  </data>
+  <data name="MsgConfirmarSolicitacaoSaque" xml:space="preserve">
+    <value>Deseja confirmar esta solicitação de saque?</value>
+  </data>
+  <data name="MsgConfirmaSolicitacaoSaque" xml:space="preserve">
+    <value>Deseja confirmar esta solicitação de saque no valor de</value>
+  </data>
+  <data name="MsgConfirmaTransferencia" xml:space="preserve">
+    <value>Deseja confirmar a transferência no valor de</value>
+  </data>
+  <data name="MsgConsultorBloqueado" xml:space="preserve">
+    <value>Consultor bloqueado</value>
+  </data>
+  <data name="MsgConsultorComPaisNaoPermitido" xml:space="preserve">
+    <value>Este consultor não está habilitado para ser patrocinador no seu país</value>
+  </data>
+  <data name="MsgConsultorFoiCancelado" xml:space="preserve">
+    <value>O consultor foi cancelado</value>
+  </data>
+  <data name="MsgConsultorNaoConfirmado" xml:space="preserve">
+    <value>Consultor não confirmou sua conta</value>
+  </data>
+  <data name="MsgConsultorNaoEncontrado" xml:space="preserve">
+    <value>Consultor não encontrado</value>
+  </data>
+  <data name="MsgConsultorNaoEncontradoMatriz" xml:space="preserve">
+    <value>Consultor não encontrado nesta matriz</value>
+  </data>
+  <data name="MsgConsultorNaoPermitido" xml:space="preserve">
+    <value>Consultor não permitido</value>
+  </data>
+  <data name="MsgContaExcluida" xml:space="preserve">
+    <value>Conta excluída com sucesso</value>
+  </data>
+  <data name="MsgContaNaoAtiva" xml:space="preserve">
+    <value>Conta não ativada</value>
+  </data>
+  <data name="MsgContaNaoConfirmada" xml:space="preserve">
+    <value>Conta não confirmada</value>
+  </data>
+  <data name="MsgCorrijaCamposErros" xml:space="preserve">
+    <value>Corrija os campos com erros</value>
+  </data>
+  <data name="MsgCPFInvalido" xml:space="preserve">
+    <value>CPF inválido</value>
+  </data>
+  <data name="MsgCPFNaoPodeSerIgual" xml:space="preserve">
+    <value>O CPF não pode ser igual ao do titular</value>
+  </data>
+  <data name="MsgCupomConfirmado" xml:space="preserve">
+    <value>Cupom confirmado com sucesso</value>
+  </data>
+  <data name="MsgCupomInvalido" xml:space="preserve">
+    <value>Cupom inválido ou já utilizado</value>
+  </data>
+  <data name="MsgCupomJaUtilizado" xml:space="preserve">
+    <value>Já existe um cupom de desconto sendo utilizado</value>
+  </data>
+  <data name="MsgDadosBancariosEditados" xml:space="preserve">
+    <value>Dados bancários editados com sucesso</value>
+  </data>
+  <data name="MsgDadosMinhaLojaAtualizados" xml:space="preserve">
+    <value>Dados para minha loja atualizados com sucesso</value>
+  </data>
+  <data name="MsgDadosPessoaisEditados" xml:space="preserve">
+    <value>Dados pessoais editados com sucesso</value>
+  </data>
+  <data name="MsgDicaPosicionamentoMatriz" xml:space="preserve">
+    <value>A chave da posição ON indica que a sua Matriz será preenchida de forma automática da esquerda para a direita até completar as 14 posições da Matriz Educacional.</value>
+  </data>
+  <data name="MsgDisponivelEvPosPagamento" xml:space="preserve">
+    <value>Disponível no seu EV após a confirmação do pagamento</value>
+  </data>
+  <data name="MsgECodigoPedido" xml:space="preserve">
+    <value>e o código do pedido</value>
+  </data>
+  <data name="MsgEmailCodigoRecuperacao" xml:space="preserve">
+    <value>Esse é seu código para realizar a recuperação de {0}</value>
+  </data>
+  <data name="MsgEmailConfirmado" xml:space="preserve">
+    <value>E-mail confirmado com sucesso</value>
+  </data>
+  <data name="MsgEmailInvalido" xml:space="preserve">
+    <value>E-mail inválido</value>
+  </data>
+  <data name="MsgEmailInvalidoOuNaoConfirmado" xml:space="preserve">
+    <value>E-mail inválido ou conta não confirmada</value>
+  </data>
+  <data name="MsgEmailReenviado" xml:space="preserve">
+    <value>E-mail reenviado com sucesso</value>
+  </data>
+  <data name="MsgEnderecoCadastrado" xml:space="preserve">
+    <value>Endereço cadastrado com sucesso</value>
+  </data>
+  <data name="MsgEnderecoExcluido" xml:space="preserve">
+    <value>Endereço excluído com sucesso</value>
+  </data>
+  <data name="MsgEnderecoNaoExcluido" xml:space="preserve">
+    <value>Não foi possível excluir este endereço</value>
+  </data>
+  <data name="MsgEntrarContato" xml:space="preserve">
+    <value>Você tem alguma dúvida, algum tipo de problema com nossos produtos? Deseja fazer uma reclamação ou nos dar uma sugestão?</value>
+  </data>
+  <data name="MsgEntreContato" xml:space="preserve">
+    <value>Qualquer dúvida, entre em contato conosco.</value>
+  </data>
+  <data name="MsgEntreContatoAdmin" xml:space="preserve">
+    <value>Qualquer dúvida, entre em contato com os administradores do sistema.</value>
+  </data>
+  <data name="MsgEntregaPedidoConfirmada" xml:space="preserve">
+    <value>A entrega do seu pedido foi confirmada com sucesso</value>
+  </data>
+  <data name="MsgEntregaPedidoNaoConfirmada" xml:space="preserve">
+    <value>Seu pedido foi confirmado como não entregue. Vamos confirmar os itens que informou e estaremos te reenviando o mais breve possível.</value>
+  </data>
+  <data name="MsgErro404" xml:space="preserve">
+    <value>A página que você acessou não existe ou não está mais disponível.</value>
+  </data>
+  <data name="MsgErroAlterarIdioma" xml:space="preserve">
+    <value>Não foi possível alterar o idioma</value>
+  </data>
+  <data name="MsgErroCampoNumero" xml:space="preserve">
+    <value>O campo \"Número\" devem ser preenchido</value>
+  </data>
+  <data name="MsgErroCancelarPedido" xml:space="preserve">
+    <value>Não foi possível cancelar este pedido</value>
+  </data>
+  <data name="MsgErroDozeNumeros" xml:space="preserve">
+    <value>Por favor, forneça ao menos 12 números</value>
+  </data>
+  <data name="MsgErroFinalizarAcao" xml:space="preserve">
+    <value>Não foi possível finalizar esta ação</value>
+  </data>
+  <data name="MsgErroProdutoNaoAdicionado" xml:space="preserve">
+    <value>Não foi possível adicionar este produto</value>
+  </data>
+  <data name="MsgErroProdutoNaoRemovido" xml:space="preserve">
+    <value>Não foi possível remover este produto</value>
+  </data>
+  <data name="MsgEscolhaKitsPedido" xml:space="preserve">
+    <value>Escolha os kits do seu pedido.</value>
+  </data>
+  <data name="MsgEscolhaProdutosPedido" xml:space="preserve">
+    <value>Escolha os produtos do seu pedido.</value>
+  </data>
+  <data name="MsgEsqueciMinhaSenha" xml:space="preserve">
+    <value>Entre com seu e-mail para solicitar uma nova senha.</value>
+  </data>
+  <data name="MsgEstaAssociadoAo" xml:space="preserve">
+    <value>que está associado ao</value>
+  </data>
+  <data name="MsgEstaLicencaNaoEDoSeuPais" xml:space="preserve">
+    <value>Esta licença não é do seu país de cadastro</value>
+  </data>
+  <data name="MsgEstaSendoProcessado" xml:space="preserve">
+    <value>está sendo processado.</value>
+  </data>
+  <data name="MsgExatamenteCartaoCredito" xml:space="preserve">
+    <value>Exatamente como está no cartão de crédito</value>
+  </data>
+  <data name="MsgFiquePorDentro" xml:space="preserve">
+    <value>E fique por dentro de tudo através de mensagens SMS.</value>
+  </data>
+  <data name="MsgGatewayNaoHabilitado" xml:space="preserve">
+    <value>Não é possível realizar o pagamento por este gateway</value>
+  </data>
+  <data name="MsgGatewayNaoPermitido" xml:space="preserve">
+    <value>Não é possível realizar o pagamento por este gateway</value>
+  </data>
+  <data name="MsgHorasPosCadastro" xml:space="preserve">
+    <value>horas pós-cadastro para exclusão</value>
+  </data>
+  <data name="MsgHouveErroSeuPagamento" xml:space="preserve">
+    <value>Houve um erro e seu pagamento não foi autorizado</value>
+  </data>
+  <data name="MsgImagemNaoRemovida" xml:space="preserve">
+    <value>Não foi possível remover esta imagem</value>
+  </data>
+  <data name="MsgImagemSalva" xml:space="preserve">
+    <value>Imagem salva com sucesso</value>
+  </data>
+  <data name="MsgInformacaoEmail" xml:space="preserve">
+    <value>O e-mail deve chegar na caixa de entrada em até 30 minutos.&lt;br /&gt; Não esqueça de verificar a caixa de spam caso não tenha recebido o e-mail.</value>
+  </data>
+  <data name="MsgInformarPeso" xml:space="preserve">
+    <value>Necessário informar o peso do kit para cálculo do frete</value>
+  </data>
+  <data name="MsgInformeCodigoPedido" xml:space="preserve">
+    <value>Informe o código do pedido</value>
+  </data>
+  <data name="MsgInformeSeuLogin" xml:space="preserve">
+    <value>Informe seu login</value>
+  </data>
+  <data name="MsgInsiraAquiCelular" xml:space="preserve">
+    <value>INSIRA AQUI O SEU MELHOR NÚMERO DE CELULAR!</value>
+  </data>
+  <data name="MsgInsiraCartaoCreditoValido" xml:space="preserve">
+    <value>Insira um cartão de crédito válido</value>
+  </data>
+  <data name="MsgLicencaInvalida" xml:space="preserve">
+    <value>Licença inválido ou já utilizado!</value>
+  </data>
+  <data name="MsgLicencaNaoHabilitada" xml:space="preserve">
+    <value>A utilização da licença não está habilitada</value>
+  </data>
+  <data name="MsgLimiteAtingidoCupomLimitado" xml:space="preserve">
+    <value>Este cupom promocional está limitado a {0} quantidades por pedido e já consta no seu carrinho atual a utilização deste limite referente a este tipo de cupom.</value>
+  </data>
+  <data name="MsgLimiteCompraInsuficiente" xml:space="preserve">
+    <value>Você não tem limite de compra suficiente</value>
+  </data>
+  <data name="MsgLinkCopiado" xml:space="preserve">
+    <value>Link copiado com sucesso</value>
+  </data>
+  <data name="MsgLinkInvalido" xml:space="preserve">
+    <value>Este link é inválido ou foi expirado.</value>
+  </data>
+  <data name="MsgLinkInvalidoOuExpirado" xml:space="preserve">
+    <value>Este link é inválido ou foi expirado.</value>
+  </data>
+  <data name="MsgLoginNaoEncontrado" xml:space="preserve">
+    <value>Login não encontrado</value>
+  </data>
+  <data name="MsgLoginPossuiRecuperacaoSenha" xml:space="preserve">
+    <value>Este login possui uma recuperação de senha por {0} pendente. Necessário aguardar 10 minutos para fazer uma nova solicitação por este tipo.</value>
+  </data>
+  <data name="MsgMensagemEnviada" xml:space="preserve">
+    <value>Mensagem enviada com sucesso</value>
+  </data>
+  <data name="MsgMinimoDe" xml:space="preserve">
+    <value>mínimo de</value>
+  </data>
+  <data name="MsgMuitoObrigadoCompra" xml:space="preserve">
+    <value>muito obrigado pela sua compra.</value>
+  </data>
+  <data name="MsgNaoIdentificamosPagamentoSeuKit" xml:space="preserve">
+    <value>Ainda não identificamos o pagamento do seu pedido de kit.</value>
+  </data>
+  <data name="MsgNaoPermitidoExcluirTodoEnderecos" xml:space="preserve">
+    <value>Não é permitido excluir todos os endereços</value>
+  </data>
+  <data name="MsgNaoPossivelCopiarLink" xml:space="preserve">
+    <value>Não foi possível copiar este link</value>
+  </data>
+  <data name="MsgNaoPossivelEntregaPedido" xml:space="preserve">
+    <value>Houve um erro e não foi possível confirmar a entrega do seu pedido</value>
+  </data>
+  <data name="MsgNavegadorSuporte" xml:space="preserve">
+    <value>Este navegador não tem suporte para HTML5</value>
+  </data>
+  <data name="MsgNecessarioEscolherUmProduto" xml:space="preserve">
+    <value>Necessário escolher ao menos um produto</value>
+  </data>
+  <data name="MsgNecessarioInformarPesoKit" xml:space="preserve">
+    <value>Necessário informar o peso do kit para cálculo do frete</value>
+  </data>
+  <data name="MsgNenhumFreteDisponivel" xml:space="preserve">
+    <value>&lt;div&gt;O seu Logradouro conta a partir de agora com um novo CEP (Código de Endereçamento Postal). É necessário corrigi-lo para concluir sua compra. Informações &lt;a href='http://www.buscacep.correios.com.br/sistemas/buscacep' target='_blank'&gt;clique aqui&lt;/a&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="MsgNenhumFreteDisponivelEv" xml:space="preserve">
+    <value>&lt;div&gt;O seu Logradouro conta a partir de agora com um novo CEP (Código de Endereçamento Postal). É necessário corrigi-lo para concluir sua compra. Informações &lt;a href='http://www.buscacep.correios.com.br/sistemas/buscacep' target='_blank'&gt;clique aqui&lt;/a&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="MsgNenhumProdutoCarrinho" xml:space="preserve">
+    <value>Nenhum produto no carrinho!</value>
+  </data>
+  <data name="MsgNenhumProdutoEncontrado" xml:space="preserve">
+    <value>Nenhum produto encontrado!</value>
+  </data>
+  <data name="MsgNenhumRegistroEncontrado" xml:space="preserve">
+    <value>Nenhum registro encontrado</value>
+  </data>
+  <data name="MsgNoEndereco" xml:space="preserve">
+    <value>no endereço</value>
+  </data>
+  <data name="MsgNomeInvalido" xml:space="preserve">
+    <value>Nome inválido</value>
+  </data>
+  <data name="MsgNotaFiscalNaoDisponivel" xml:space="preserve">
+    <value>Nota fiscal não disponível</value>
+  </data>
+  <data name="MsgNumeroAtualizado" xml:space="preserve">
+    <value>Número atualizado com sucesso</value>
+  </data>
+  <data name="MsgNumeroCelularInvalido" xml:space="preserve">
+    <value>Número de celular inválido</value>
+  </data>
+  <data name="MsgNumeroDoSeuPedido" xml:space="preserve">
+    <value>O número do seu pedido é</value>
+  </data>
+  <data name="MsgNumeroInvalidoBandeiraNaoAceita" xml:space="preserve">
+    <value>Número inválido ou bandeira não aceita</value>
+  </data>
+  <data name="MsgNumerosAtualizados" xml:space="preserve">
+    <value>Números atualizados com sucesso</value>
+  </data>
+  <data name="MsgObsMDTTemAte" xml:space="preserve">
+    <value>A Maravilhas da Terra tem até 6 dias para envio do pedido, após confirmação de pagamento.</value>
+  </data>
+  <data name="MsgPagamentoAutorizadoPela" xml:space="preserve">
+    <value>O pagamento foi autorizado pela</value>
+  </data>
+  <data name="MsgPagamentoParcialRealizado" xml:space="preserve">
+    <value>Pagamento parcial realizado com sucesso</value>
+  </data>
+  <data name="MsgPaginaErro" xml:space="preserve">
+    <value>Um erro inesperado aconteceu. &lt;br/&gt; Tente atualizar a página clicando no botão abaixo.&lt;br/&gt; Caso o problema persista entre em contato conosco.</value>
+  </data>
+  <data name="MsgPaginaNaoEncontrada" xml:space="preserve">
+    <value>Página não encontrada</value>
+  </data>
+  <data name="MsgParaDesbloquear" xml:space="preserve">
+    <value>Para desbloquear é necessário realizar a ativação mensal</value>
+  </data>
+  <data name="MsgParaProsseguirPagamento" xml:space="preserve">
+    <value>Para prosseguir o pagamento, acesse a página</value>
+  </data>
+  <data name="MsgParaRealizarOperacoesFinanceiras" xml:space="preserve">
+    <value>Para realizar operações financeiras é necessário o responsável pelo CD/Franquia possuir uma assinatura digital.</value>
+  </data>
+  <data name="MsgParaRealizarPagamentoCodigoBarras" xml:space="preserve">
+    <value>Para realizar o pagamento, utilize o código de barras abaixo:</value>
+  </data>
+  <data name="MsgParaRealizarPagamentoRetirarProdutos" xml:space="preserve">
+    <value>Para realizar o pagamento e retirar seus produtos, dirija-se até a</value>
+  </data>
+  <data name="MsgParaRealizarSuaAtivacao" xml:space="preserve">
+    <value>Para realizar sua ativação, o pedido deve ter</value>
+  </data>
+  <data name="MsgParaRetirarSeusProdutos" xml:space="preserve">
+    <value>Para retirar seus produtos, dirija-se até a</value>
+  </data>
+  <data name="MsgParaTransferenciasNesteMes" xml:space="preserve">
+    <value>para transferências neste mês.</value>
+  </data>
+  <data name="MsgParaVisualizarHistoricoPedidos" xml:space="preserve">
+    <value>Para visualizar o histórico dos seus pedidos,</value>
+  </data>
+  <data name="MsgPedidoAtivado" xml:space="preserve">
+    <value>Pedido ativado com sucesso</value>
+  </data>
+  <data name="MsgPedidoCanceladoSucesso" xml:space="preserve">
+    <value>Pedido cancelado com sucesso</value>
+  </data>
+  <data name="MsgPedidoFilaAprovacao" xml:space="preserve">
+    <value>Este pedido está na fila para ser aprovado. Favor aguardar</value>
+  </data>
+  <data name="MsgPedidoFoiCancelado" xml:space="preserve">
+    <value>O pedido foi cancelado.</value>
+  </data>
+  <data name="MsgPedidoFoiPagoCom" xml:space="preserve">
+    <value>O pedido foi pago com</value>
+  </data>
+  <data name="MsgPedidoNaoEncontrado" xml:space="preserve">
+    <value>Pedido não encontrado</value>
+  </data>
+  <data name="MsgPedidosLoja" xml:space="preserve">
+    <value>Se você tiver alguma dúvida ou pergunta, por favor entre em contato conosco</value>
+  </data>
+  <data name="MsgPermitidoSomenteUmSaque" xml:space="preserve">
+    <value>É permitido somente uma (1) solicitação de saque por país no mês.</value>
+  </data>
+  <data name="MsgPermitidoTotalAte" xml:space="preserve">
+    <value>É permitido um total de até {0} transferências durante todo o mês independentemente dos valores transferidos.</value>
+  </data>
+  <data name="MsgPosicionamentoAlterado" xml:space="preserve">
+    <value>Posicionamento alterado com sucesso</value>
+  </data>
+  <data name="MsgPosicionamentoSalvo" xml:space="preserve">
+    <value>Posicionamento salvo com sucesso</value>
+  </data>
+  <data name="MsgPossuiRecuperacaoAssinaturaDigital" xml:space="preserve">
+    <value>Você possui uma recuperação de assinatura digital ou senha por {0} pendente. Necessário aguardar 10 minutos para fazer uma nova solicitação por este tipo.</value>
+  </data>
+  <data name="MsgPreenchaTodosCamposObrigatorios" xml:space="preserve">
+    <value>Preencha todos os campos obrigatórios</value>
+  </data>
+  <data name="MsgProdutoAdicionado" xml:space="preserve">
+    <value>Produto adicionado com sucesso</value>
+  </data>
+  <data name="MsgProdutoAdicionadoFavorito" xml:space="preserve">
+    <value>Produto adicionado aos seus favoritos</value>
+  </data>
+  <data name="MsgProdutoCupomNaoTemEstoque" xml:space="preserve">
+    <value>Os produtos do cupom não tem estoque suficiente</value>
+  </data>
+  <data name="MsgProdutoDesativado" xml:space="preserve">
+    <value>Produto desativado</value>
+  </data>
+  <data name="MsgProdutoNaoDisponivel" xml:space="preserve">
+    <value>Algum dos produtos não está mais disponível na quantidade selecionada</value>
+  </data>
+  <data name="MsgProdutoNaoEncontrado" xml:space="preserve">
+    <value>Produto não encontrado</value>
+  </data>
+  <data name="MsgProdutoRemovido" xml:space="preserve">
+    <value>Produto removido com sucesso</value>
+  </data>
+  <data name="MsgProdutoRemovidoFavorito" xml:space="preserve">
+    <value>Produto removido dos seus favoritos</value>
+  </data>
+  <data name="MsgProdutoSemEstoque" xml:space="preserve">
+    <value>Produto sem estoque</value>
+  </data>
+  <data name="MsgProdutoTipoEntregaMesmoCarrinho" xml:space="preserve">
+    <value>Não pode ter produtos com entrega física e online no mesmo carrinho</value>
+  </data>
+  <data name="MsgQuantidadeIndisponivel" xml:space="preserve">
+    <value>Quantidade indisponível no estoque</value>
+  </data>
+  <data name="MsgRealizarNovaTentativaPagamento" xml:space="preserve">
+    <value>Se deseja realizar uma nova tentativa de pagamento,</value>
+  </data>
+  <data name="MsgRecuperacaoSenha" xml:space="preserve">
+    <value>Escolha a forma que deseja receber o código de confirmação para recuperação de senha:</value>
+  </data>
+  <data name="MsgReenvioNaoRealizado" xml:space="preserve">
+    <value>Não foi possível realizar o reenvio. Favor gerar um novo código</value>
+  </data>
+  <data name="MsgRemovendo" xml:space="preserve">
+    <value>Removendo...</value>
+  </data>
+  <data name="MsgRevisaoPedidoEv" xml:space="preserve">
+    <value>Revise todas as informações do seu pedido e confirme sua conclusão.</value>
+  </data>
+  <data name="MsgSeAindaNaoRealizouPedido" xml:space="preserve">
+    <value>Se ainda não realizou um pedido de kit, por favor clique no botão abaixo:</value>
+  </data>
+  <data name="MsgSeAindaNaoRealizouPedidoAtivacao" xml:space="preserve">
+    <value>Se ainda não realizou um pedido para ativar sua conta, por favor clique no botão abaixo:</value>
+  </data>
+  <data name="MsgSeEfetuouPagamento" xml:space="preserve">
+    <value>Se efetuou o pagamento, assim que o mesmo for confirmado, o acesso ao escritório será totalmente liberado.</value>
+  </data>
+  <data name="MsgSegundoTitularAtualizado" xml:space="preserve">
+    <value>2º titular atualizado com sucesso</value>
+  </data>
+  <data name="MsgSeJaSolicitou" xml:space="preserve">
+    <value>Se já solicitou um pedido de kit, você pode visualizar as informações do pedido</value>
+  </data>
+  <data name="MsgSelecioneAno" xml:space="preserve">
+    <value>Selecione o ano</value>
+  </data>
+  <data name="MsgSelecioneComoDesejaAtendido" xml:space="preserve">
+    <value>Selecione como deseja ser atendido.</value>
+  </data>
+  <data name="MsgSelecioneEnderecoEntrega" xml:space="preserve">
+    <value>Selecione um endereço para entrega</value>
+  </data>
+  <data name="MsgSelecioneMes" xml:space="preserve">
+    <value>Selecione o mês</value>
+  </data>
+  <data name="MsgSelecionePorcentagemMDTSocial" xml:space="preserve">
+    <value>Selecione a porcentagem do valor do seu bônus a ser doado:</value>
+  </data>
+  <data name="MsgSemEstoque" xml:space="preserve">
+    <value>Sem estoque</value>
+  </data>
+  <data name="MsgSemPermissaoNovaAdesao" xml:space="preserve">
+    <value>Sem permissão para nova adesão</value>
+  </data>
+  <data name="MsgSemPermissaoNovoPedido" xml:space="preserve">
+    <value>Você já realizou um pedido de adesão. Caso queira realizar um novo pedido, o anterior deve ser cancelado.</value>
+  </data>
+  <data name="MsgSenhaAcessoIncorreta" xml:space="preserve">
+    <value>Senha de acesso incorreta</value>
+  </data>
+  <data name="MsgSenhaIncorreta" xml:space="preserve">
+    <value>Senha incorreta</value>
+  </data>
+  <data name="MsgSeQuiserExcluirConta" xml:space="preserve">
+    <value>Se quiser excluir sua conta e refazer seu cadastro, clique no botão:</value>
+  </data>
+  <data name="MsgSeuLimiteCompra" xml:space="preserve">
+    <value>O seu limite de compra é de &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="MsgSeuPagamentoCom" xml:space="preserve">
+    <value>Seu pagamento com</value>
+  </data>
+  <data name="MsgSociosAtualizados" xml:space="preserve">
+    <value>Sócio(s) atualizado(s) com sucesso</value>
+  </data>
+  <data name="MsgSolicitacaoSaqueRealizada" xml:space="preserve">
+    <value>Solicitação de saque realizada com sucesso</value>
+  </data>
+  <data name="MsgSomenteAtivarPedidos" xml:space="preserve">
+    <value>Somente pode ativar pedidos feitos por você mesmo ou por seus downlines</value>
+  </data>
+  <data name="MsgSomentePodeAtivarPedidos" xml:space="preserve">
+    <value>Somente pode ativar pedidos feitos por você mesmo ou por seus downlines</value>
+  </data>
+  <data name="MsgSuaContaAindaNaoAtiva" xml:space="preserve">
+    <value>Sua conta ainda não está ativa</value>
+  </data>
+  <data name="MsgSuaContaEstaForaPrazo" xml:space="preserve">
+    <value>Sua conta está fora do prazo de</value>
+  </data>
+  <data name="MsgSuaContaNaoPodeSerExcluida" xml:space="preserve">
+    <value>Sua conta não pode ser excluída pois já realizou a adesão</value>
+  </data>
+  <data name="MsgSuaSenhaFoiAlterado" xml:space="preserve">
+    <value>Sua senha foi alterada com sucesso</value>
+  </data>
+  <data name="MsgTaxaSaque" xml:space="preserve">
+    <value>A taxa para solicitação de saque é de</value>
+  </data>
+  <data name="MsgTaxaTransferenciaValorDe" xml:space="preserve">
+    <value>Em transferência para outros consultores é cobrada uma taxa no valor de &lt;strong&gt;{0}&lt;/strong&gt;.</value>
+  </data>
+  <data name="MsgTodosCamposDevemSerPreenchidos" xml:space="preserve">
+    <value>Todos os campos devem ser preenchidos</value>
+  </data>
+  <data name="MsgTokenInvalido" xml:space="preserve">
+    <value>Token inválido</value>
+  </data>
+  <data name="MsgTransferenciaRealizada" xml:space="preserve">
+    <value>Transferência realizada com sucesso</value>
+  </data>
+  <data name="MsgUtilizarSaldoDestaConta" xml:space="preserve">
+    <value>Se utilizar o saldo desta conta para pagar o pedido, o mesmo terá sua pontuação zerada.</value>
+  </data>
+  <data name="MsgUtilizouLicenca" xml:space="preserve">
+    <value>Você utilizou a licença</value>
+  </data>
+  <data name="MsgValorMinimoDe" xml:space="preserve">
+    <value>o valor mínimo de</value>
+  </data>
+  <data name="MsgValorMinimoPedidoCupomDesconto" xml:space="preserve">
+    <value>Para utilizar o cupom de desconto, o pedido deve ter o valor mínimo de {0} em produtos.</value>
+  </data>
+  <data name="MsgValorMinimoSaque" xml:space="preserve">
+    <value>O valor mínimo para uma solicitação de saque é de</value>
+  </data>
+  <data name="MsgValorMinimoTransferencia" xml:space="preserve">
+    <value>O valor mínimo de transferência para outro consultor é de &lt;strong&gt;{0}&lt;/strong&gt;</value>
+  </data>
+  <data name="MsgValorTotalMaximoTransferencias" xml:space="preserve">
+    <value>O valor total máximo de transferências para outros consultores durante todo o mês é de</value>
+  </data>
+  <data name="MsgVoceAindaPodeRealizar" xml:space="preserve">
+    <value>Você ainda pode realizar {0} transferência(s) para outros consultores neste mês.</value>
+  </data>
+  <data name="MsgVoceAindaTemDisponivel" xml:space="preserve">
+    <value>Você ainda tem disponível</value>
+  </data>
+  <data name="MsgVoceNaoPossuiCelular" xml:space="preserve">
+    <value>Você não possui um celular cadastrado. Favor entrar em contato diretamente com a Maravilhas da Terra</value>
+  </data>
+  <data name="MsgVoceTambemPodeGostar" xml:space="preserve">
+    <value>Você também pode gostar destes produtos:</value>
+  </data>
+  <data name="MsgVoceTemAtualmente" xml:space="preserve">
+    <value>Você tem atualmente</value>
+  </data>
+  <data name="Nao" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="OpcMaiorPreco" xml:space="preserve">
+    <value>Maior preço</value>
+  </data>
+  <data name="OpcMaisRecentes" xml:space="preserve">
+    <value>Mais recentes</value>
+  </data>
+  <data name="OpcMenorPreco" xml:space="preserve">
+    <value>Menor preço</value>
+  </data>
+  <data name="OpcNomeAZ" xml:space="preserve">
+    <value>Nome A-Z</value>
+  </data>
+  <data name="OpcNomeZA" xml:space="preserve">
+    <value>Nome Z-A</value>
+  </data>
+  <data name="OpcReceberDomicilio" xml:space="preserve">
+    <value>Receber em domicílio</value>
+  </data>
+  <data name="OpcRetirarFranquia" xml:space="preserve">
+    <value>Retirar no CD/Franquia gratuitamente</value>
+  </data>
+  <data name="OpcSelecioneEstado" xml:space="preserve">
+    <value>Selecione um Estado</value>
+  </data>
+  <data name="OpcSelecioneOpcao" xml:space="preserve">
+    <value>Selecione uma opção</value>
+  </data>
+  <data name="OpcSelecionePais" xml:space="preserve">
+    <value>Selecione um país</value>
+  </data>
+  <data name="Pedido" xml:space="preserve">
+    <value>Pedido</value>
+  </data>
+  <data name="Pedidos" xml:space="preserve">
+    <value>Pedidos</value>
+  </data>
+  <data name="Relatorio" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="Relatorios" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="Sim" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="StatusAguardandoPagamento" xml:space="preserve">
+    <value>Aguardando pagamento</value>
+  </data>
+  <data name="StatusCancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="StatusDebitado" xml:space="preserve">
+    <value>Debitado</value>
+  </data>
+  <data name="StatusDevolvido" xml:space="preserve">
+    <value>Devolvido</value>
+  </data>
+  <data name="StatusDisponivel" xml:space="preserve">
+    <value>Disponível</value>
+  </data>
+  <data name="StatusEmAnalise" xml:space="preserve">
+    <value>Em Análise</value>
+  </data>
+  <data name="StatusEmDisputa" xml:space="preserve">
+    <value>Em Disputa</value>
+  </data>
+  <data name="StatusNaoEspecificado" xml:space="preserve">
+    <value>Não especificado</value>
+  </data>
+  <data name="StatusPago" xml:space="preserve">
+    <value>Pago</value>
+  </data>
+  <data name="StatusParcialmentePago" xml:space="preserve">
+    <value>Parcialmente pago</value>
+  </data>
+  <data name="StatusProcessandoPagamento" xml:space="preserve">
+    <value>Processando pagamento</value>
+  </data>
+  <data name="StatusRetencaoTemporaria" xml:space="preserve">
+    <value>Retenção Temporária</value>
+  </data>
+  <data name="SubMenuCadastre" xml:space="preserve">
+    <value>Cadastre-se</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="TituloLicenca" xml:space="preserve">
+    <value>Licença</value>
+  </data>
+  <data name="TituloLinkInvalido" xml:space="preserve">
+    <value>Link inválido</value>
+  </data>
+  <data name="TituloPatrocinador" xml:space="preserve">
+    <value>Quem te indicou?</value>
+  </data>
+  <data name="TituloSemPermissaoNovaAdesao" xml:space="preserve">
+    <value>Novo pedido de adesão inválido</value>
+  </data>
+  <data name="TxtCampoBusca" xml:space="preserve">
+    <value>O que deseja encontrar?</value>
+  </data>
+  <data name="TxtLoginOuCpfCnpj" xml:space="preserve">
+    <value>Login ou CPF/CNPJ (somente números)</value>
+  </data>
+  <data name="LblCadastroEmail" xml:space="preserve">
+    <value>Informe o seu e-mail de contato</value>
+  </data>
+  <data name="LblCadastroEndereco" xml:space="preserve">
+    <value>Agora é só informar o seu endereço e a gente já conclui! :)</value>
+  </data>
+  <data name="LblCadastroEstadoCivil" xml:space="preserve">
+    <value>Informe o Estado Civil</value>
+  </data>
+  <data name="LblCadastroIdiomaUtilizado" xml:space="preserve">
+    <value>Qual o idioma você deseja utilizar?</value>
+  </data>
+  <data name="LblCadastroLogin" xml:space="preserve">
+    <value>Defina os dados de acesso ao seu Escritório Virtual. Ah! Escolha um nome que você vai lembrar, hein!:)</value>
+  </data>
+  <data name="LblCadastroLoginPatrocinador" xml:space="preserve">
+    <value>Informe o Login de quem te indicou o negócio</value>
+  </data>
+  <data name="LblCadastroLoginTreinador" xml:space="preserve">
+    <value>Informe o Login de quem te apresentou o negócio</value>
+  </data>
+  <data name="LblCadastroMercadoAtuar" xml:space="preserve">
+    <value>Em que mercado da Maravilhas da Terra você deseja atuar?</value>
+  </data>
+  <data name="LblCadastroPhoneWhatsApp" xml:space="preserve">
+    <value>Informe o seu telefone WhatsApp</value>
+  </data>
+  <data name="LblCadastroSemConjuge" xml:space="preserve">
+    <value>Não quero informar</value>
+  </data>
+  <data name="LblCadastroSemPatrocinador" xml:space="preserve">
+    <value>Eu não possuo Indicação</value>
+  </data>
+  <data name="LblCadastroSemTreinador" xml:space="preserve">
+    <value>Não tenho o Login</value>
+  </data>
+  <data name="LblCadastroTextoBoasVindas" xml:space="preserve">
+    <value>Que bom ter você na Maravilhas da Terra! Precisamos só de alguns dados pra realizar o seu cadastro. É rápido! :)</value>
+  </data>
+  <data name="LblCalcularFrete" xml:space="preserve">
+    <value>Calcular frete</value>
+  </data>
+  <data name="LblNomeProduto" xml:space="preserve">
+    <value>Nome do produto</value>
+  </data>
+  <data name="MsgAtualizacaoSucesso" xml:space="preserve">
+    <value>Atualização realizada com sucesso</value>
+  </data>
+  <data name="MsgErroSolicitacao" xml:space="preserve">
+    <value>Não foi possível realizar a alteração</value>
+  </data>
+  <data name="LblDataCancelamento" xml:space="preserve">
+    <value>Data do cancelamento</value>
+  </data>
+  <data name="LblReabilitarReenvio" xml:space="preserve">
+    <value>Reabilitar reenvio</value>
+  </data>
+  <data name="MsgReabilitarReenvio" xml:space="preserve">
+    <value>Deseja reabilitar a opção de reenvio do pedido &lt;strong&gt;{0}&lt;/strong&gt;?</value>
+  </data>
+  <data name="LblObservacao" xml:space="preserve">
+    <value>Observação</value>
+  </data>
+  <data name="LblPedidoDePack" xml:space="preserve">
+    <value>Pedido de pack</value>
+  </data>
+  <data name="LblRealizarPedidoPack" xml:space="preserve">
+    <value>Realizar pedido de pack</value>
+  </data>
+  <data name="MenuMeuEstoque" xml:space="preserve">
+    <value>Meu estoque</value>
+  </data>
+  <data name="LblCadastroDadosPessoais" xml:space="preserve">
+    <value>Informe seus Dados Pessoais</value>
+  </data>
+  <data name="LblPedidosNoMes" xml:space="preserve">
+    <value>Pedidos no mês</value>
+  </data>
+  <data name="LblClientesNaoTemPedidosMes" xml:space="preserve">
+    <value>Consumidores sem pedidos no mês</value>
+  </data>
+  <data name="LblClientesTemPedidosMes" xml:space="preserve">
+    <value>Consumidores com pedidos no mês</value>
+  </data>
+  <data name="LblValorSaque" xml:space="preserve">
+    <value>Valor do saque:</value>
+  </data>
+  <data name="LblRemoverCoupomDescontoValor" xml:space="preserve">
+    <value>Remover cupom de desconto</value>
+  </data>
+  <data name="MsgCoupomRemovido" xml:space="preserve">
+    <value>Coupom removido com sucesso</value>
+  </data>
+</root>

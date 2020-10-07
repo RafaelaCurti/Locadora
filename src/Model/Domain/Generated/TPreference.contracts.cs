@@ -8,10 +8,9 @@ namespace Locadora.Domain
 {
     public partial class TPreference
     {
-        public static void SavePreferences(TClient model) 
-        {
-			Service.SavePreferences(model);
-		}
-
+  //      public static void SavePreferences(TClient model) 
+  //      {
+		//	Service.SavePreferences(model);
+		
     }
 }

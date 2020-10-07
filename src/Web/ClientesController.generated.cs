@@ -77,6 +77,12 @@ namespace Locadora.Web.Controllers
         {
             return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Excluir);
         }
+        [NonAction]
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public virtual System.Web.Mvc.ActionResult Login()
+        {
+            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Login);
+        }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public ClientesController Actions { get { return MVC.Clientes; } }
@@ -98,6 +104,10 @@ namespace Locadora.Web.Controllers
             public readonly string Editar = "Editar";
             public readonly string ListarPreferencia = "ListarPreferencia";
             public readonly string Excluir = "Excluir";
+            public readonly string Login = "Login";
+            public readonly string Logout = "Logout";
+            public readonly string ContaDesativada = "conta-desativada";
+            public readonly string EsqueciMinhaSenha = "esqueci-minha-senha";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -108,6 +118,10 @@ namespace Locadora.Web.Controllers
             public const string Editar = "Editar";
             public const string ListarPreferencia = "ListarPreferencia";
             public const string Excluir = "Excluir";
+            public const string Login = "Login";
+            public const string Logout = "Logout";
+            public const string ContaDesativada = "conta-desativada";
+            public const string EsqueciMinhaSenha = "esqueci-minha-senha";
         }
 
 
@@ -144,6 +158,22 @@ namespace Locadora.Web.Controllers
         {
             public readonly string id = "id";
             public readonly string diff = "diff";
+        }
+        static readonly ActionParamsClass_Login s_params_Login = new ActionParamsClass_Login();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionParamsClass_Login LoginParams { get { return s_params_Login; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionParamsClass_Login
+        {
+            public readonly string model = "model";
+        }
+        static readonly ActionParamsClass_EsqueciMinhaSenha s_params_EsqueciMinhaSenha = new ActionParamsClass_EsqueciMinhaSenha();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionParamsClass_EsqueciMinhaSenha EsqueciMinhaSenhaParams { get { return s_params_EsqueciMinhaSenha; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionParamsClass_EsqueciMinhaSenha
+        {
+            public readonly string email = "email";
         }
         static readonly ViewsClass s_views = new ViewsClass();
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -268,6 +298,63 @@ namespace Locadora.Web.Controllers
             ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "id", id);
             ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "diff", diff);
             ExcluirOverride(callInfo, id, diff);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void LoginOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, Locadora.Domain.Login model);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult Login(Locadora.Domain.Login model)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Login);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "model", model);
+            LoginOverride(callInfo, model);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void LogoutOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult Logout()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Logout);
+            LogoutOverride(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void ContaDesativadaOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult ContaDesativada()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.ContaDesativada);
+            ContaDesativadaOverride(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void EsqueciMinhaSenhaOverride(T4MVC_System_Web_Mvc_ActionResult callInfo);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult EsqueciMinhaSenha()
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.EsqueciMinhaSenha);
+            EsqueciMinhaSenhaOverride(callInfo);
+            return callInfo;
+        }
+
+        [NonAction]
+        partial void EsqueciMinhaSenhaOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, string email);
+
+        [NonAction]
+        public override System.Web.Mvc.ActionResult EsqueciMinhaSenha(string email)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.EsqueciMinhaSenha);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "email", email);
+            EsqueciMinhaSenhaOverride(callInfo, email);
             return callInfo;
         }
 

@@ -155,14 +155,12 @@ namespace Locadora.Web.Controllers
                 public readonly string cadastrar = "cadastrar";
                 public readonly string editar = "editar";
                 public readonly string Index = "Index";
-                public readonly string Login = "Login";
             }
             public readonly string _excluir = "~/Views/Usuarios/_excluir.cshtml";
             public readonly string _form = "~/Views/Usuarios/_form.cshtml";
             public readonly string cadastrar = "~/Views/Usuarios/cadastrar.cshtml";
             public readonly string editar = "~/Views/Usuarios/editar.cshtml";
             public readonly string Index = "~/Views/Usuarios/Index.cshtml";
-            public readonly string Login = "~/Views/Usuarios/Login.cshtml";
         }
     }
 

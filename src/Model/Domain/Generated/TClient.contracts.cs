@@ -17,6 +17,11 @@ namespace Locadora.Domain
         {
 			Service.Edit(this);
 		}
+        public static TClient FindByEmail(String email)
+        {
+            return Service.FindByEmail(email);
+        }
+
 
     }
 }

@@ -14,12 +14,12 @@ namespace Locadora.Services
             TIten.Delete(x => x.Movie.Id == model.Id);
             if (model.Iten != null)
             {
-                for (int i = 0; i < model.Itensdareserva.Length; i++)
+                for (int i = 0; i < model.itensdareserva.Length; i++)
                 {
                     new TIten()
                     {
                         Reservation = model,
-                        Movie = TMovie.Load(model.Itensdareserva[i])
+                        Movie = TMovie.Load(model.itensdareserva[i])
                     }.Save();
                 }
             }

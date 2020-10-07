@@ -20,7 +20,7 @@ namespace Locadora.Domain
 
         public virtual ICollection<TIten> TItens { get; set; } 
         public virtual ICollection<TSale> TSales { get; set; }
-        public object [] Itensdareserva { get; set; }
+      
 
         #region ' Generated Helpers '
         static TReservation()

@@ -119,8 +119,16 @@
       <HintPath>..\..\lib\Simple.Web.Mvc.Telerik.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web" />
@@ -196,13 +204,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\ClientHelper.cs" />
     <Compile Include="Helpers\HtmlHelperExtensions.cs" />
+    <Compile Include="Helpers\RequiresAuthorizationAttribute.cs" />
     <Compile Include="Helpers\RouteExtensions.cs" />
     <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="HomeController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="ItensController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoginController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="MailController.generated.cs">
@@ -212,6 +225,8 @@
     <Compile Include="ReservasController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
+    <Compile Include="Resources\idioma.Designer.cs" />
+    <Compile Include="Resources\idioma.en.Designer.cs" />
     <Compile Include="SharedController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
@@ -272,7 +287,6 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -281,7 +295,6 @@
     <Content Include="Views\Usuarios\cadastrar.cshtml" />
     <Content Include="Views\Usuarios\editar.cshtml" />
     <Content Include="Views\Usuarios\_form.cshtml" />
-    <Content Include="Views\Usuarios\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -297,7 +310,6 @@
     </None>
     <Content Include="Views\Shared\Error.cshtml" />
     <None Include="T4MVC.tt.hooks.t4" />
-    <Content Include="Views\Home\Realizar.cshtml" />
     <Content Include="Views\Filmes\Index.cshtml" />
     <Content Include="Views\Filmes\cadastrar.cshtml" />
     <Content Include="Views\Filmes\editar.cshtml" />
@@ -331,6 +343,10 @@
     <Content Include="Views\Itens\_form.cshtml" />
     <Content Include="Views\Itens\_listar-filme.cshtml" />
     <Content Include="Views\Itens\_listar-reserva.cshtml" />
+    <Content Include="Views\Login\_form.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
     <None Include="Views\Shared\_Confirm.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
@@ -349,7 +365,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Hubs\" />
     <Folder Include="Views\Mail\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\idioma.en.resx" />
+    <EmbeddedResource Include="Resources\idioma.es.resx" />
+    <EmbeddedResource Include="Resources\idioma.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
